@@ -52,7 +52,19 @@
 	
 	<div class="header_right">
 		
+		<div class="espanol">
+			
+			<a href="">Espanol</a>
 		
+		</div><!-- espanol -->
+		
+		<div class="phone_wrapper">
+			
+			<a class="tel" href="tel:(800)525-7111">(800)525-7111</a>
+			
+			<span>Free Consultation</span>
+			
+		</div><!-- phone_wrapper -->
 		
 	</div><!-- header_right -->
 
