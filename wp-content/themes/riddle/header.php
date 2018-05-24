@@ -34,8 +34,30 @@
 
 <body <?php body_class(); ?>>
 				
+<header>
+	
+	<div class="header_left">
+		
+		<a class="logo" href="<?php bloginfo('url');?>">
+		
+			<?php echo file_get_contents("wp-content/themes/riddle/images/new_logo.svg"); ?>
+		
+		</a>
+		
+		<nav>
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		</nav>
+		
+	</div><!-- header_left -->
+	
+	<div class="header_right">
+		
+		
+		
+	</div><!-- header_right -->
 
-<span class="">Freight</span>
+	
+</header>
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+
 			
