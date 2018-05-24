@@ -1,3 +1,22 @@
-$themePath: '/wp-content/themes/theme-name/';
+$themePath: '/wp-content/themes/riddle/';
 
-// background: url('#{$themePath}img/') 0 0 repeat;
+// fonts
+
+
+$tekolight: 'Teko-Light';
+$tekoregular:  'Teko-Regular';
+$tekomedium:  'Teko-Medium';
+$helveticalight: 'HelveticaNeueLTW01-45Light';
+$helveticaregular: 'HelveticaNeueLTW01-55Roman';
+$helveticabold: 'HelveticaNeueLTW01-75Bold';
+$freightdisplay: 	"freight-display-pro";
+$freightbigpro: "freight-big-pro";
+
+// freight display weights book - 400
+// freight big pro book italic - 400
+// freight big pro medium italic - 500
+
+span {
+	font-family: $freightbigpro;
+	font-weight: 500;
+}

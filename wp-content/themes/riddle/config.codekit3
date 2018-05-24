@@ -30,6 +30,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -81,6 +94,107 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/fonts\/teko-helvetica\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/HelveticaNeueLTW01-45Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/HelveticaNeueLTW01-45Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/HelveticaNeueLTW01-45Light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/HelveticaNeueLTW01-45Light.woff2",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/HelveticaNeueLTW01-55Roman.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/HelveticaNeueLTW01-55Roman.woff",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/HelveticaNeueLTW01-55Roman.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/HelveticaNeueLTW01-55Roman.woff2",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/HelveticaNeueLTW01-75Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/HelveticaNeueLTW01-75Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/HelveticaNeueLTW01-75Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/HelveticaNeueLTW01-75Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/teko-helvetica\/Teko-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/Teko-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/Teko-Light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/Teko-Light.woff2",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/Teko-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/Teko-Medium.woff",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/Teko-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/Teko-Medium.woff2",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/Teko-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/Teko-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/teko-helvetica\/Teko-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/teko-helvetica\/Teko-Regular.woff2",
+		"oF": 0
 		},
 	"\/footer.php": {
 		"cB": 0,
@@ -220,17 +334,6 @@
 		"oA": 0,
 		"oAP": "\/style.css.map",
 		"oF": 0
-		},
-	"\/Untitled-1.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/Untitled-1.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		}
 	},
 "hooks": [

@@ -27,13 +27,15 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-
+<link rel="stylesheet" href="https://use.typekit.net/ujf1ruo.css">
 <?php wp_head(); ?>
 
 </head>
 
 <body <?php body_class(); ?>>
 				
+
+<span class="">Freight</span>
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 			

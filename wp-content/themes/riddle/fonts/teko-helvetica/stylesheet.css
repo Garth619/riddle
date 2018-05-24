@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Teko-Light';
+    src: url('Teko-Light.woff2') format('woff2'),
+        url('Teko-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Teko-Medium';
+    src: url('Teko-Medium.woff2') format('woff2'),
+        url('Teko-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTW01-55Roman';
+    src: url('HelveticaNeueLTW01-55Roman.woff2') format('woff2'),
+        url('HelveticaNeueLTW01-55Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Teko-Regular';
+    src: url('Teko-Regular.woff2') format('woff2'),
+        url('Teko-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTW01-75Bold';
+    src: url('HelveticaNeueLTW01-75Bold.woff2') format('woff2'),
+        url('HelveticaNeueLTW01-75Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTW01-45Light';
+    src: url('HelveticaNeueLTW01-45Light.woff2') format('woff2'),
+        url('HelveticaNeueLTW01-45Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
