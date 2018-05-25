@@ -583,12 +583,22 @@ header {
 				}
 				> li.menu-item-has-children.open {
 						margin-bottom:20px;
+						&:hover {
+							ul.sub-menu {
+								opacity: 1;
+								visibility: visible;
+							}
+						}
 				}
 				> li.menu-item-has-children {
 						opacity: 1;
 						visibility: visible;
 						
 						&:hover {
+							ul.sub-menu {
+								opacity: 0;
+								visibility: hidden;
+							}
 /*
 							opacity: 0;
 							visibility: hidden;
