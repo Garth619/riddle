@@ -9,6 +9,26 @@ jQuery(document).ready(function($){
 	  
 	});
 	
+	
+	
+	// Menu
+	
+	
+	
+	$('.menu_wrapper').on('click', function(e) {
+		
+		$('nav').slideToggle();
+	  
+	});
+	
+	
+	
+	$('.close').on('click', function(e) {
+		
+		$('nav').slideUp();
+	  
+	});
+	
 		
 	
   

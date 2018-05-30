@@ -4,4 +4,97 @@
 	width:100%;
 	height:840px;
 	
+	
 }
+
+
+
+.inner_sec_one {
+	text-align: center;
+	padding:260px 0 0 0;
+	span.sec_one_title {
+		color:#fff;
+		font-family: $freightdisplay;
+		font-weight: 400;
+		font-size: 110px;
+		line-height: 104px;
+		display: block;
+		max-width:1050px;
+		margin:0 auto;
+		strong {
+			font-weight: 300;
+			color:$bluelight;
+			font-family: $freightbigpro;
+			font-weight: 500;
+		}
+	}
+}
+
+
+a.consult_button {
+	width:450px;
+	display: flex;
+	height:78px;
+	margin:45px auto 0;
+	text-decoration: none;
+	.consult_left {
+		flex-grow: 1;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color:$blue;
+		text-transform: uppercase;
+		font-family: $tekomedium;
+		font-size:20px;
+		letter-spacing: 0.16em;
+		line-height: 1;
+		padding-top:5px;
+	}
+	.consult_right {
+		flex-basis: 80px;
+		background: $bluelight;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		svg {
+			fill:#fff;
+			transform: rotate(-180deg);
+			width:10px;
+			height:15px;
+		}
+	}
+}
+
+
+.mouse_wrapper {
+	width:20px;
+	height:33px;
+	border:2px solid #fff;
+	margin:117px auto 0;
+	border-radius: 9px;
+	&:before {
+		content:"";
+		width:2px;
+		height:6px;
+		background: #fff;
+		display: block;
+		margin:7px auto 0;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	#section_one {
+		margin-top: 68px;
+	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
