@@ -57,6 +57,8 @@ a.consult_button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-grow: 0;
+		flex-shrink: 0;
 		svg {
 			fill:#fff;
 			transform: rotate(-180deg);
@@ -82,6 +84,61 @@ a.consult_button {
 		margin:7px auto 0;
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	#section_one {
+		background: url(#{$themePath}/images/hero_img_laptop.jpg) top center no-repeat;
+		height: 599px;
+	}
+	
+	.inner_sec_one {
+		padding:175px 0 0 0;
+		span.sec_one_title {
+			font-size: 90px;
+			line-height: 85px;
+			letter-spacing: 0;
+		}
+	}
+	
+	
+	
+	
+a.consult_button {
+	height:67px;
+	margin: 36px auto 0;
+	width: 362px;
+	.consult_left {
+		font-size:18px;
+		letter-spacing: 0.1em;
+	}
+	.consult_right {
+		flex-basis: 65px;
+		svg {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+	.mouse_wrapper {
+		margin: 67px auto 0;
+		height:29px;
+		width:19px;
+		&:before {
+			height:4px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 767px) {

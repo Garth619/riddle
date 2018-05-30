@@ -16,7 +16,11 @@
 			
 		</a><!-- consult_button -->
 		
-		<div class="mouse_wrapper"></div><!-- mouse_wrapper -->
+		<div class="mouse_wrapper">
+			
+			
+			
+		</div><!-- mouse_wrapper -->
 		
 	</div><!-- inner_sec_one -->
 	

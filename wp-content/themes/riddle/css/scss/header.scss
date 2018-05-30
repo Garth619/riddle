@@ -26,7 +26,7 @@ header {
 		padding-left:7%;
 		padding-right:30px;
 		padding-top:38px;
-		display: none;
+		
 		.close {
 			position: absolute;
 			top:10px;
@@ -34,6 +34,7 @@ header {
 			width:55px;
 			height:55px;
 			cursor: pointer;
+			display: none;
 			&:hover {
 				&:before, &:after {
 					background: $bluelight;
@@ -527,6 +528,17 @@ header {
 } /* Media Query */
 
 
+@media screen and (min-width: 1297px) {
+	
+	
+	.header_left {
+		nav {
+			display: block !important;
+		}
+	}
+	
+	
+}
 
 
 @media screen and (max-width: 1297px) {
@@ -599,7 +611,11 @@ header {
 			padding:180px 0;
 			text-align: center;
 			-webkit-overflow-scrolling: touch;
-			
+			display: none;
+			z-index:5;
+			.close {
+				display: block;
+			}
 			ul {
 				li {
 					font-size:22px;
