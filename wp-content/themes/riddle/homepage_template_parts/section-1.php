@@ -2,7 +2,7 @@
 	
 	<div class="inner_sec_one">
 		
-		<span class="sec_one_title">Dedicated injury lawyers that are <strong>ready to talk.</strong></span><!-- sec_one_title -->
+		<span class="sec_one_title">Dedicated injury lawyers that are<br/> <strong>ready to talk.</strong></span><!-- sec_one_title -->
 		
 		<a class="consult_button" href="">
 			
@@ -24,4 +24,18 @@
 		
 	</div><!-- inner_sec_one -->
 	
+	
 </section><!-- section_one -->
+
+<a class="free_bar" href="">
+		
+		<span class="free_mobile_title">Free Consultation</span><!-- free_mobile_title -->
+		
+		<span class="arrow">
+		
+		<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
+		
+		</span><!-- arrow -->
+		
+	
+	</a><!-- free_bar -->
