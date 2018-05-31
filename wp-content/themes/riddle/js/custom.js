@@ -46,7 +46,7 @@ jQuery(document).ready(function($){
 		dots:true,
 		responsive: [
     {
-      breakpoint: 1066,
+      breakpoint: 1230,
       settings: "unslick"    }
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
