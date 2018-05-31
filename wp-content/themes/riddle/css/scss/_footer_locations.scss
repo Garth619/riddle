@@ -1,6 +1,6 @@
 .footer_locations {
 	width:100%;
-	background: url(#{$themePath}images/footer_img_desktop.jpg) top left no-repeat;
+	background: url(#{$themePath}images/footer_img_desktop.jpg) top center no-repeat;
 	background-size: cover;
 	height:1161px;
 	display: flex;
@@ -41,17 +41,25 @@
 	width:54%;
 	background: #fff;
 	margin:175px 0 0 0;
+	padding-bottom:133px;
 }
 
 
 
 .location_slider {
-	
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 722px;
+	margin:0 auto;
+	padding-top:20px;
 }
 
 
 .single_location_slide {
-	padding:162px 0 0 0;
+	margin:142px 0 0 0;
+	flex-basis: 50%;
+	flex-shrink:0;
+	flex-grow:0;
 	span.location_title {
 		font-family: $tekoregular;
 		text-transform: uppercase;
@@ -95,3 +103,168 @@
 		display: inline-block;
 	}
 }
+
+
+@media screen and (max-width: 1780px) {
+	
+	
+	.locations_left {
+		padding-left:3%;
+		span.small_header {
+			margin-left:10%;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1600px) {
+	
+	
+	
+	.locations_left {
+		span.small_header {
+			margin-left:6%;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1460px) {
+	
+	
+	
+	.footer_locations {
+		height:845px;
+		background-position: top right;
+	}
+	
+	.locations_left {
+		padding-left:5%;
+		span.large_header {
+			font-size:176px;
+			margin: 315px 0 0;
+		}
+		span.small_header {
+			font-size:81px;
+			margin-top: -40px;
+			margin-left: 20%;
+		}
+	}
+	
+	
+	.locations_right {
+		margin: 105px 0 0 0;
+	}
+	
+	
+	.location_slider {
+		padding-top:21px;
+	}
+	
+.single_location_slide {
+	margin: 63px 0 0 0;
+	span.location_title {
+		
+	}
+	span.address {
+		font-size:20px;
+		line-height: 25px;
+	}
+	a.get_directions_button {
+		margin: 30px 0 0;
+		padding: 18px 26px 14px;
+		&:hover {
+			
+		}
+	}
+	a.tel {
+		font-size:35px;
+		margin-top: 38px;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1348px) {
+	
+	
+	
+	.locations_left {
+		
+		span.large_header {
+			
+		}
+		span.small_header {
+			margin-left: 10%;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1220px) {
+	
+	
+	
+	.footer_locations {
+		
+	}
+	
+
+	.locations_left {
+    padding-left: 3%;
+}
+
+
+
+
+
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1150px) {
+	
+	
+	.footer_locations {
+		flex-direction: column;
+			background-position: top left;
+	}
+	
+	
+	   
+	
+	
+	.locations_left {
+		span.large_header {
+			 margin: 114px 0 0;
+		}
+	}
+	
+	
+	.locations_left, .locations_right {
+		flex-basis: 100%;
+	}
+	
+	
+	
+} /* Media Query */
