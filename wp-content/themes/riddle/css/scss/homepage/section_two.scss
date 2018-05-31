@@ -20,6 +20,7 @@
 	width:100%;
 	position: relative;
 	z-index: 1;
+	pointer-events: none;
 	span.sec_two_title {
 		display: inline-block;
 		font-size:26px;
@@ -40,14 +41,69 @@
 
 .sec_two_single_slide {
 		width:33.333%;
-		border:1px solid $bluelight;
+		border:1px solid transparent;
 		height:725px;
-	.sp_1_wrapper {
-		padding:235px 0 0;
 		text-align: center;
+	.sp_wrapper {
+		padding:235px 0 0;
+		transform: translateY(0);
+		transition: transform 900ms cubic-bezier(.17,.66,.34,.98);
 		svg {
 			width:160px;
 			height: 124px;
 		}
 	}
+	span.slide_title {
+		font-family: $freightdisplay;
+		font-weight: 400;
+		color:$blue;
+		font-size:46px;
+		line-height: 54px;
+		 max-width: 400px;
+		display: block;
+		margin:50px auto 0;
+		strong {
+			font-weight: 400;
+			color:#abacb2;
+		}
+	}
+	a.view_button {
+		background: $bluelight;
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $tekomedium;
+		font-size:20px;
+		letter-spacing: 0.16em;
+		text-decoration: none;
+		display: inline-block;
+		margin:40px auto;
+		padding:26px 24px 20px;
+		transition: background 200ms ease-in-out, opacity 200ms ease-in-out;
+		opacity: 0;
+		&:hover {
+			background: $blue;
+		}
+	}
 }
+
+
+
+
+.sec_two_single_slide {
+	&:hover {
+		border:1px solid $bluelight;
+		.sp_wrapper {
+			transform: translateY(-70px);
+		}
+		a.view_button {
+			opacity: 1;
+		}
+	}
+}
+
+
+
+
+
+
+
