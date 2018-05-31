@@ -35,3 +35,129 @@ footer {
 		margin-top:-30px
 	}
 }
+
+
+
+.form_wrapper {
+	max-width:1060px;
+	margin:47px auto 0;
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap:wrap;
+		justify-content: space-between;
+		li#field_1_3 {
+			.gfield_description {
+				display: none;
+			}
+		}
+		li#field_1_4 {
+			flex-basis: 100%;
+			margin-bottom:0;
+			.gfield_description, .validation_message {
+				bottom:25px;
+				top:auto;
+			}
+		}
+		li ::-webkit-input-placeholder {
+        color: #2c3246; }
+		li ::-moz-placeholder {
+        color: #2c3246; }
+		li :-moz-placeholder {
+        color: #2c3246; }
+		li :-ms-input-placeholder {
+        color: #2c3246; }
+		li ::-moz-placeholder {
+        opacity: 1; }
+		li {
+			flex-basis:48.5%;
+			margin-bottom:34px;
+			position: relative;
+			&:after {
+				content:"";
+				width:6px;
+				height:6px;
+				background: $bluelight;
+				display: block;
+				transform: rotate(-45deg);
+				position: absolute;
+				top:32px;
+				right:29px;
+			}
+			label {
+				display: none;
+			}
+			input,textarea {
+				border:1px solid $bluelight;
+				width:100%;
+				font-family: $freightdisplay;
+				font-weight: 400;
+				font-size:22px;
+				text-transform: lowercase;
+				color:#2c3246;
+				padding:17px 50px 17px 22px;
+				background:transparent;
+				transition: background 200ms ease-in-out;
+				&:focus {
+					background:#f1fafd;
+				}
+			}
+			textarea {
+				height: 220px;
+			}
+		}
+	}
+	input[type="submit"] {
+		background: $bluelight;
+		border:none;
+		width:100%;
+		display: block;
+		margin-top:-10px;
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $tekomedium;
+		font-size:20px;
+		padding:26px 0;
+		letter-spacing: 0.16em;
+		cursor: pointer;
+		transition: all 200ms ease-in-out;
+		position: relative;
+		z-index:1;
+		&:hover {
+			background: $blue;
+		}
+	}
+}
+
+.validation_error {
+	display: none;
+}
+
+
+.gfield_description, .validation_message {
+	color:$bluelight;
+	text-transform: lowercase;
+	text-align: left;
+	padding-left:26px;
+	position: absolute;
+	top: 69px;
+	left:0;
+}
+
+
+
+
+li ::-webkit-input-placeholder {
+        color: #000; }
+li ::-moz-placeholder {
+        color: #000; }
+li :-moz-placeholder {
+        color: #000; }
+li :-ms-input-placeholder {
+        color: #000; }
+ li ::-moz-placeholder {
+        opacity: 1; }
+
+
+
+
