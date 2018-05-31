@@ -48,13 +48,29 @@ jQuery(document).ready(function($){
     {
       breakpoint: 1230,
       settings: "unslick"    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 
 		
  });
+ 
+ 
+ 
+ // footer location
+ 
+ $('.location_slider').slick({
+  	infinite: true,
+		slidesToShow:1,
+		slidesToScroll: 1,
+		mobileFirst:true,
+		dots:true,
+		responsive: [
+    {
+      breakpoint: 1600,
+      settings: "unslick"    }
+  ]
+
+});
+ 
 	
 		
 	

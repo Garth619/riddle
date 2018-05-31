@@ -4,10 +4,11 @@
 	background-size: cover;
 	height:1161px;
 	display: flex;
+	overflow: hidden;
 }
 
 .locations_left {
-	flex-basis: 46%;
+	width:46%;
 	text-align: left;
 	color:#fff;
 	padding-left:5.5%;
@@ -37,7 +38,7 @@
 
 
 .locations_right {
-	flex-grow:1;
+	width:54%;
 	background: #fff;
 	margin:175px 0 0 0;
 }

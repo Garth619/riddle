@@ -50,8 +50,6 @@
 					
 				</div><!-- single_location_slide -->
 				
-				<div class="location_slider">
-				
 				<div class="single_location_slide">
 					
 					<span class="location_title">GoldsBoro</span><!-- location_title -->
@@ -66,9 +64,8 @@
 					<a class="tel" href="">(800) 525-7111</a>
 					
 				</div><!-- single_location_slide -->
-				
-				<div class="location_slider">
-				
+
+
 				<div class="single_location_slide">
 					
 					<span class="location_title">GoldsBoro</span><!-- location_title -->
@@ -83,9 +80,8 @@
 					<a class="tel" href="">(800) 525-7111</a>
 					
 				</div><!-- single_location_slide -->
-				
-				<div class="location_slider">
-				
+
+
 				<div class="single_location_slide">
 					
 					<span class="location_title">GoldsBoro</span><!-- location_title -->
@@ -100,6 +96,8 @@
 					<a class="tel" href="">(800) 525-7111</a>
 					
 				</div><!-- single_location_slide -->
+
+				
 				
 			</div><!-- location_slider -->
 			
