@@ -1,0 +1,96 @@
+.footer_locations {
+	width:100%;
+	background: url(#{$themePath}images/footer_img_desktop.jpg) top left no-repeat;
+	background-size: cover;
+	height:1161px;
+	display: flex;
+}
+
+.locations_left {
+	flex-basis: 46%;
+	text-align: left;
+	color:#fff;
+	padding-left:5.5%;
+	text-transform: uppercase;
+	span.large_header {
+		font-family: $tekoregular;
+		font-size:230px;
+		display: block;
+		margin:435px 0 0;
+		line-height: 1;
+	}
+	span.small_header {
+		color:#fff;
+		font-family: $freightbigpro;
+		font-weight: 500;
+		text-transform: lowercase;
+		font-size:107px;
+		margin-top:-50px;
+		display: block;
+		margin-left:20%;
+		strong {
+			font-weight: 500;
+			color:$bluelight;
+		}
+	}
+}
+
+
+.locations_right {
+	flex-grow:1;
+	background: #fff;
+	margin:175px 0 0 0;
+}
+
+
+
+.location_slider {
+	
+}
+
+
+.single_location_slide {
+	padding:162px 0 0 0;
+	span.location_title {
+		font-family: $tekoregular;
+		text-transform: uppercase;
+		font-size:40px;
+		display: inline-block;
+		color:#2c3246;
+		border-bottom:1px solid $bluelight;
+		padding:0 25px 9px;
+	}
+	span.address {
+		display: block;
+		font-size:25px;
+		letter-spacing: -0.02em;
+		line-height: 32px;
+		color:#2c3246;
+		font-family: $helveticalight;
+		margin:17px 0 0;
+	}
+	a.get_directions_button {
+		background: $bluelight;
+		color:#fff;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: $tekomedium;
+		font-size:17px;
+		letter-spacing: 0.16em;
+		display: inline-block;
+		margin:25px 0 0;
+		padding:22px 35px 18px;
+		transition: all 200ms ease-in-out;
+		&:hover {
+			background: $blue;
+		}
+	}
+	a.tel {
+		font-family: $tekolight;
+		font-size:38px;
+		text-decoration: none;
+		color:#abacb2;
+		margin-top:45px;
+		display: inline-block;
+	}
+}
