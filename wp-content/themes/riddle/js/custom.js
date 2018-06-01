@@ -65,7 +65,7 @@ jQuery(document).ready(function($){
 		dots:true,
 		responsive: [
     {
-      breakpoint: 1600,
+      breakpoint: 767,
       settings: "unslick"    }
   ]
 

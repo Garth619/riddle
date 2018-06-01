@@ -108,6 +108,78 @@
 		
 	</div><!-- footer_locations -->
 	
+	<div class="bottom_footer">
+		
+		
+		<div class="bottom_footer_left">
+			
+			<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/footer_icon_06.svg"/>
+				
+			</a><!-- ilawyer -->
+			
+		</div><!-- bottom_footer_left -->
+		
+		<div class="bottom_footer_right">
+			
+			<div class="social_media">
+				
+				<ul>
+					<li>
+						<a href="" class="facebook">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_fb.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="twitter">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_twitter.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="linkedin">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_li.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="google">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_google.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="youtube">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_yt.svg"); ?>
+							
+						</a>
+					</li>
+				</ul>
+				
+			</div><!-- social_media -->
+			
+			<div class="copyright">
+				
+				<ul>
+					<li>&copy;2018 Riddle & Breantley, LLP - All Rights Reserved.</li>
+					<li><a href="">Disclaimer</a></li>
+				</ul>
+				
+			</div><!-- copyright -->
+			
+			
+		</div><!-- bottom_footer_right -->
+		
+		
+	</div><!-- bottom_footer -->
+	
 </footer>
 
 <?php wp_footer();?>
