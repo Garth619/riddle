@@ -12,7 +12,7 @@ footer {
 		font-size:180px;
 		letter-spacing: 0.02em;
 		font-family: $tekoregular;
-		color:#2c3246;
+		color:$blue;
 		text-transform: uppercase;
 		display: block;
 		span {
@@ -61,13 +61,13 @@ footer {
 			}
 		}
 		li ::-webkit-input-placeholder {
-        color: #2c3246; }
+        color: $blue; }
 		li ::-moz-placeholder {
-        color: #2c3246; }
+        color: $blue; }
 		li :-moz-placeholder {
-        color: #2c3246; }
+        color: $blue; }
 		li :-ms-input-placeholder {
-        color: #2c3246; }
+        color: $blue; }
 		li ::-moz-placeholder {
         opacity: 1; }
 		li {
@@ -95,7 +95,7 @@ footer {
 				font-weight: 400;
 				font-size:22px;
 				text-transform: lowercase;
-				color:#2c3246;
+				color:$blue;
 				padding:17px 50px 17px 22px;
 				background:transparent;
 				transition: background 200ms ease-in-out;

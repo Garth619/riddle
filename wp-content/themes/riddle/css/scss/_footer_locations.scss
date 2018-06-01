@@ -64,7 +64,7 @@
 		text-transform: uppercase;
 		font-size:40px;
 		display: inline-block;
-		color:#2c3246;
+		color:$blue;
 		border-bottom:1px solid $bluelight;
 		padding:0 25px 9px;
 	}
@@ -73,7 +73,7 @@
 		font-size:25px;
 		letter-spacing: -0.02em;
 		line-height: 32px;
-		color:#2c3246;
+		color:$blue;
 		font-family: $helveticalight;
 		margin:17px 0 0;
 	}
@@ -593,7 +593,7 @@
 		margin: 126px 0 0;
 	}
 	
-	.social_media {
+.social_media {
     margin-bottom: 62px;
    ul {
 	    display: flex;

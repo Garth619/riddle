@@ -1,0 +1,114 @@
+
+.main {
+	min-height: 300px;
+	margin-top:109px;
+}
+
+.two_col {
+	display: flex;
+}
+
+
+.container {
+	flex-grow:1;
+	.inner_container {
+		float:right;
+		max-width:1170px;
+		width:100%;
+		margin-top:95px;
+		padding-left:85px;
+		padding-right: 11%;
+	}
+}
+
+.inner_banner {
+	width:100%;
+	height:311px;
+}
+
+
+
+
+.inner_banner {
+	background: url(#{$themePath}images/intl_pa_img.jpg) top left no-repeat;
+}
+
+
+
+.sidebar_wrapper {
+	flex-basis: 36%;
+}
+
+
+.sidebar_form {
+	background:$bluelight;
+	text-align: center;
+	svg {
+		width:163px;
+		height:163px;
+		margin-top:65px;
+	}
+	.form_titles {
+		margin:-105px 0 0;
+		span.large_header {
+			text-transform: uppercase;
+			font-size:78px;
+			font-family: $tekoregular;
+			color:$blue;
+			display: block;
+			letter-spacing: 0.02em;
+			display: block;
+		}
+		span.small_header {
+			color:#fff;
+			text-transform: lowercase;
+			font-family: $freightbigpro;
+			font-weight: 400;
+			font-size:52px;
+			display: block;
+			margin-top:-10px;
+		}
+	}
+}
+
+
+.sidebar_form {
+	ul {
+		list-style: none;
+		max-width: 495px;
+		margin:41px auto 0;
+		li {
+			width:100%;
+			display: block;
+			margin-bottom:35px;
+			position: relative;
+			&:after {
+				content:"";
+				width:6px;
+				height:6px;
+				background:$bluelight;
+				display: block;
+				position: absolute;
+				top:31px;
+				right:23px;
+				transform: rotate(-45deg);
+			}
+			label {
+				display: none;
+			}
+			input,textarea {
+				border:none;
+				width:100%;
+				display: block;
+				font-family: $freightdisplay;
+				font-weight: 400;
+				text-transform: lowercase;
+				font-size:22px;
+				padding:17px 20px;
+			}
+			textarea {
+				height:215px;
+			}
+		}
+	}
+}
