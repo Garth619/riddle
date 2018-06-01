@@ -63,6 +63,7 @@ jQuery(document).ready(function($){
 		slidesToScroll: 1,
 		mobileFirst:true,
 		dots:true,
+		arrows:false,
 		responsive: [
     {
       breakpoint: 767,

@@ -102,7 +102,68 @@
 			</div><!-- location_slider -->
 			
 			
+			<div class="mobile_social_wrapper">
+			
+			
+			<div class="social_media">
+				
+				<ul>
+					<li>
+						<a href="" class="facebook">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_fb.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="twitter">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_twitter.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="linkedin">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_li.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="google">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_google.svg"); ?>
+							
+						</a>
+					</li>
+					<li>
+						<a href="" class="youtube">
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_yt.svg"); ?>
+							
+						</a>
+					</li>
+				</ul>
+				
+			</div><!-- social_media -->
+			
+			<div class="copyright">
+				
+				<ul>
+					<li>&copy;2018 Riddle & Breantley, LLP<br/> All Rights Reserved.</li>
+					<li><a href="">Disclaimer</a></li>
+				</ul>
+				
+			</div><!-- copyright -->
+			
+			
+		</div><!-- mobile_social_wrapper -->
+			
+			
 		</div><!-- locations_right -->
+		
+		
+		
 		
 		
 		

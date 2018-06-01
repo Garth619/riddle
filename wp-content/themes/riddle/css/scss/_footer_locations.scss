@@ -189,6 +189,9 @@
 			font-size: 15px;
 			color:$blue;
 			line-height: 20px;
+			br {
+				display: none;
+			}
 			a {
 				color:$blue;
 				text-decoration: none;
@@ -199,6 +202,11 @@
 			}
 		}
 	}
+}
+
+
+.mobile_social_wrapper {
+	display: none;
 }
 
 
@@ -385,12 +393,17 @@
     padding-right: 38px;
 	}
 	
-	
+	.locations_right {
+		position: relative;
+		z-index:1;
+	}
 	   
 	.locations_left {
 		width:100%;
 		padding-left:0px;
-		max-width:875px;
+		max-width: 760px;
+		margin-left:auto;
+		margin-right:auto;
 		span.large_header {
 			 margin: 114px 0 0;
 		}
@@ -400,25 +413,252 @@
 	}
 	
 	
-	.locations_left, .locations_right {
-		flex-basis: 100%;
-	}
+	
 	
 	
 	.locations_right {
 		width:100%;
-		max-width:800px;
+		max-width: 780px;
 		margin-left:auto;
 		margin-right:auto;
+		padding-bottom:37px;
+	}
+	
+	
+	.location_slider {
+    padding-top: 0px;
+	}
+	
+	.single_location_slide {
+		margin: 85px 0 0 0;
 	}
 	
 	
 	
+	.bottom_footer {
+		margin-top: -22px;
+		height:645px;
+		.bottom_footer_left {
+			flex-basis: 100%;
+			align-items: flex-end;
+			
+		}
+		.bottom_footer_right {
+			display: none;
+		}
+	}
+	
+	a.ilawyer {
+		position: relative;
+		top:-47px;
+	} 
+	
+	.mobile_social_wrapper {
+		display: block;
+		margin:75px 0 0;
+}
 	
 	
 	
+.social_media {
+	margin-bottom:47px;
+	ul {
+	
+		li {
+			
+			a {
+				
+				svg {
+					height:21px;
+					&:hover {
+						.social-cls-1 {
+							fill:$bluelight;
+							transition: all 200ms ease-in-out;
+						}
+					}
+					.social-cls-1 {
+						fill:$blue;
+					}
+				}
+			}
+			a.twitter {
+				svg {
+					height:18px;
+				}
+			}
+			a.google {
+				svg {
+					height:22px;
+				}
+			}
+			a.youtube {
+				svg {
+					height:22px;
+				}
+			}
+		}
+	}
+}
+
+
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	.footer_locations {
+		padding-left:20px;
+		padding-right:20px;
+		background-size: auto 767px;
+		background: url(#{$themePath}images/footer_img_mobile.jpg) top center no-repeat;;
+	}
 	
 	
+	.locations_left {
+		max-width: 510px;
+		span.large_header {
+			font-size:90px;
+			margin: 70px 0 0;
+		}
+		span.small_header {
+			font-size:46px;
+			margin-top: -19px;
+			margin-left: 14%;
+		}
+	}
+	
+	
+	.locations_right {
+		margin-top: 76px; 
+		max-width: 510px;
+		padding-bottom: 59px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	
+	.location_slider {
+	
+		.slick-dots {
+		bottom: -54px;
+		li.slick-active {
+			button {
+				&:before {
+					color:$bluelight;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					color:$bluelight;
+				}
+			}
+		}
+		li {
+			margin:0;
+			width:20px;
+			button {
+				width:20px;
+				&:before {
+					width:20px;
+					opacity: 1;
+					color: #abacb2;
+					font-size:33px;
+				}
+			}
+		}
+	}
+	}
+	
+	.single_location_slide {
+		margin: 75px 0 0 0;
+		span.address {
+			font-size:17px;
+			line-height: 22px;
+		}
+		a.get_directions_button {
+			margin: 35px 0 0;
+		}
+		a.tel {
+			margin-top: 36px;
+		}
+		
+	}
+	
+	.mobile_social_wrapper {
+		margin: 126px 0 0;
+	}
+	
+	.social_media {
+    margin-bottom: 62px;
+   ul {
+	    display: flex;
+	    justify-content: space-between;
+	    width:100%;
+	    max-width:230px;
+	    margin-left:auto;
+	    margin-right:auto;
+	   	li {
+		    display: block;
+		    margin:0;
+		   }
+    }
+	}
+	
+	
+	.copyright {
+		ul {
+			li {
+				display: inline;
+				br {
+			    display: inline-block;
+		    }
+				a {
+					
+				}
+			}
+		}
+	}
+	
+	.bottom_footer {
+		margin-top: -294px;
+		height: 483px;
+	}
+	
+	.bottom_footer_left {
+		a.ilawyer {
+    top: -52px;
+    img {
+	    width:280px;
+    }
+	}
+	}
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 600px) {
+	
+	
+	
+	.locations_left {
+	
+		span.large_header {
+			
+			
+		}
+		span.small_header {
+			
+			margin-left: 8.5%;
+		}
+	}
 	
 	
 	
