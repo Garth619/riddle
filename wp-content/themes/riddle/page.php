@@ -65,8 +65,19 @@
 			
 			<?php gravity_form(2, false, false, false, '', true, 12); ?>
 			
+			<span class="required">All Fields Required</span><!-- required -->
+			
 			
 		</div><!-- sidebar_form -->
+		
+		
+		<div class="sidebar_pa_wrapper">
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+			
+			
+			
+		</div><!-- sidebar_pa_wrapper -->
 	
 	
 	</div><!-- sidebar_wrapper -->

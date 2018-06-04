@@ -71,6 +71,19 @@ jQuery(document).ready(function($){
   ]
 
 });
+
+
+
+ // sidebar
+ 
+ 
+ $('.sidebar_pa_wrapper ul.menu > li.menu-item-has-children a').on('click', function(e) {
+	 
+	 $(this).parent('li.menu-item-has-children').toggleClass('open');
+	 
+	 $(this).next('ul.sub-menu').toggleClass('open');
+   
+ });
  
 	
 		
