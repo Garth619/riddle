@@ -85,6 +85,17 @@ jQuery(document).ready(function($){
    
  });
  
+
+	 
+ 
+ 	$('li.current-menu-ancestor a').next('ul.sub-menu').addClass('open');
+ 
+ 
+
+ 
+ 
+
+ 
 	
 		
 	

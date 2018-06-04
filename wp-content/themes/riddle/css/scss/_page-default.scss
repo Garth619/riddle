@@ -209,7 +209,7 @@
 							background:$bluelight;
 							position: absolute;
 							top:29px;
-							right:13%;
+							right:14%;
 							transform: rotate(-45deg);
 						}
 						&:after {
@@ -229,7 +229,10 @@
 			  > a {
 						background: #fff;
 						border-bottom:1px solid $bluelight;
-			}
+				}
+				ul.sub-menu {
+					
+				}
 		}
 	}
 	ul.sub-menu.open {
