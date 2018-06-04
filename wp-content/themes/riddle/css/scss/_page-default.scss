@@ -30,7 +30,7 @@
 
 
 .inner_banner {
-	background: url(#{$themePath}images/intl_pa_img.jpg) top left no-repeat no-repeat;
+	background: url(#{$themePath}images/intl_pa_img.jpg) top center no-repeat no-repeat;
 	background-size:cover;
 }
 
@@ -44,7 +44,7 @@
 .sidebar_form {
 	background:$bluelight;
 	text-align: center;
-	
+	padding:0 45px;
 	svg {
 		width:163px;
 		height:163px;
@@ -227,8 +227,8 @@
 		}
 		 > li.current-menu-ancestor {
 			  > a {
-						background: #fff;
-						border-bottom:1px solid $bluelight;
+						// background: #fff;
+						// border-bottom:1px solid $bluelight;
 				}
 				ul.sub-menu {
 					
@@ -280,4 +280,133 @@
 	}
 }
 
+
+
+@media screen and (max-width: 1700px) {
+	
+	
+	
+	.sidebar_wrapper {
+		flex-basis:600px;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1650px) {
+	
+	
+	
+.main {
+	min-height: 300px;
+	margin-top:92px;
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1350px) {
+	
+	
+	.sidebar_form {
+		padding-left: 20px;
+		padding-right:20px;
+	}
+	
+	
+	.sidebar_wrapper {
+		flex-basis: 565px;
+	}
+
+
+	
+} /* Media Query */
+
+
+	
+	
+	@media screen and (max-width: 1297px) {
+		
+		.two_col {
+			flex-direction: column;
+		}
+		
+		.main {
+			margin-top:89px;
+		}
+		
+		
+		.inner_banner {
+			display: none;
+		}
+		
+		
+		.sidebar_form {
+			display: none;
+		}
+		
+		
+		
+		.container {
+			flex-grow:0;
+			flex-basis: auto;
+			.inner_container {
+				max-width: 1268px;
+				margin-bottom:70px;
+				padding-left:50px;
+				margin-top: 80px;
+				padding-right:50px;
+			}
+		}
+		
+		
+		.sidebar_wrapper {
+			flex-basis: auto;
+		}
+		
+		
+		.sidebar_pa_wrapper {
+			padding-bottom: 60px;
+			ul.menu {
+				> li.menu-item-has-children {
+						&:last-of-type {
+							ul.sub-menu {
+								padding-bottom:0;
+								margin-bottom:0;
+							}
+							ul.sub-menu.open {
+								padding-bottom:0px;
+								margin-bottom:0;
+							}
+						}
+						> a {
+								padding-left:50px;
+								padding-right:50px;
+						}
+				}
+			}
+			ul.sub-menu {
+				li {
+					a {
+						padding-left:50px;
+						padding-right:50px;
+					}
+				}
+			}
+		}
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
 
