@@ -14,13 +14,41 @@
 			
 			<img src="<?php bloginfo('template_directory');?>/images/att.jpg"/>
 			
+			<div class="accolades_wrapper">
+				
+				<div class="accolades_list">
+				
+				<span class="accolades_title">Education</span><!-- accolades_title -->
+				
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
+				</ul>
+				
+				</div><!-- accolades_list -->
+				
+				<div class="accolades_list">
+				
+				<span class="accolades_title">Bar Certifications</span><!-- accolades_title -->
+				
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
+				</ul>
+				
+				</div><!-- accolades_list -->
+				
+			</div><!-- accolades_wrapper -->
+			
 		</div><!-- profile_left -->
 	
 		<div class="profile_right">
 			
 			<h1 class="attorney_title">Gene <span class="last_name">Riddle</span></h1><!-- attorney_title -->
 			
-			<span class="att_position">Personal Injury Lawyer & Stanly County Native  |  Founder</span><!-- att_position -->
+			<span class="att_position">Personal Injury Lawyer & Stanly County Native&nbsp;&nbsp;|&nbsp;&nbsp;Founder</span><!-- att_position -->
 			
 			<div class="att_profile_content">
 			
