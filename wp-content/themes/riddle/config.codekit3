@@ -108,6 +108,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-profile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-profile.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -354,6 +367,17 @@
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-3.php",
 		"oF": 0
+		},
+	"\/images\/att.jpg": {
+		"ft": 16384,
+		"iS": 35556,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/att.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/caseresults_icon_01.svg": {
 		"ft": 2097152,
@@ -1439,6 +1463,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-profile.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-profile.php",
 		"oF": 0
 		},
 	"\/page.php": {
