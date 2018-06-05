@@ -21,31 +21,89 @@
 
 	
 	
+				<?php if(get_field( 'featured_image' )): ?>
 				
-				<div class="single_post">
+					<div class="single_post has_image">
 					
-					<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+						<div class="blog_content_wrapper">
 					
-					<div class="meta">
+							<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+					
+							<div class="meta">
 						
-						<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_category_list();?> </span><!-- date -->
+								<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_category_list();?> </span><!-- date -->
 						
-					</div><!-- meta -->
+							</div><!-- meta -->
+							
+							<div class="mobile_image">
+								
+								<?php $featured_image = get_field( 'featured_image' ); ?>
+
+								<img src="<?php echo $featured_image['url']; ?>" alt="<?php echo $featured_image['alt']; ?>" />
+
+							</div><!-- mobile_image -->
 					
-					<div class="post_content">
+							<div class="post_content">
 						
-					<?php echo wp_trim_words( get_the_content(), 50, '...' );?>
+								<?php echo wp_trim_words( get_the_content(), 50, '...' );?>
+							
+								<br/>
+							
+								<a class="blog_read_more" href="<?php the_permalink();?>">Read More</a><!-- read_more -->
+							
+								<?php edit_post_link( __( 'Edit'), '', '' ); ?>
 						
-					</div><!-- post_content -->
+							</div><!-- post_content -->
+						
+						</div><!-- with_image -->
 					
-					<a class="blog_read_more" href="<?php the_permalink();?>">Read More</a><!-- read_more -->
+						<div class="featured_image">
+						
+							<?php $featured_image = get_field( 'featured_image' ); ?>
+
+							<img src="<?php echo $featured_image['url']; ?>" alt="<?php echo $featured_image['alt']; ?>" />
+
+						</div><!-- featured_image -->
+						
+					</div><!-- single_post -->
 					
-					<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+				
 					
-				</div><!-- single_post -->
+					<?php else: ?>
+					
+				
+					
+					
+					
+					<div class="single_post">
+					
+						
+						<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+					
+							<div class="meta">
+						
+								<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_category_list();?> </span><!-- date -->
+						
+							</div><!-- meta -->
+					
+					
+							<div class="post_content">
+						
+								<?php echo wp_trim_words( get_the_content(), 50, '...' );?>
+							
+								<br/>
+							
+								<a class="blog_read_more" href="<?php the_permalink();?>">Read More</a><!-- read_more -->
+							
+								<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+						
+							</div><!-- post_content -->
+						
+						
+					</div><!-- single_post -->
 				
 		
-			
+			<?php endif; ?>
 	
 			
 		
