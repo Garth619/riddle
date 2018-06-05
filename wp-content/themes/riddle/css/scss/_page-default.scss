@@ -27,11 +27,52 @@
 }
 
 
-
-
 .inner_banner {
 	background: url(#{$themePath}images/intl_pa_img.jpg) top center no-repeat no-repeat;
 	background-size:cover;
+}
+
+
+.interior_banner {
+	width:100%;
+	height:311px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-size:120px;
+		color:#fff;
+		font-family: $freightdisplay;
+		font-weight: 400;
+		font-style: normal;
+		text-transform: lowercase;
+		line-height: 83px;
+		span {
+			font-family: $freightbigpro;
+			font-weight: 400;
+			display: inline-block;
+			&:before {
+				content:"";
+				width:13px;
+				height:13px;
+				background: $bluelight;
+				display: inline-block;
+				vertical-align: top;
+				transform: rotate(-45deg);
+				margin-top:45px;
+				margin-left:5px;
+				margin-right:35px;
+			}
+		}
+	}
+}
+
+body.page-template-page-caseresults {
+	.interior_banner {
+		background: url(#{$themePath}images/intl_caseresults_hero_img.jpg) top center no-repeat;
+		background-size:cover;
+	}
 }
 
 
