@@ -1,25 +1,68 @@
 <?php get_header(); ?>
 
 
+<div class="main two_col">
 
-				<h1 class="page-title"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
-				
-				
-				<?php
-					$category_description = category_description();
-					if ( ! empty( $category_description ) )
-						echo '<div class="archive-meta">' . $category_description . '</div>';
+	<div class="container">
+	
+		
+		<div class="inner_container content">
+			
+			<h1 class="blog_title"><?php single_cat_title( );?></h1>
+			
+			
+			<?php get_template_part( 'loop', 'category' );?>
+			
+		</div><!-- inner_container -->
+	
+	
+	</div><!-- container -->
 
-				/*
+
+	<div class="sidebar_wrapper">
+	
+	
+		<div class="sidebar_form">
+			
+			
+			<?php echo file_get_contents("wp-content/themes/riddle/images/new_diamonds.svg"); ?>
+			
+			
+			<div class="form_titles">
 				
-				 * include a file called loop-category.php and that will be used instead.
-				 */
-				get_template_part( 'loop', 'category' );
-				?>
+				<span class="large_header">Free Consultation</span><!-- large_header -->
+				
+				<span class="small_header">No Obligation or Cost to You</span><!-- small_header -->
+				
+			</div><!-- form_titles -->
+			
+			<?php gravity_form(2, false, false, false, '', true, 12); ?>
+			
+			<span class="required">All Fields Required</span><!-- required -->
+			
+			
+		</div><!-- sidebar_form -->
+		
+		
+		<div class="sidebar_list_wrapper">
+			
+			<?php get_sidebar('blog');?>
+			
+		</div><!-- sidebar_pa_wrapper -->
+	
+	
+	</div><!-- sidebar_wrapper -->
+
+
+</div><!-- main -->
+
+
+
+
+
+
 
 		
 
-<?php // get_sidebar(); ?>
+
 <?php get_footer(); ?>
