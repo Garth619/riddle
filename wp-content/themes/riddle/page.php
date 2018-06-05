@@ -73,13 +73,13 @@
 		</div><!-- sidebar_form -->
 		
 		
-		<div class="sidebar_pa_wrapper">
+		<div class="sidebar_list_wrapper">
 			
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 			
 			
 			
-		</div><!-- sidebar_pa_wrapper -->
+		</div><!-- sidebar_list_wrapper -->
 	
 	
 	</div><!-- sidebar_wrapper -->

@@ -1,0 +1,89 @@
+h1.blog_title {
+	font-family: $freightdisplay;
+	font-size:120px;
+	font-weight: 400;
+	color:$blue;
+	font-weight:300;
+	font-size: normal;
+	text-transform: lowercase;
+	margin:47px 0 30px;
+	display: block;
+}
+
+.post_wrapper {
+	padding:75px 0 0;
+}
+
+.single_post {
+	border-bottom:1px solid $bluelight;
+	padding-bottom:87px;
+	margin-bottom:54px;
+}
+
+.content {
+	.meta {
+		text-transform: uppercase;
+		color:$blue;
+		font-size:16px;
+		font-family: $helveticabold;
+		letter-spacing: 0.04em;
+		ul {
+			margin-bottom: 0;
+			display: inline;
+			li {
+				padding:0;
+				display: inline;
+				margin:0;
+				&:last-of-type {
+					a {
+						cursor: pointer;
+						transition: all 200ms ease-in-out;
+						&:hover {
+							color:$bluelight;
+						}
+						&:after {
+							display: none;
+						}
+					}
+				}
+				&:before {
+					display: none;
+				}
+				a {
+					color:$blue;
+					&:after {
+						content:",";
+						display: inline;
+					}
+				}
+			}
+		}
+	}
+}
+
+.post_content {
+	margin-top:19px;
+}
+
+
+
+a.blog_read_more {
+	background: $bluelight;
+	color:#fff;
+	text-transform: uppercase;
+	font-family: $tekomedium;
+	letter-spacing: 0.16em;
+	font-size:20px;
+	margin-top:37px;
+	display: inline-block;
+	padding:17px 30px 13px;
+	transition: all 200ms ease-in-out;
+	&:hover {
+		color:#fff;
+		background: $blue;
+	}
+}
+
+
+
+

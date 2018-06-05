@@ -77,7 +77,7 @@ jQuery(document).ready(function($){
  // sidebar
  
  
- $('.sidebar_pa_wrapper ul.menu > li.menu-item-has-children a').on('click', function(e) {
+ $('.sidebar_list_wrapper ul.menu > li.menu-item-has-children a').on('click', function(e) {
 	 
 	 $(this).parent('li.menu-item-has-children').toggleClass('open');
 	 
@@ -94,8 +94,18 @@ jQuery(document).ready(function($){
  
  
 
+ // sidebar blog
  
  
+ 
+ $('.sidebar_list_wrapper h3').on('click', function(e) {
+	 
+	 $(this).toggleClass('open');
+	 
+	 $(this).next('ul').toggleClass('open');
+   
+ });
+
 
  
 	

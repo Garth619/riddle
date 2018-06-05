@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "96A7D6B3-A909-4185-ADFF-6ECD3BBE0215"
+		"uuidString": "E8BE10BE-98F8-4809-8A9F-CE9CE3895AB2"
 		}
 	],
 "creatorBuild": "26680",
@@ -78,6 +78,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-blog.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1414,6 +1427,13 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-blog.php",
+		"oF": 0
+		},
 	"\/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1430,12 +1450,12 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 171434,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1446,11 +1466,11 @@
 		"oAP": "\/search.php",
 		"oF": 0
 		},
-	"\/sidebar.php": {
+	"\/sidebar-blog.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sidebar.php",
+		"oAP": "\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/single.php": {
@@ -1483,10 +1503,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 548866891,
+	"creationDate": 549858538,
 	"displayValue": "riddle",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-leo",
+	"iconImageName": "meme-chloe",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
