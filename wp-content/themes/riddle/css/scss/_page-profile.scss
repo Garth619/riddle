@@ -14,6 +14,26 @@ body.page-template-page-profile {
 	}
 }
 
+.profile_header_wrapper {
+	display: flex;
+	max-width:1670px;
+	margin:0 auto;
+	padding:0 50px;
+	.profile_spacer {
+		flex-basis: 558px;
+		flex-grow:0;
+		flex-shrink:0;
+		margin-top:122px;
+	}
+	.profile_header {
+		position: relative;
+		z-index:1;
+		flex-grow:1;
+		padding-left:8%;
+		margin-top:110px;
+	}
+}
+
 .profile_wrapper {
 	display: flex;
 	max-width:1670px;
@@ -30,7 +50,7 @@ body.page-template-page-profile {
 	flex-basis: 558px;
 	flex-grow:0;
 	flex-shrink:0;
-	margin-top:122px;
+	margin-top: -113px;
 	img {
 		max-width:100%;
 		height:auto;
@@ -42,7 +62,10 @@ body.page-template-page-profile {
 .profile_right {
 	flex-grow:1;
 	padding-left:8%;
-	margin-top:110px;
+	margin-top: 16px;
+}
+
+
 	h1.attorney_title {
 		color:$blue;
 		text-transform: uppercase;
@@ -50,7 +73,8 @@ body.page-template-page-profile {
 		font-size:115px;
 		font-weight: 400;
 		font-style: normal;
-		line-height: 1;
+		line-height: 95px;
+		margin-top:15px; 
 		span.last_name {
 			color:$bluelight;
 		}
@@ -62,9 +86,9 @@ body.page-template-page-profile {
 		font-family: $helveticabold;
 		letter-spacing: 0.04em;
 		display: block;
-		margin-top:-15px;
+		margin-top:0px;
+		line-height: 19px;
 	}
-}
 
 
 
@@ -90,3 +114,162 @@ span.accolades_title {
 	font-size: 24px;
 	letter-spacing: 0.02em;
 }
+
+
+
+@media screen and (max-width: 1530px) {
+	
+.profile_header_wrapper {
+	
+	.profile_spacer {
+		flex-basis: 445px;
+	}
+	.profile_header {
+		
+	}
+}
+	
+	
+	.profile_left {
+		flex-basis:445px;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1455px) {
+	
+	
+	
+.profile_header_wrapper {
+	
+	.profile_spacer {
+		
+	}
+	.profile_header {
+		padding-left:3.5%;
+	}
+}
+	
+	
+	
+	
+	.profile_right{
+		padding-left:3.5%;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1297px) {
+	
+
+	
+	body.page-template-page-profile {
+		.main {
+			&:before {
+				height:500px;
+			}
+		}
+	} 
+	
+
+.profile_header_wrapper {
+	
+	.profile_spacer {
+		display: none;
+	}
+	.profile_header {
+		padding-left:0%;
+		margin-top: 89px;
+		text-align: center;
+	}
+}
+	
+	
+		
+.profile_wrapper {
+		flex-direction: column;
+		margin-top:100px;
+		margin-top: 75px;
+	}
+	
+	
+	.profile_left {
+		margin:0 auto;
+		flex-basis:auto;
+		width: 100%;
+		img {
+			margin:0 auto;
+			max-width:450px;
+		}
+	}
+	
+	
+	
+	.profile_right {
+		padding-left:0;
+	}
+	
+	
+	.att_profile_content {
+    margin-top: 0;
+	}
+	
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.profile_header_wrapper {
+		padding-left:20px;
+		padding-right:20px;
+		.profile_header {
+			margin-top:33px;
+		}
+	} 
+	
+	
+	h1.attorney_title {
+		font-size: 76px;
+		margin-top: 7px;
+	}
+	
+	span.att_position {
+		margin-top: -10px;
+	}
+	
+	.profile_wrapper {
+		margin-top:50px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	
+	.profile_left {
+		img {
+			max-width:100%;
+		}
+	}
+	
+	
+	.accolades_wrapper {
+    margin-top: 40px;
+	}
+	
+	
+	
+	
+} /* Media Query */
