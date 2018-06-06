@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-
-
 <div class="main two_col">
 
 	<div class="container">
@@ -13,7 +11,7 @@
 			
 			<div class="meta">
 						
-				<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_category_list();?> </span><!-- date -->
+				<span class="date"><?php the_field( 'single_case_result_amount' ); ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php the_field( 'single_case_result_type' ); ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php $pfx_date = get_the_date(); echo $pfx_date ?></span><!-- date -->
 						
 			</div><!-- meta -->
 			
@@ -25,9 +23,7 @@
 	</div><!-- container -->
 
 
-	<?php get_sidebar('blog');?>	
-	
-	</div><!-- sidebar_wrapper -->
+	<?php get_sidebar();?>
 
 
 </div><!-- main -->

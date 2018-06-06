@@ -1501,7 +1501,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 171434,
+		"iS": 57403,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -1522,6 +1522,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar-blog.php",
+		"oF": 0
+		},
+	"\/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
+	"\/single-case_results.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single-case_results.php",
 		"oF": 0
 		},
 	"\/single.php": {

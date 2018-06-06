@@ -25,15 +25,11 @@
 		
 		<div class="sidebar_list_wrapper">
 			
-				<?php dynamic_sidebar( 'category_sidebar' ); ?>
-	
-				<?php dynamic_sidebar( 'sidebar' ); ?>
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 			
-				<?php dynamic_sidebar( 'archive_sidebar' ); ?>		
 			
-		</div><!-- sidebar_pa_wrapper -->
+			
+		</div><!-- sidebar_list_wrapper -->
 	
 	
 	</div><!-- sidebar_wrapper -->
-
-			

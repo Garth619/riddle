@@ -14,83 +14,37 @@
 	</div><!-- interior_banner -->
 	
 	<div class="case_results_wrapper">
-			
-			
-			<div class="single_case_results">
+		
+		
+		<?php $posts = get_field('case_results');
+		
+		if( $posts ): ?>
+		   
+		    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+		        <?php setup_postdata($post); ?>
+		        
+		        	
+		        	<div class="single_case_results">
 				
-				<a class="" href="">
+								<a class="" href="<?php the_permalink();?>">
 				
-					<span class="amount">$7.85m</span><!-- amount -->
+									<span class="amount"><?php the_field( 'single_case_result_amount' ); ?></span><!-- amount -->
 				
-					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
+									<span class="case_type"><?php the_field( 'single_case_result_type' ); ?></span><!-- case_type -->
 					
-					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
+									<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
 				
-				</a>
+								</a>
 				
-			</div><!-- single_case_results -->
+							</div><!-- single_case_results -->
+		       
+		            
+		      <?php endforeach; ?>
+		   
+		    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+		<?php endif; ?>
 			
-			<div class="single_case_results">
-				
-				<a class="" href="">
-				
-					<span class="amount">$7.85m</span><!-- amount -->
-				
-					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
-					
-					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
-				
-				</a>
-				
-			</div><!-- single_case_results -->
-			
-			<div class="single_case_results">
-				
-				<a class="" href="">
-				
-					<span class="amount">$7.85m</span><!-- amount -->
-				
-					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
-					
-					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
-				
-				</a>
-				
-			</div><!-- single_case_results -->
-			
-			<div class="single_case_results">
-				
-				<a class="" href="">
-				
-					<span class="amount">$7.85m</span><!-- amount -->
-				
-					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
-					
-					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
-				
-				</a>
-				
-			</div><!-- single_case_results -->
-			
-			<div class="single_case_results">
-				
-				<a class="" href="">
-				
-					<span class="amount">$7.85m</span><!-- amount -->
-				
-					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
-					
-					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
-				
-				</a>
-				
-			</div><!-- single_case_results -->
-			
-			
-			
-			
-			
-			
+	
 		</div><!-- case_results_wrapper -->
 
 </div><!-- main -->

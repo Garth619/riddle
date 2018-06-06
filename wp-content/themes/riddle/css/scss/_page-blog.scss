@@ -27,6 +27,8 @@ h1.blog_title {
 		font-size:16px;
 		font-family: $helveticabold;
 		letter-spacing: 0.04em;
+		line-height: 20px;
+		margin-top:10px;
 		ul {
 			margin-bottom: 0;
 			display: inline;
@@ -62,7 +64,7 @@ h1.blog_title {
 }
 
 .post_content {
-	margin-top:19px;
+	margin-top:23px;
 }
 
 
