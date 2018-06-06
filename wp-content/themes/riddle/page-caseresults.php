@@ -30,6 +30,66 @@
 				
 			</div><!-- single_case_results -->
 			
+			<div class="single_case_results">
+				
+				<a class="" href="">
+				
+					<span class="amount">$7.85m</span><!-- amount -->
+				
+					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
+					
+					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
+				
+				</a>
+				
+			</div><!-- single_case_results -->
+			
+			<div class="single_case_results">
+				
+				<a class="" href="">
+				
+					<span class="amount">$7.85m</span><!-- amount -->
+				
+					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
+					
+					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
+				
+				</a>
+				
+			</div><!-- single_case_results -->
+			
+			<div class="single_case_results">
+				
+				<a class="" href="">
+				
+					<span class="amount">$7.85m</span><!-- amount -->
+				
+					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
+					
+					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
+				
+				</a>
+				
+			</div><!-- single_case_results -->
+			
+			<div class="single_case_results">
+				
+				<a class="" href="">
+				
+					<span class="amount">$7.85m</span><!-- amount -->
+				
+					<span class="case_type">chemical spill&nbsp;&nbsp;|&nbsp;&nbsp;premises liability</span><!-- case_type -->
+					
+					<span class="case_results_read_more">Read Case Results</span><!-- case_results_read_more -->
+				
+				</a>
+				
+			</div><!-- single_case_results -->
+			
+			
+			
+			
+			
 			
 		</div><!-- case_results_wrapper -->
 

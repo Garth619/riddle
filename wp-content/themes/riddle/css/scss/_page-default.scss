@@ -40,6 +40,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: url(#{$themePath}images/intl_caseresults_hero_img.jpg) top center no-repeat;
+	background-size:cover;
 	h1 {
 		font-size:120px;
 		color:#fff;
@@ -68,12 +70,7 @@
 	}
 }
 
-body.page-template-page-caseresults {
-	.interior_banner {
-		background: url(#{$themePath}images/intl_caseresults_hero_img.jpg) top center no-repeat;
-		background-size:cover;
-	}
-}
+
 
 
 
@@ -482,6 +479,22 @@ body.page-template-page-caseresults {
 			display: none;
 		}
 		
+.interior_banner {
+	height:250px;
+	h1 {
+		font-size: 98px;
+		span {
+			
+			&:before {
+				margin-left: 0px;
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+
+		
 		
 		.sidebar_form {
 			display: none;
@@ -613,7 +626,19 @@ body.page-template-page-caseresults {
 	}
 	
 	
-	
+.interior_banner {
+	height: 155px;
+	h1 {
+		font-size: 73px;
+		span {
+			
+			&:before {
+				
+			}
+		}
+	}
+}
+
 	
 	
 .sidebar_list_wrapper {
@@ -700,6 +725,27 @@ body.page-template-page-caseresults {
 			}
 		}
 	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 488px) {
+	
+	
+.interior_banner {
+	
+	h1 {
+		font-size: 65px;
+		span {
+			
+			&:before {
+				width: 9px;
+				height: 9px;
+			}
+		}
+	}
+}
 	
 	
 } /* Media Query */
