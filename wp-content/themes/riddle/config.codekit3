@@ -82,6 +82,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-attdirectory.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-attdirectory.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-blog.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -130,6 +143,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_page-profile.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-testimonials.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-testimonials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1164,6 +1190,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new_star.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_star.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/new_twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1500,6 +1536,13 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-attdirectory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-attdirectory.php",
+		"oF": 0
+		},
 	"\/page-blog.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1533,6 +1576,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-profile.php",
+		"oF": 0
+		},
+	"\/page-testimonials.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-testimonials.php",
 		"oF": 0
 		},
 	"\/page-videocenter.php": {

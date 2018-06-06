@@ -1,0 +1,179 @@
+.testimonials_page {
+	max-width:1630px;
+	display: flex;
+	margin:27px auto 0;
+	padding-left:50px;
+	padding-right:50px;
+	justify-content: space-between;
+}
+
+
+.testimonial_col {
+	width: 50%;
+}
+
+
+.single_testimonial {
+	text-align: center;
+	max-width:680px;
+	margin:0 auto 130px;
+	&:last-of-type {
+		margin-bottom:0;
+	}
+	.stars {
+		margin-bottom:30px;
+		svg {
+			width:77px;
+			height:77px;
+			margin:0 3px;
+		}
+	}
+	span.testi_blockquote {
+		color:$blue;
+		font-family: $freightbigpro;
+		font-weight:500;
+		font-size:50px;
+		line-height: 61px;
+		max-width: 550px;
+		display: block;
+		margin:0 auto;
+		&:after {
+			content:"";
+			width:300px;
+			height:1px;
+			background: $bluelight;
+			display: block;
+			margin:25px auto 23px;
+		}
+	}
+	span.testi_content {
+		font-family: $helveticalight;
+		font-size:24px;
+		line-height: 40px;
+		color:#7b7e87;
+		max-width: 630px;
+		margin:0 auto;
+		display: block;
+	}
+	span.testi_name {
+		display: block;
+		text-transform: uppercase;
+		color:#7b7e87;
+		font-size:22px;
+		font-family: $tekoregular;
+		margin-top:23px;
+	}
+}
+
+
+@media screen and (max-width: 1415px) {
+	
+	
+	.testimonials_page {
+		flex-direction: column;
+	}
+	
+	.testimonial_col {
+		width: 100%;
+		&:first-of-type {
+			.single_testimonial {
+				&:last-of-type {
+					margin-bottom:130px;
+				}
+			}
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	
+	
+	.single_testimonial {
+		margin: 0 auto 70px;
+		span.testi_blockquote {
+			font-size: 47px;	
+		}
+	}
+	
+	.testimonial_col {
+		
+		&:first-of-type {
+			.single_testimonial {
+				&:last-of-type {
+					margin-bottom:70px;
+				}
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.testimonials_page {
+		margin-top:10px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.single_testimonial {
+		margin: 0 auto 56px;
+		.stars {
+			svg {
+				width:60px;
+				height:60px;
+			}
+		}
+		span.testi_content {
+			max-width: 490px;
+			font-size:22px;
+			line-height: 35px;
+		}
+		span.testi_blockquote {
+			font-size: 38px;
+			line-height: 50px;
+			max-width: 440px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 460px) {
+	
+	.single_testimonial {
+		
+		.stars {
+			margin-bottom: 15px;
+			svg {
+				width:50px;
+				height:50px;
+				margin:0;
+			}
+		}
+		span.testi_content {
+			
+		}
+		span.testi_blockquote {
+			font-size: 35px;
+			line-height: 46px;
+		}
+	}
+
+	
+	
+	
+} /* Media Query */

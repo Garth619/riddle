@@ -16,105 +16,37 @@
 	<div class="video_center">
 		
 		
-		<div class="single_video">
+		<?php if(get_field('wistia_videos')): ?>
+		 
+			<?php while(has_sub_field('wistia_videos')): ?>
 			
-			<div class="play">
+			
+				<div class="single_video">
+			
+					<div class="play">
 				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_play.svg"); ?>
+						<?php echo file_get_contents("wp-content/themes/riddle/images/new_play.svg"); ?>
 				
-			</div><!-- play -->
+					</div><!-- play -->
 			
-			<div class="wistia_video_overlay">
+					<div class="wistia_video_overlay">
 				
 				
-			</div><!-- wistia_video_overlay -->
+					</div><!-- wistia_video_overlay -->
 			
-			<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- wistia -->
+					<div class="my_wistia wistia_embed wistia_async_<?php the_sub_field( 'wistia_code' ); ?> popover=true popoverContent=thumbnail"></div><!-- wistia -->
 			
-			<div class="video_center_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Video title Goes here Goes hereGoes here two lines</div><!-- video_center_title -->
+					<div class="video_center_title wistia_embed wistia_async_<?php the_sub_field( 'wistia_code' ); ?> popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></div><!-- video_center_title -->
 			
-		</div><!-- single_video -->
+				</div><!-- single_video -->
+		 
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
-		
-		<div class="single_video">
-			
-			<div class="play">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_play.svg"); ?>
-				
-			</div><!-- play -->
-			
-			<div class="wistia_video_overlay">
-				
-				
-			</div><!-- wistia_video_overlay -->
-			
-			<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- wistia -->
-			
-			<div class="video_center_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Video title Goes here Goes hereGoes here two lines</div><!-- video_center_title -->
-			
-		</div><!-- single_video -->
-		
-		
-		<div class="single_video">
-			
-			<div class="play">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_play.svg"); ?>
-				
-			</div><!-- play -->
-			
-			<div class="wistia_video_overlay">
-				
-				
-			</div><!-- wistia_video_overlay -->
-			
-			<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- wistia -->
-			
-			<div class="video_center_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Video title Goes here Goes hereGoes here two lines</div><!-- video_center_title -->
-			
-		</div><!-- single_video -->
-		
-		
-		<div class="single_video">
-			
-			<div class="play">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_play.svg"); ?>
-				
-			</div><!-- play -->
-			
-			<div class="wistia_video_overlay">
-				
-				
-			</div><!-- wistia_video_overlay -->
-			
-			<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- wistia -->
-			
-			<div class="video_center_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Video title Goes here Goes hereGoes here two lines</div><!-- video_center_title -->
-			
-		</div><!-- single_video -->
-		
-		
-		<div class="single_video">
-			
-			<div class="play">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_play.svg"); ?>
-				
-			</div><!-- play -->
-			
-			<div class="wistia_video_overlay">
-				
-				
-			</div><!-- wistia_video_overlay -->
-			
-			<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- wistia -->
-			
-			<div class="video_center_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Video title Goes here Goes hereGoes here two lines</div><!-- video_center_title -->
-			
-		</div><!-- single_video -->
-		
+
 
 		
 	</div><!-- video_center -->

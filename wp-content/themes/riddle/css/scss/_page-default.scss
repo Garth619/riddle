@@ -67,6 +67,18 @@
 				margin-right:35px;
 			}
 		}
+		span.blue {
+			color:$bluelight;
+		}
+	}
+}
+
+
+.interior_banner.no_banner {
+	/* this are used for testimonial and attorney directory page, the banner container is still being used without a background image */
+	background-image: none;
+	h1 {
+		color:$blue;
 	}
 }
 
