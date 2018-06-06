@@ -13,7 +13,13 @@
 		
 	</div><!-- interior_banner -->
 	
-	
+	<div class="pa_directory">
+		
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+		
+		
+	</div><!-- pa_directory -->
 
 </div><!-- main -->
 

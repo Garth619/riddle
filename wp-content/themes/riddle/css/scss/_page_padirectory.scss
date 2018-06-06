@@ -1,0 +1,55 @@
+.pa_directory {
+	max-width:1330px;
+	margin:83px auto;
+	text-align: center;
+	ul {
+		list-style: none;
+		margin:0;
+		li {
+			text-transform:uppercase;
+			a {
+				color:$blue;
+			}
+		}
+	}
+	ul.menu {
+		> li {
+				font-family: $tekoregular;
+				font-size:26px;
+				letter-spacing: 0.16em;
+				display: block;
+				> a {
+					 border-bottom:1px solid $bluelight;
+					 padding:0 10px;
+				}	
+			}
+	}
+	ul.sub-menu {
+		border: 1px solid $bluelight;
+		margin:65px 0 90px;
+		padding:75px 30px 65px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&:after {
+			content:"";
+			display: block;
+			flex-basis: 30%;
+		}
+		li {
+			font-family: $helveticabold;
+			font-size:16px;
+			letter-spacing: 0.01em;
+			margin-bottom:21px;
+			flex-basis: 30%;
+			height: 40px;
+			&:nth-last-of-type(-n + 3) {
+					margin-bottom:0;
+			}
+			a {
+				text-decoration: none;
+				display: block;
+			}
+		}
+	}
+}
