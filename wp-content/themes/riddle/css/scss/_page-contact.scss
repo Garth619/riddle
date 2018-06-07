@@ -50,3 +50,78 @@
 .contact_right {
 	flex-basis: 737px;
 }
+
+
+.contact_list_wrapper {
+	padding:100px 10% 0;
+}
+
+.single_contact_list {
+	display: flex;
+	margin-bottom:30px;
+	.iframe_map {
+		width:51%;
+		height:330px;
+		position: relative;
+		iframe {
+			width:100% !important; /* overrides iframe embed heights and widths */
+			height:100% !important;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+	}
+	.contact_info {
+		width:49%;
+		padding-left:3.5%;
+		.city_title_wrapper {
+			display: flex;
+			justify-content: space-between;
+			border-bottom:1px solid $bluelight;
+			margin-top:43px;
+			span.city_title {
+				color:$blue;
+				text-transform: uppercase;
+				font-size:40px;
+				font-family: $tekoregular;
+				margin-bottom:10px;
+				display: block;
+			}
+			a.city_tel {
+				font-family: $tekolight;
+				font-size:38px;
+				color:#abacb2;
+				text-decoration: none;
+			}
+		}
+		.city_address_wrapper {
+			display: flex;
+			justify-content: space-between;
+			span.city_address {
+				font-family: $helveticalight;
+				font-size:25px;
+				color:$blue;
+				line-height: 30px;
+				letter-spacing:-0.02em;
+				display: block;
+				margin-top:19px;
+			}
+			a.city_directions {
+				background: $bluelight;
+				color:#fff;
+				font-family: $tekomedium;
+				text-transform: uppercase;
+				font-size: 17px;
+				letter-spacing: 0.16em;
+				text-decoration: none;
+				height:55px;
+				padding:20px 35px 0;
+				margin-top:27px;
+				transition: all 200ms ease-in-out;
+				&:hover {
+					background: $blue;
+				}
+			}
+		}
+	}
+}
