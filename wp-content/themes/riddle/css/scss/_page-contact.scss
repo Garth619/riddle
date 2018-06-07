@@ -54,6 +54,7 @@
 
 .contact_list_wrapper {
 	padding:100px 10% 0;
+	margin-bottom:168px;
 }
 
 .single_contact_list {
@@ -125,3 +126,22 @@
 		}
 	}
 }
+
+
+body.page-template-page-contact {
+	footer {
+		background: url(#{$themePath}images/contact-footer.jpg) top center no-repeat;
+		padding-top:285px;
+		
+	}
+	.inner_footer {
+		background: #fff;
+		max-width: 1611px;
+		padding: 185px 0 182px;
+	}
+	.footer_locations {
+		display: none;
+	}
+}
+
+
