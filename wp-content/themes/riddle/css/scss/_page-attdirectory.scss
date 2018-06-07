@@ -112,3 +112,389 @@
 		margin-top:3px;
 	}
 }
+
+
+@media screen and (max-width: 1530px) {
+	
+	
+	
+.attorney_directory {
+	
+}
+
+
+.single_att.coming_soon {
+	.single_att_image_wrapper {
+		.singe_att_ovelay {
+			
+			span.no_photo {
+				
+			}
+		}
+	}
+}
+
+.single_att {
+	width:31%;
+	margin-right: 3.2%;
+	&:nth-of-type(4n + 4) {
+		margin-right: 3.2%;
+	}
+	&:nth-of-type(3n + 3) {
+		margin-right: 0%;
+	}
+	&:nth-last-of-type(-n + 4) {
+		margin-bottom: 65px;
+	}
+	&:nth-last-of-type(-n + 3) {
+		margin-bottom: 0px;
+	}
+	a {
+		
+		&:hover {
+			.singe_att_ovelay {
+				
+			}
+		}
+	}
+	.single_att_image_wrapper {
+		
+		.singe_att_ovelay {
+			
+			span.view {
+				
+				span {
+					
+					&:before {
+						
+					}
+				}
+			}
+		}
+		img {
+			
+		}
+	}
+	span.att_name {
+		
+	}
+	span.att_title {
+		
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	
+		
+.attorney_directory {
+	max-width: 1100px;
+}
+
+
+.single_att.coming_soon {
+	.single_att_image_wrapper {
+		.singe_att_ovelay {
+			
+			span.no_photo {
+				
+			}
+		}
+	}
+}
+
+.single_att {
+	width:48%;
+	margin-right: 3.3%;
+	margin-bottom: 50px;
+	&:nth-of-type(4n + 4) {
+		margin-right: 3.3%;
+	}
+	&:nth-of-type(3n + 3) {
+		margin-right: 3.3%;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right: 0%;
+	}
+	&:nth-last-of-type(-n + 4) {
+		margin-bottom: 50px;
+	}
+	&:nth-last-of-type(-n + 3) {
+		margin-bottom: 50px;
+	}
+	&:nth-last-of-type(-n + 2) {
+		margin-bottom: 0px;
+	}
+	a {
+		
+		&:hover {
+			.singe_att_ovelay {
+				
+			}
+		}
+	}
+	.single_att_image_wrapper {
+		
+		.singe_att_ovelay {
+			
+			span.view {
+				
+				span {
+					
+					&:before {
+						
+					}
+				}
+			}
+		}
+		img {
+			
+		}
+	}
+	span.att_name {
+		
+	}
+	span.att_title {
+		
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 830px) {
+	
+	
+	
+	
+			
+.attorney_directory {
+	
+}
+
+
+.single_att.coming_soon {
+	.single_att_image_wrapper {
+		.singe_att_ovelay {
+			
+			span.no_photo {
+				
+			}
+		}
+	}
+}
+
+.single_att {
+	width:100%;
+	max-width:500px;
+	margin-left:auto;
+	margin-right: auto;
+	&:nth-of-type(4n + 4) {
+		margin-right: auto;
+	}
+	&:nth-of-type(3n + 3) {
+		margin-right: auto;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right: auto;
+	}
+	&:nth-last-of-type(-n + 4) {
+		
+	}
+	&:nth-last-of-type(-n + 3) {
+		
+	}
+	&:nth-last-of-type(-n + 2) {
+		margin-bottom: 50px;
+	}
+	&:nth-last-of-type(-n + 1) {
+		margin-bottom: 0px;
+	}
+	a {
+		
+		&:hover {
+			.singe_att_ovelay {
+				
+			}
+		}
+	}
+	.single_att_image_wrapper {
+		
+		.singe_att_ovelay {
+			
+			span.view {
+				
+				span {
+					
+					&:before {
+						
+					}
+				}
+			}
+		}
+		img {
+			
+		}
+	}
+	span.att_name {
+		
+	}
+	span.att_title {
+		
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.attorney_directory {
+		padding-left:20px;
+		padding-right:20px;
+	}
+
+
+.single_att.coming_soon {
+	.single_att_image_wrapper {
+		.singe_att_ovelay {
+			
+			span.no_photo {
+				
+			}
+		}
+	}
+}
+
+.single_att {
+	margin-bottom: 30px;
+	&:nth-of-type(4n + 4) {
+		
+	}
+	&:nth-of-type(3n + 3) {
+		
+	}
+	&:nth-of-type(2n + 2) {
+		
+	}
+	&:nth-last-of-type(-n + 4) {
+		margin-bottom: 30px;
+	}
+	&:nth-last-of-type(-n + 3) {
+		margin-bottom: 30px;
+	}
+	&:nth-last-of-type(-n + 2) {
+		margin-bottom: 30px;
+	}
+	&:nth-last-of-type(-n + 1) {
+		margin-bottom: 0px;
+	}
+	a {
+		
+		&:hover {
+			.singe_att_ovelay {
+				
+			}
+		}
+	}
+	.single_att_image_wrapper {
+		
+		.singe_att_ovelay {
+			
+			span.view {
+				
+				span {
+					
+					&:before {
+						
+					}
+				}
+			}
+		}
+		img {
+			
+		}
+	}
+	span.att_name {
+		font-size: 25px;
+		 margin-top: 10px;
+	}
+	span.att_title {
+		font-size: 23px;
+		line-height: 25px;
+	}
+}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 545px) {
+	
+	
+	
+	body.page-template-page-attdirectory {
+		.interior_banner.no_banner {
+			h1 {
+				font-size:60px;
+				span {
+					&:before {
+						width:10px;
+						height:10px;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 450px) {
+	
+	
+	
+	body.page-template-page-attdirectory {
+		.interior_banner.no_banner {
+			height: 121px;
+			h1 {
+				font-size:40px;
+				span {
+					&:before {
+						width:8px;
+						height:8px;
+						margin-right: 11px;
+						margin-top: 42px;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
