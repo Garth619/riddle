@@ -121,6 +121,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-default.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1568,6 +1581,13 @@
 		"oAP": "\/page-caseresults.php",
 		"oF": 0
 		},
+	"\/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-contact.php",
+		"oF": 0
+		},
 	"\/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1612,7 +1632,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 171434,
+		"iS": 57403,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,

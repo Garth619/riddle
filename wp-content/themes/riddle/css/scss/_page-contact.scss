@@ -1,0 +1,52 @@
+.contact_wrapper {
+	display: flex;
+}
+
+
+.contact_left {
+	flex-grow:1;
+	padding: 98px 73px 0 10%;
+	h1.contact_title {
+		text-transform: lowercase;
+		font-weight: 400;
+		font-style:normal;
+		font-family: $freightdisplay;
+		color:$blue;
+		font-size:120px;
+		line-height: 1;
+		span {
+			color:$bluelight;
+			font-family: $freightbigpro;
+			font-weight: 400;
+			&:before {
+				content:"";
+				width:13px;
+				height:13px;
+				display: inline-block;
+				background: $bluelight;
+				vertical-align: top;
+				transform: rotate(-45deg);
+				margin: 65px 30px 0 10px;
+			}
+		}
+	}
+	.left_content {
+		margin-top:58px;
+		h2 {
+			margin-bottom:25px;
+		}
+	
+			ul {
+				padding:30px 0 30px;
+				 column-count: 2;
+				 //column-width: 150px;
+				 column-gap: 45px;
+			}
+		
+	}
+}
+
+
+.contact_right {
+	flex-basis: 737px;
+}
