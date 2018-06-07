@@ -17,9 +17,151 @@
 	<div class="attorney_directory">
 		
 		
+		<div class="single_att">
+			
+			<a class="" href="">
+			
+				<div class="single_att_image_wrapper">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/att.jpg"/>
+					
+					<div class="singe_att_ovelay">
+						
+						<span class="view">View <span>Profile</span></span><!-- singe_att_ovelay -->
+						
+					</div><!-- singe_att_ovelay -->
+				
+				</div><!-- single_att_image_wrapper -->
+				
+				<span class="att_name">Gene Riddle</span><!-- att_name -->
+				
+				<span class="att_title">Personal Injury Lawyer</span><!-- att_title -->
+			
+			</a>
+			
+		</div><!-- single_att -->
 		
+		<div class="single_att coming_soon">
+			
+			<a class="" href="">
+			
+				<div class="single_att_image_wrapper">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
+					
+					<div class="singe_att_ovelay">
+						
+						<span class="no_photo">Photo Coming Soon</span><!-- no_photo -->
+						
+					</div><!-- singe_att_ovelay -->
+				
+				</div><!-- single_att_image_wrapper -->
+				
+				<span class="att_name">Gene Riddle</span><!-- att_name -->
+				
+				<span class="att_title">Personal Injury Lawyer</span><!-- att_title -->
+			
+			</a>
+			
+		</div><!-- single_att -->
 		
+		<div class="single_att">
+			
+			<a class="" href="">
+			
+				<div class="single_att_image_wrapper">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/att.jpg"/>
+					
+					<div class="singe_att_ovelay">
+						
+						<span class="view">View <span>Profile</span></span><!-- singe_att_ovelay -->
+						
+					</div><!-- singe_att_ovelay -->
+				
+				</div><!-- single_att_image_wrapper -->
+				
+				<span class="att_name">Gene Riddle</span><!-- att_name -->
+				
+				<span class="att_title">Personal Injury Lawyer</span><!-- att_title -->
+			
+			</a>
+			
+		</div><!-- single_att -->
 		
+		<div class="single_att">
+			
+			<a class="" href="">
+			
+				<div class="single_att_image_wrapper">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/att.jpg"/>
+					
+					<div class="singe_att_ovelay">
+						
+						<span class="view">View <span>Profile</span></span><!-- singe_att_ovelay -->
+						
+					</div><!-- singe_att_ovelay -->
+				
+				</div><!-- single_att_image_wrapper -->
+				
+				<span class="att_name">Gene Riddle</span><!-- att_name -->
+				
+				<span class="att_title">Personal Injury Lawyer</span><!-- att_title -->
+			
+			</a>
+			
+		</div><!-- single_att -->
+		
+		<div class="single_att">
+			
+			<a class="" href="">
+			
+				<div class="single_att_image_wrapper">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/att.jpg"/>
+					
+					<div class="singe_att_ovelay">
+						
+						<span class="view">View <span>Profile</span></span><!-- singe_att_ovelay -->
+						
+					</div><!-- singe_att_ovelay -->
+				
+				</div><!-- single_att_image_wrapper -->
+				
+				<span class="att_name">Gene Riddle</span><!-- att_name -->
+				
+				<span class="att_title">Personal Injury Lawyer</span><!-- att_title -->
+			
+			</a>
+			
+		</div><!-- single_att -->
+		
+		<div class="single_att">
+			
+			<a class="" href="">
+			
+				<div class="single_att_image_wrapper">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/att.jpg"/>
+					
+					<div class="singe_att_ovelay">
+						
+						<span class="view">View <span>Profile</span></span><!-- singe_att_ovelay -->
+						
+					</div><!-- singe_att_ovelay -->
+				
+				</div><!-- single_att_image_wrapper -->
+				
+				<span class="att_name">Gene Riddle</span><!-- att_name -->
+				
+				<span class="att_title">Personal Injury Lawyer</span><!-- att_title -->
+			
+			</a>
+			
+		</div><!-- single_att -->
+		
+				
 	</div><!-- attorney_directory -->
 	
 </div><!-- main -->
