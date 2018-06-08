@@ -1,0 +1,164 @@
+.not_found_wrapper {
+	background: url(#{$themePath}images/intl_404_hero_img.jpg) top center no-repeat;
+	background-size:cover;
+	height:610px;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	a, span.go_back {
+		color:$bluelight;
+		font-family: $helveticabold;
+		text-decoration: none;
+		cursor: pointer;
+		&:hover {
+			color:$greythree;
+		}
+	}
+}
+
+
+span.not_found_header {
+	font-size:215px;
+	font-family: $tekoregular;
+	letter-spacing: 0.04em;
+	display: block;
+}
+
+span.not_found_small_header {
+	font-size: 100px;
+	font-family: $freightbigpro;
+	font-weight: 400;
+	text-transform: lowercase;
+	display: block;
+	margin-top:-40px;
+}
+
+
+span.not_found_description {
+	font-family: $helveticalight;
+	font-size:18px;
+	line-height: 35px;
+	display: block;
+	max-width: 695px;
+	margin:70px auto 0;
+}
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+.not_found_wrapper {
+	padding:0 20px;
+	height: 480px;
+	background-position-y: bottom;
+	a, span.go_back {
+		
+		&:hover {
+			
+		}
+	}
+}
+
+
+span.not_found_header {
+	font-size: 160px;
+}
+
+span.not_found_small_header {
+	font-size: 80px;
+	margin-top: -30px;
+}
+
+
+span.not_found_description {
+	margin: 38px auto 0;
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 530px) {
+	
+	
+	
+.not_found_wrapper {
+	height: 380px;
+	a, span.go_back {
+		
+		&:hover {
+			
+		}
+	}
+}
+
+
+span.not_found_header {
+	font-size: 120px;
+}
+
+span.not_found_small_header {
+	font-size: 60px;
+	
+}
+
+
+span.not_found_description {
+	margin: 18px auto 0;
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 400px) {
+	
+	
+	
+.not_found_wrapper {
+	height: 400px;
+	a, span.go_back {
+		
+		&:hover {
+			
+		}
+	}
+}
+
+
+span.not_found_header {
+	font-size: 90px;
+}
+
+span.not_found_small_header {
+	font-size: 40px;
+	margin-top:-20px;
+	
+}
+
+
+span.not_found_description {
+	margin: 18px auto 0;
+	line-height: 30px;
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
