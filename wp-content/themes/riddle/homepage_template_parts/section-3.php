@@ -53,7 +53,21 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 				</a><!-- consult_button -->
 				
 				
+				
+				
 			</div><!-- first_image -->
+			
+			<a class="free_bar" href="">
+		
+					<span class="free_mobile_title">Free Consultation</span><!-- free_mobile_title -->
+		
+					<span class="arrow">
+		
+						<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
+		
+					</span><!-- arrow -->
+		
+				</a><!-- free_bar -->
 			
 			<img class="second_image" src="<?php bloginfo('template_directory');?>/images/second_image.jpg"/><!-- second_image -->
 				
@@ -94,9 +108,21 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 					
 					<span class="sec_three_test_name">Janeni H.</span><!-- sec_three_test_name -->
 					
-					<a class="consult_button" href="">
+					<a class="consult_button desktop" href="">
 			
 					<div class="consult_left">Click For All Testimonials</div><!-- consult_left -->
+					
+					<div class="consult_right">
+				
+						<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
+				
+					</div><!-- consult_right -->
+			
+				</a><!-- consult_button -->
+				
+				<a class="consult_button mobile" href="">
+			
+					<div class="consult_left">View Testimonials</div><!-- consult_left -->
 					
 					<div class="consult_right">
 				
