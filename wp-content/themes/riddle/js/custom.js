@@ -55,6 +55,35 @@ jQuery(document).ready(function($){
  
  
  
+ // sec four slider
+	
+	
+	
+	$('.sec_four_inner').slick({
+  	infinite: true,
+		slidesToShow:1,
+		slidesToScroll: 1,
+		mobileFirst:true,
+		dots:true,
+		responsive: [
+			{
+      	breakpoint: 1066,
+				settings: {
+        	slidesToShow: 2,
+					slidesToScroll: 2,
+					infinite: true,
+					dots: true
+      	}
+    	},
+			{
+      	breakpoint: 1230,
+				settings: "unslick"
+    	}
+		]
+	});
+ 
+ 
+ 
  // footer location
  
  $('.location_slider').slick({
