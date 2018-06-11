@@ -1,5 +1,97 @@
 #section_four {
 	width:100%;
-	height:500px;
-	background: blue;
+	
+	background: url(#{$themePath}images/caseresults_img_desktop.jpg) top center;
 }
+
+
+
+.sec_four_inner {
+	display: flex;
+}
+
+
+
+.sec_four_single {
+	text-align: center;
+	// background:$blue;
+	flex-basis: 25%;
+	height:1022px;
+	padding-top:135px;
+	span.cr_title {
+		color:$bluelight;
+		text-transform: uppercase;
+		font-size:25px;
+		font-family: $tekoregular;
+		letter-spacing: 0.18em;
+		display: block;
+		margin-top:24px;
+	}
+	span.cr_amount {
+		font-size:116px;
+		font-family: $tekoregular;
+		color:#fff;
+		margin-top:15px;
+		display: block;
+	}
+	.accent {
+		margin-top:38px;
+		span {
+			display: block;
+			width:1px;
+			height:78px;
+			background: $bluelight;
+			margin:0 auto;
+		}
+		.accent_diamond {
+			
+			svg {
+				width:27px;
+				height:27px;
+			}
+		}
+	}
+	span.cr_description {
+		font-family: $helveticalight;
+		font-size:22px;
+		line-height: 38px;
+		color:#6b6d76;
+		display: block;
+		max-width: 360px;
+		margin:5px auto 0;
+		opacity: 0;
+		display: none;
+	}
+	a.consult_button {
+		margin: 71px auto 0;
+		width:100%;
+		max-width:310px;
+		opacity: 0;
+		display: none;
+	}
+}
+
+
+.cr_svg {
+	margin-top:-150px;
+	svg {
+		width:61px;
+		height:69px;
+	}
+}
+
+
+.cr_diamond {
+	margin-top:0px;
+	opacity: 0;
+	svg {
+		width:222px;
+		height:222px;
+		.new_diamonds-cls-1 {
+			stroke:#1c4362;
+		}
+	}
+}
+
+
+
