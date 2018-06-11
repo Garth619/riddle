@@ -1,5 +1,203 @@
 #section_three {
-	background:red;
 	width:100%;
-	height:300px;
+	height:3000px;
+	
 }
+
+
+.sec_three_inner {
+	
+	h1 {
+		font-style: normal;
+		font-weight: 400;
+		text-align: center;
+		span.top_line {
+			font-family: $tekoregular;
+			color:$blue;
+			display: block;
+			text-transform: uppercase;
+			font-size:215px;
+			letter-spacing: 0.04em;
+			span {
+				&:before {
+					content:"";
+					width:14px;
+					height:14px;
+					background: $bluelight;
+					display: inline-block;
+					vertical-align: top;
+					line-height: 170px;
+					transform: rotate(-45deg);
+					margin:88px 0 0 -25px;
+					position: relative;
+					top:0;
+					left:-9px;
+				}
+			}
+		}
+		span.bottom_line {
+			text-transform: lowercase;
+			font-family: $freightbigpro;
+			font-weight: 500;
+			font-size:100px;
+			color:#abacb2;
+			display: block;
+			margin:-42px 0 0;
+		}
+	}
+	blockquote {
+		max-width:796px;
+	}
+}
+
+
+.sec_three_top_content {
+	margin: 85px 0 0;
+}
+
+
+.sec_three_top_content_inner {
+	display: flex;
+}
+
+.top_content_left {
+	flex-grow: 1;
+	padding-left:8.5%;
+	padding-right:5%;
+}
+
+.top_content_right {
+	flex-basis: 737px;
+	flex-shrink: 0;
+	flex-grow:0;
+	margin-top:9px;
+	.first_image {
+		background: url(#{$themePath}images/content1_img_01_desktop.jpg) top left no-repeat;
+		width:100%;
+		height:737px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		a.consult_button {
+			margin-top:-85px;
+		}
+	}
+	img.second_image {
+		margin:-223px 0 0 90px;
+	}
+}
+
+
+
+.sec_three_bottom_content {
+	display: flex;
+	margin:67px 0 0;
+}
+
+.bottom_content_left {
+	flex-basis: 890px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	margin-top:130px;
+}
+
+.bottom_content_right {
+	flex-grow: 1;
+}
+
+
+
+.bottom_content_video {
+	background:#f0f0f1;
+	.stars {
+		text-align: center;
+		margin: 75px 0 0;
+		svg {
+			width:72px;
+			height:72px;
+		}
+	}
+	a.consult_button {
+    width: 430px;
+		margin: 83px auto 0;
+	}
+}
+
+img.video_banner {
+	margin-top:-95px;
+	
+}
+
+
+.sec_three_play {
+	width:147px;
+	height:147px;
+	background: $bluelight;
+	display: block;
+	margin:-78px auto 0;
+	border-radius:50%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+	&:hover {
+		background: $blue;
+	}
+	&:before {
+		content:"";
+		display: block;
+		width: 0; 
+		height: 0; 
+		border-top: 8px solid transparent;
+		border-bottom: 8px solid transparent;
+		border-left: 12px solid #fff;
+	}
+}
+
+
+span.sec_three_test_quote {
+	text-align: center;
+	font-size: 50px;
+	font-family: $freightbigpro;
+	font-weight: 500;
+	color:$blue;
+	line-height: 61px;
+	display: block;
+	max-width:693px;
+	margin:27px auto 0;
+	&:after {
+		content:"";
+		display: block;
+		margin:29px auto 0px;
+		width:200px;
+		height:1px;
+		background: $bluelight;
+	}
+}
+
+span.sec_three_test_content {
+	font-family: $helveticalight;
+	font-size: 24px;
+	line-height: 40px;
+	color:#7b7e87;
+	max-width:665px;
+	text-align: center;
+	margin:24px auto 0;
+	display: block;
+}
+
+
+span.sec_three_test_name {
+	color:#7b7e87;
+	text-transform: uppercase;
+	font-size:22px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	display: block;
+	font-family: $tekoregular;
+	margin-top:26px;
+}
+
+

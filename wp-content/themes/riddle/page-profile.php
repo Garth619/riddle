@@ -28,9 +28,30 @@
 		
 		<div class="profile_left">
 			
+			
+			<?php if(get_field( 'attorney_image' )) : ?>
+			
 			<?php $attorney_image = get_field( 'attorney_image' ); ?>
 
 			<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+			
+			<?php else:?>
+			
+			<div class="bio_placeholder">
+				
+				<div class="bio_overlay">
+					
+					<span>Photo Coming Soon</span>
+					
+				</div><!-- bio_overlay -->
+			
+				<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
+			
+			</div><!-- bio_placeholder -->
+			
+			<?php endif;?>
+			
+			
 			
 			<div class="accolades_wrapper">
 				

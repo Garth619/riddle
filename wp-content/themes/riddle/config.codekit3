@@ -1268,6 +1268,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/second_image.jpg": {
+		"ft": 16384,
+		"iS": 102004,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/second_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/sp_icon_01.svg": {
 		"ft": 2097152,
 		"miP": 0,
