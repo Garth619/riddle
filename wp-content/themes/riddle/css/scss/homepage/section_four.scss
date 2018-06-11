@@ -14,10 +14,15 @@
 
 .sec_four_single {
 	text-align: center;
-	// background:$blue;
+	background:transparent;
 	flex-basis: 25%;
 	height:1022px;
 	padding-top:135px;
+	transition: background 200ms ease-in-out;
+	.sec_four_single_inner {
+		transform: translateY(0);
+		transition: transform 900ms cubic-bezier(.17,.66,.34,.98);
+	}
 	span.cr_title {
 		color:$bluelight;
 		text-transform: uppercase;
@@ -36,6 +41,8 @@
 	}
 	.accent {
 		margin-top:38px;
+		opacity: 1;
+		transition: opacity 100ms ease-in-out;
 		span {
 			display: block;
 			width:1px;
@@ -84,6 +91,7 @@
 .cr_diamond {
 	margin-top:0px;
 	opacity: 0;
+	transition: opacity 100ms ease-in-out;
 	svg {
 		width:222px;
 		height:222px;
@@ -95,3 +103,19 @@
 
 
 
+.sec_four_single {
+	&:hover {
+		background: $blue;
+		.sec_four_single_inner {
+			transform: translateY(30px);
+		}
+		.cr_diamond {
+			opacity: 1;
+			transition-delay: 0ms;
+			transition: opacity 700ms ease-in-out;
+		}
+		.accent {
+			opacity: 0;
+		}
+	}
+}
