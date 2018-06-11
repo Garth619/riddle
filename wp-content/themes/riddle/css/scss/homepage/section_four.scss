@@ -231,3 +231,66 @@
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 1230px) {
+	
+	
+	#section_four {
+		overflow-x: hidden;
+		.slick-dotted.slick-slider {
+			margin-bottom:0;
+		}
+	}
+	
+	.sec_four_single {
+		height:705px;
+		padding-top: 49px;
+		.accent {
+			margin-top: 25px;
+			span {
+				height: 74px;
+			}
+		}
+		a.consult_button {
+			margin: 45px auto 0;
+		}
+	}
+	
+	
+	.sec_four_inner {
+		
+		.slick-dots {
+			bottom: 33px;
+			li.slick-active {
+				button {
+					&:before {
+						color:#fff;
+					}
+				}
+			}
+			li:hover {
+				button {
+					&:before {
+						color:#fff;
+					}
+				}
+			}
+			li {
+				margin:0;
+				width:20px;
+				button {
+					width:20px;
+					&:before {
+						width:20px;
+						opacity: 1;
+						color: $bluelight;
+						font-size:31px;
+					}
+				}
+			}
+		}
+	}
+	
+	
+} /* Media Query */
