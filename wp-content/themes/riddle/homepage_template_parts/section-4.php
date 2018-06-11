@@ -180,10 +180,19 @@
 			
 		</div><!-- sec_four_single -->
 
-
-		
-				
-			
 	</div><!-- sec_four_inner -->
+	
+	<a class="free_bar" href="">
+		
+		<span class="free_mobile_title">View All Results</span><!-- free_mobile_title -->
+		
+		<span class="arrow">
+		
+		<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
+		
+		</span><!-- arrow -->
+		
+	
+	</a><!-- free_bar -->
 	
 </section><!-- section_four -->
