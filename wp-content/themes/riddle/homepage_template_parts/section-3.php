@@ -98,8 +98,6 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 			
 					<div class="consult_left">Click For All Testimonials</div><!-- consult_left -->
 					
-					<span class="sec_three_disclaimer">While our lawyers give every client the attention and dedication they deserve, the outcome in this client’s case was specific to his or her case. Each case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span><!-- sec_three_disclaimer -->
-			
 					<div class="consult_right">
 				
 						<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
@@ -107,6 +105,8 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 					</div><!-- consult_right -->
 			
 				</a><!-- consult_button -->
+				
+				<span class="sec_three_disclaimer">While our lawyers give every client the attention and dedication they deserve, the outcome in this client’s case was specific to his or her case. Each case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span><!-- sec_three_disclaimer -->
 					
 				</div><!-- bottom_content_video -->
 				
@@ -118,10 +118,12 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 				
 				<div class="columns">
 					
-					<h2>H2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua.</h2>
+					<h2>H2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h2>
 					
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error</p>
+					<p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error</p>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
 					
 				</div><!-- columns -->
 				

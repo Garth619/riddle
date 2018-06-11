@@ -1,7 +1,6 @@
 #section_three {
 	width:100%;
-	height:3000px;
-	
+	padding:35px 0 0;
 }
 
 
@@ -103,12 +102,24 @@
 
 .bottom_content_right {
 	flex-grow: 1;
+	padding-left:3%;
+	padding-right:8%;
+	margin-top:23px;
+	.columns {
+		column-count:2;
+		column-gap:68px;
+		margin-bottom:38px;
+		h2 {
+			padding-top:0;
+		}
+	}
 }
 
 
 
 .bottom_content_video {
 	background:#f0f0f1;
+	padding-bottom:95px;
 	.stars {
 		text-align: center;
 		margin: 75px 0 0;
@@ -198,6 +209,20 @@ span.sec_three_test_name {
 	display: block;
 	font-family: $tekoregular;
 	margin-top:26px;
+}
+
+
+span.sec_three_disclaimer {
+	display: block;
+	border-top:1px solid $bluelight;
+	margin:145px auto 0;
+	font-family: $helveticaregular;
+	font-size:14px;
+	color:$blue;
+	line-height: 24px;
+	padding:16px 5px 0;
+	text-align: center;
+	max-width:675px
 }
 
 
