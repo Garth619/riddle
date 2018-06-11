@@ -31,6 +31,8 @@
 		letter-spacing: 0.18em;
 		display: block;
 		margin-top:24px;
+		position: relative;
+		z-index:1;
 	}
 	span.cr_amount {
 		font-size:116px;
@@ -67,20 +69,25 @@
 		max-width: 360px;
 		margin:5px auto 0;
 		opacity: 0;
-		display: none;
+		transition: opacity 500ms ease-in-out, transform 700ms cubic-bezier(.17,.66,.34,.98);
+		transform: translateY(-30px);
+		margin-top:-140px;
 	}
 	a.consult_button {
 		margin: 71px auto 0;
 		width:100%;
-		max-width:310px;
+		max-width:308px;
 		opacity: 0;
-		display: none;
+		transition: opacity 200ms ease-in-out, transform 200ms cubic-bezier(.17,.66,.34,.98);
+		transform: translateY(0);
 	}
 }
 
 
 .cr_svg {
 	margin-top:-150px;
+	position: relative;
+	z-index:1;
 	svg {
 		width:61px;
 		height:69px;
@@ -91,7 +98,8 @@
 .cr_diamond {
 	margin-top:0px;
 	opacity: 0;
-	transition: opacity 100ms ease-in-out;
+	transition: opacity 100ms ease-in-out, transform 700ms cubic-bezier(.17,.66,.34,.98);
+	transform: translateY(-30px);
 	svg {
 		width:222px;
 		height:222px;
@@ -111,11 +119,25 @@
 		}
 		.cr_diamond {
 			opacity: 1;
-			transition-delay: 0ms;
-			transition: opacity 700ms ease-in-out;
+			transition: opacity 700ms ease-in-out, transform 700ms cubic-bezier(.17,.66,.34,.98);
+			transform: translateY(0);
+			transition-delay: 100ms;
 		}
 		.accent {
 			opacity: 0;
+		}
+		span.cr_description {
+			opacity: 1;
+			transition: opacity 700ms ease-in-out, transform 700ms cubic-bezier(.17,.66,.34,.98);
+			transform: translateY(0);
+			transition-delay: 100ms;
+		}
+		a.consult_button {
+			display: flex;
+			opacity: 1;
+			transition: opacity 700ms ease-in-out, transform 700ms cubic-bezier(.17,.66,.34,.98);
+			transform: translateY(0);
+			transition-delay: 100ms;
 		}
 	}
 }
