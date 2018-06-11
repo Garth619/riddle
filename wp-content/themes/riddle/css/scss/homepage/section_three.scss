@@ -105,6 +105,7 @@
 	padding-left:3%;
 	padding-right:8%;
 	margin-top:23px;
+	padding-bottom:100px;
 	.columns {
 		column-count:2;
 		column-gap:68px;
@@ -135,8 +136,11 @@
 }
 
 img.video_banner {
-	margin-top:-95px;
-	
+	top:-95px;
+	position: relative;
+	max-width:100%;
+	height:auto;
+	display: block;
 }
 
 
@@ -225,4 +229,145 @@ span.sec_three_disclaimer {
 	max-width:675px
 }
 
+
+
+@media screen and (max-width: 1660px) {
+	
+	
+	
+
+.bottom_content_right {
+	
+	.columns {
+		column-count:1;
+		column-gap:68px;
+		margin-bottom:38px;
+		
+	}
+}
+
+
+
+
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+.sec_three_inner {
+	
+	h1 {
+		
+		span.top_line {
+			font-size:175px;
+			span {
+				&:before {
+					width: 12px;
+					height: 12px;
+					margin: 75px 0 0 -10px;
+					left: -14px;
+				}
+			}
+		}
+		span.bottom_line {
+			font-size:82px;
+			margin: -36px 0 0;
+		}
+	}
+	blockquote {
+		
+	}
+}
+
+	
+	.sec_three_top_content {
+    margin: 115px 0 0;
+	}
+	
+	
+	.top_content_left {
+		padding-left:75px;
+		padding-right:50px;
+	}
+	
+	.top_content_right {
+		flex-basis: auto;
+		width:550px;
+		.first_image {
+			background: url(#{$themePath}images/second_image_tablet.jpg) top left no-repeat;
+			a.consult_button {
+				margin-top: -203px;
+			}
+		}
+		img.second_image {
+			margin: -355px 0 0 67px;
+			max-width:315px;
+		}
+	}
+	
+	
+	.bottom_content_left {
+		flex-basis: auto;
+		width:675px;
+	}
+	
+	img.video_banner {
+		max-width:617px;
+	}
+	
+	
+	.sec_three_play {
+		width:118px;
+		height:118px;
+		margin: -154px auto 0;
+	}
+	
+	
+	
+	.bottom_content_video {
+		padding-bottom: 76px;
+		.stars {
+			margin: 53px 0 0;
+			svg {
+				width:62px;
+				height:62px;
+			}
+		}
+		a.consult_button {
+			 margin: 67px auto 0;
+		}
+	} 
+	
+	
+	span.sec_three_test_quote {
+		font-size:40px;
+		line-height: 50px;
+		max-width: 573px;
+		margin: 31px auto 0;
+		&:after {
+			margin: 34px auto 0px;
+		}
+	}
+	
+	
+	span.sec_three_test_content {
+		font-size:20px;
+		line-height: 36px;
+		margin: 30px auto 0;
+		max-width: 535px;
+	}
+	
+	span.sec_three_disclaimer {
+		margin: 62px auto 0;
+		max-width: 541px;
+	}
+	    
+	
+	   
+	
+} /* Media Query */
 
