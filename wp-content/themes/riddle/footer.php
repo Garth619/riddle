@@ -2,9 +2,9 @@
 	
 	<div class="inner_footer">
 		
-		<span class="footer_title">Free<span></span> Consultation</span><!-- footer_title -->
+		<span class="footer_title"><?php the_field( 'form_title','option'); ?></span><!-- footer_title -->
 		
-		<span class="small_footer_title">no obligation or cost to you</span><!-- small_footer_title -->
+		<span class="small_footer_title"><?php the_field( 'form_subtitle','option'); ?></span><!-- small_footer_title -->
 		
 		<div class="form_wrapper">
 			
@@ -22,9 +22,9 @@
 		<div class="locations_left">
 			
 			
-			<span class="large_header">Contact</span><!-- large_header -->
+			<span class="large_header"><?php the_field( 'contact_large_title','option'); ?></span><!-- large_header -->
 			
-			<span class="small_header">Our Firm <strong>Today</strong></span><!-- small_header -->
+			<span class="small_header"><?php the_field( 'contact_small_title','option'); ?></span><!-- small_header -->
 			
 			
 		</div><!-- locations_left -->
@@ -35,67 +35,32 @@
 			
 			<div class="location_slider">
 				
-				<div class="single_location_slide">
-					
-					<span class="location_title">GoldsBoro</span><!-- location_title -->
-					
-					
-					<span class="address">601 North Spence Avenue<br/> Goldsboro, NC 27534</span><!-- address -->
-					
-					<a class="get_directions_button" href="">Get Directions</a><!-- get_directions_button -->
-					
-					<br/>
-					
-					<a class="tel" href="">(800) 525-7111</a>
-					
-				</div><!-- single_location_slide -->
 				
-				<div class="single_location_slide">
+				<?php if(get_field('city_locations',21)): ?>
+				 
+					<?php while(has_sub_field('city_locations',21)): ?>
+				 
+						
+						<div class="single_location_slide">
 					
-					<span class="location_title">GoldsBoro</span><!-- location_title -->
+							<span class="location_title"><?php the_sub_field( 'city_title' ); ?></span><!-- location_title -->
 					
+							<span class="address"><?php the_sub_field( 'city_address' ); ?></span><!-- address -->
 					
-					<span class="address">601 North Spence Avenue<br/> Goldsboro, NC 27534</span><!-- address -->
+							<a class="get_directions_button" href="<?php the_sub_field( 'get_directions_google_url' ); ?>" target="_blank"><?php the_sub_field( 'get_directions_verbiage' ); ?></a><!-- get_directions_button -->
 					
-					<a class="get_directions_button" href="">Get Directions</a><!-- get_directions_button -->
+							<br/>
 					
-					<br/>
+							<a class="tel" href="tel:<?php the_sub_field( 'city_phone_number' ); ?>"><?php the_sub_field( 'city_phone_number' ); ?></a>
 					
-					<a class="tel" href="">(800) 525-7111</a>
-					
-				</div><!-- single_location_slide -->
-
-
-				<div class="single_location_slide">
-					
-					<span class="location_title">GoldsBoro</span><!-- location_title -->
-					
-					
-					<span class="address">601 North Spence Avenue<br/> Goldsboro, NC 27534</span><!-- address -->
-					
-					<a class="get_directions_button" href="">Get Directions</a><!-- get_directions_button -->
-					
-					<br/>
-					
-					<a class="tel" href="">(800) 525-7111</a>
-					
-				</div><!-- single_location_slide -->
-
-
-				<div class="single_location_slide">
-					
-					<span class="location_title">GoldsBoro</span><!-- location_title -->
-					
-					
-					<span class="address">601 North Spence Avenue<br/> Goldsboro, NC 27534</span><!-- address -->
-					
-					<a class="get_directions_button" href="">Get Directions</a><!-- get_directions_button -->
-					
-					<br/>
-					
-					<a class="tel" href="">(800) 525-7111</a>
-					
-				</div><!-- single_location_slide -->
+						</div><!-- single_location_slide -->
+						
+						
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+				
 
 				
 				
@@ -107,42 +72,27 @@
 			
 			<div class="social_media">
 				
+				
 				<ul>
-					<li>
-						<a href="" class="facebook">
+					
+					<?php if(get_field('social_media','option')): ?>
+					 
+						<?php while(has_sub_field('social_media','option')): ?>
+					 
+							<li>
+								<a href="<?php the_sub_field( 'link' ); ?>" class="<?php the_sub_field( 'class' ); ?>" target="_blank">
+									
+									<?php $socialsvg = get_sub_field( 'svg' );?>
 							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_fb.svg"); ?>
+									<?php echo file_get_contents("wp-content/themes/riddle/images/" . $socialsvg .""); ?>
 							
-						</a>
-					</li>
-					<li>
-						<a href="" class="twitter">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_twitter.svg"); ?>
-							
-						</a>
-					</li>
-					<li>
-						<a href="" class="linkedin">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_li.svg"); ?>
-							
-						</a>
-					</li>
-					<li>
-						<a href="" class="google">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_google.svg"); ?>
-							
-						</a>
-					</li>
-					<li>
-						<a href="" class="youtube">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_yt.svg"); ?>
-							
-						</a>
-					</li>
+								</a>
+							</li>
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+					
 				</ul>
 				
 			</div><!-- social_media -->
@@ -187,41 +137,25 @@
 			<div class="social_media">
 				
 				<ul>
-					<li>
-						<a href="" class="facebook">
+					
+					<?php if(get_field('social_media','option')): ?>
+					 
+						<?php while(has_sub_field('social_media','option')): ?>
+					 
+							<li>
+								<a href="<?php the_sub_field( 'link' ); ?>" class="<?php the_sub_field( 'class' ); ?>" target="_blank">
+									
+									<?php $socialsvg = get_sub_field( 'svg' );?>
 							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_fb.svg"); ?>
+									<?php echo file_get_contents("wp-content/themes/riddle/images/" . $socialsvg .""); ?>
 							
-						</a>
-					</li>
-					<li>
-						<a href="" class="twitter">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_twitter.svg"); ?>
-							
-						</a>
-					</li>
-					<li>
-						<a href="" class="linkedin">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_li.svg"); ?>
-							
-						</a>
-					</li>
-					<li>
-						<a href="" class="google">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_google.svg"); ?>
-							
-						</a>
-					</li>
-					<li>
-						<a href="" class="youtube">
-							
-							<?php echo file_get_contents("wp-content/themes/riddle/images/new_yt.svg"); ?>
-							
-						</a>
-					</li>
+								</a>
+							</li>
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+					
 				</ul>
 				
 			</div><!-- social_media -->
@@ -229,8 +163,12 @@
 			<div class="copyright">
 				
 				<ul>
-					<li>&copy;2018 Riddle & Breantley, LLP - All Rights Reserved.</li>
-					<li><a href="">Disclaimer</a></li>
+					<li><?php the_field( 'copyright_verbiage','option'); ?></li>
+					
+					<?php if(get_field('footer_disclaimer_link','option')):?>
+					
+					<li><a href="<?php the_field( 'footer_disclaimer_link','option'); ?>"><?php the_field( 'footer_disclaimer','option'); ?></a></li>
+					<?php endif;?>
 				</ul>
 				
 			</div><!-- copyright -->

@@ -1,6 +1,6 @@
 <section id="section_five">
 	
-	<span class="large_header">Community <span>Involvement</span></span>
+	<span class="large_header"><?php the_field( 'section_five_title' ); ?></span>
 		
 		<div class="sec_five_inner">
 		
@@ -14,9 +14,9 @@
 				
 				<div class="coco_content_wrapper">
 				
-					<span class="coco_content">Coconut and his pal Roscoe are <span class="blue">proud animal ambassadors</span>, reminding their friends and fans every day that life wouldn’t be the same without their family.</span>
+					<span class="coco_content"><?php the_field( 'section_five_description' ); ?></span>
 					
-					<a class="coco_button" href="">View Full Story</a><!-- coco_button -->
+					<a class="coco_button" href="<?php the_field( 'full_story_page_link' ); ?>"><?php the_field( 'full_story_button_verbiage' ); ?></a><!-- coco_button -->
 				
 				</div><!-- coco_content -->
 				
@@ -28,55 +28,36 @@
 			
 			<div class="sec_five_right_inner">
 			
-				<h2>Adopting a Pet and Support the Humane Society</h2>
-
-				<p>There’s no better companion than an animal! If you saw Coconut’s debut in our 2011 public service announcement, you know the Riddle family’s position on how an adopted pet can enrich your life and the lives of your family members. Not only does a pet bring love and companionship into your home, there are proven health effects to owning a companion animal, such as lessened anxiety, lower rates of depression and lower blood pressure.</p>
-
-				<p>Do yourself a favor. Visit a pet shelter. Adopt a cat or a dog. It will change that animal’s life, and it will change yours forever.</p>
-
-				<h2>Other organizations we have worked with</h2>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
-			
+				<?php the_field( 'section_five_content' ); ?>
+					
 			</div><!-- sec_five_right_inner -->
 			
 			<div class="oragnization_wrapper">
 				
-				<span class="org_title">Organizations We Support</span><!-- org_title -->
+				<span class="org_title"><?php the_field( 'organizations_title' ); ?></span><!-- org_title -->
 				
 				<div class="org_slider_wrapper">
 					
 					<div class="org_slider">
 						
-						<div class="org_single_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_01.png"/>
-							
-						</div><!-- org_single_slide -->
 						
-						<div class="org_single_slide">
+						<?php if(get_field('section_five_logos')): ?>
+						 
+							<?php while(has_sub_field('section_five_logos')): ?>
+						 
+								<div class="org_single_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_03.png"/>
-							
-						</div><!-- org_single_slide -->
+									<?php $logo = get_sub_field( 'logo' ); ?>
+		
+									<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+		
+								</div><!-- org_single_slide -->
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
-						<div class="org_single_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_02.png"/>
-							
-						</div><!-- org_single_slide -->
-						
-						<div class="org_single_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_02.png"/>
-							
-						</div><!-- org_single_slide -->
-						
-						<div class="org_single_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_02.png"/>
-							
-						</div><!-- org_single_slide -->
+
 						
 					</div><!-- org_slider -->
 					

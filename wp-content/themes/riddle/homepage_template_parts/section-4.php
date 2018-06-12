@@ -2,189 +2,68 @@
 	
 	<div class="sec_four_inner">
 		
-		<div class="sec_four_single">
+		
+		<?php if(get_field('case_results_sec_four')): ?>
+		 
+			<?php while(has_sub_field('case_results_sec_four')): ?>
+		 
+		 
+				<div class="sec_four_single">
 			
-			<div class="sec_four_single_inner">
+					<div class="sec_four_single_inner">
 			
-			<div class="cr_diamond"><?php echo file_get_contents("wp-content/themes/riddle/images/new_diamonds.svg"); ?></div><!-- cr_diamond -->
+					<div class="cr_diamond"><?php echo file_get_contents("wp-content/themes/riddle/images/new_diamonds.svg"); ?></div><!-- cr_diamond -->
 			
-			<div class="cr_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_cr.svg"); ?></div><!-- cr_svg -->
+					<div class="cr_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_cr.svg"); ?></div><!-- cr_svg -->
 			
-			<span class="cr_title">Settlement</span><!-- cr_title -->
+					<span class="cr_title"><?php the_sub_field( 'case_type' ); ?></span><!-- cr_title -->
 			
 		
-			<span class="cr_amount">$7.85m</span><!-- cr_amount -->
+					<span class="cr_amount"><?php the_sub_field( 'case_amount' ); ?></span><!-- cr_amount -->
 			
 			
-			<div class="accent">
-				
-				<span class="line"></span><!-- line -->
-				
-				<div class="accent_diamond">
+					<div class="accent">
 					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_crdiamond.svg"); ?>
+						<span class="line"></span><!-- line -->
+				
+						<div class="accent_diamond">
 					
-				</div><!-- accent_diamond -->
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_crdiamond.svg"); ?>
+					
+						</div><!-- accent_diamond -->
 				
-			</div><!-- accent -->
+					</div><!-- accent -->
 			
-			<span class="cr_description">Class action lawsuit for evacuation damages incurred by residents of the Town of Apex following an explosion at a waste management facility.</span><!-- cr_description -->
+					<span class="cr_description"><?php the_sub_field( 'case_description' ); ?></span><!-- cr_description -->
 			
-			<a class="consult_button" href="">
+					<a class="consult_button" href="<?php the_sub_field( 'case_results_page_link' ); ?>">
 			
-			<div class="consult_left">View All Results</div><!-- consult_left -->
+						<div class="consult_left"><?php the_sub_field( 'case_results_button_verbiage' ); ?></div><!-- consult_left -->
 			
-			<div class="consult_right">
+						<div class="consult_right">
 				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
+							<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
 				
-			</div><!-- consult_right -->
+						</div><!-- consult_right -->
 			
-		</a><!-- consult_button -->
+					</a><!-- consult_button -->
 		
-		</div><!-- sec_four_single_inner -->
+				</div><!-- sec_four_single_inner -->
 			
 		</div><!-- sec_four_single -->
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
-		<div class="sec_four_single">
-			
-			<div class="sec_four_single_inner">
-			
-			<div class="cr_diamond"><?php echo file_get_contents("wp-content/themes/riddle/images/new_diamonds.svg"); ?></div><!-- cr_diamond -->
-			
-			<div class="cr_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_cr.svg"); ?></div><!-- cr_svg -->
-			
-			<span class="cr_title">Settlement</span><!-- cr_title -->
-			
-		
-			<span class="cr_amount">$7.85m</span><!-- cr_amount -->
-			
-			
-			<div class="accent">
-				
-				<span class="line"></span><!-- line -->
-				
-				<div class="accent_diamond">
-					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_crdiamond.svg"); ?>
-					
-				</div><!-- accent_diamond -->
-				
-			</div><!-- accent -->
-			
-			<span class="cr_description">Class action lawsuit for evacuation damages incurred by residents of the Town of Apex following an explosion at a waste management facility.</span><!-- cr_description -->
-			
-			<a class="consult_button" href="">
-			
-			<div class="consult_left">View All Results</div><!-- consult_left -->
-			
-			<div class="consult_right">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
-				
-			</div><!-- consult_right -->
-			
-		</a><!-- consult_button -->
-		
-		</div><!-- sec_four_single_inner -->
-			
-		</div><!-- sec_four_single -->
 
-
-		<div class="sec_four_single">
-			
-			<div class="sec_four_single_inner">
-			
-			<div class="cr_diamond"><?php echo file_get_contents("wp-content/themes/riddle/images/new_diamonds.svg"); ?></div><!-- cr_diamond -->
-			
-			<div class="cr_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_cr.svg"); ?></div><!-- cr_svg -->
-			
-			<span class="cr_title">Settlement</span><!-- cr_title -->
-			
-		
-			<span class="cr_amount">$7.85m</span><!-- cr_amount -->
-			
-			
-			<div class="accent">
-				
-				<span class="line"></span><!-- line -->
-				
-				<div class="accent_diamond">
-					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_crdiamond.svg"); ?>
-					
-				</div><!-- accent_diamond -->
-				
-			</div><!-- accent -->
-			
-			<span class="cr_description">Class action lawsuit for evacuation damages incurred by residents of the Town of Apex following an explosion at a waste management facility.</span><!-- cr_description -->
-			
-			<a class="consult_button" href="">
-			
-			<div class="consult_left">View All Results</div><!-- consult_left -->
-			
-			<div class="consult_right">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
-				
-			</div><!-- consult_right -->
-			
-		</a><!-- consult_button -->
-		
-		</div><!-- sec_four_single_inner -->
-			
-		</div><!-- sec_four_single -->
-
-
-		<div class="sec_four_single">
-			
-			<div class="sec_four_single_inner">
-			
-			<div class="cr_diamond"><?php echo file_get_contents("wp-content/themes/riddle/images/new_diamonds.svg"); ?></div><!-- cr_diamond -->
-			
-			<div class="cr_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_cr.svg"); ?></div><!-- cr_svg -->
-			
-			<span class="cr_title">Settlement</span><!-- cr_title -->
-			
-		
-			<span class="cr_amount">$7.85m</span><!-- cr_amount -->
-			
-			
-			<div class="accent">
-				
-				<span class="line"></span><!-- line -->
-				
-				<div class="accent_diamond">
-					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_crdiamond.svg"); ?>
-					
-				</div><!-- accent_diamond -->
-				
-			</div><!-- accent -->
-			
-			<span class="cr_description">Class action lawsuit for evacuation damages incurred by residents of the Town of Apex following an explosion at a waste management facility.</span><!-- cr_description -->
-			
-			<a class="consult_button" href="">
-			
-			<div class="consult_left">View All Results</div><!-- consult_left -->
-			
-			<div class="consult_right">
-				
-				<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
-				
-			</div><!-- consult_right -->
-			
-		</a><!-- consult_button -->
-		
-		</div><!-- sec_four_single_inner -->
-			
-		</div><!-- sec_four_single -->
 
 	</div><!-- sec_four_inner -->
 	
-	<a class="free_bar" href="">
+	<a class="free_bar" href="<?php the_field( 'mobile_view_all_button_link' ); ?>">
 		
-		<span class="free_mobile_title">View All Results</span><!-- free_mobile_title -->
+		<span class="free_mobile_title"><?php the_field( 'mobile_view_all_verbiage_sec_four' ); ?></span><!-- free_mobile_title -->
 		
 		<span class="arrow">
 		
@@ -199,6 +78,6 @@
 
 <div class="sec_four_disclaimer">
 		
-		<span>Above is a list of some of the cases our attorneys have handled. Please note that the results above are intended to illustrate the type of matters handled by our firm, and not all of the firm’s results are listed. These prior results do not guarantee a similar outcome, and they should not be construed to constitute a promise or guarantee of a particular result in any particular case. Every case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span>
+		<span><?php the_field( 'disclaimer_sec_four' ); ?></span>
 		
 	</div><!-- sec_four_disclaimer -->

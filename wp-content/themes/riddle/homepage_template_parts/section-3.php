@@ -3,8 +3,8 @@
 	<div class="sec_three_inner">
 		
 		<h1>
-			<span class="top_line">North <span>Carolina</span></span>
-			<span class="bottom_line">Personal Injury Lawyers</span>
+			<span class="top_line"><?php the_field( 'h1_header_top_line' ); ?></span>
+			<span class="bottom_line"><?php the_field( 'h1_header_bottom_line' ); ?></span>
 		</h1>
 		
 		<div class="sec_three_top_content">
@@ -13,26 +13,7 @@
 			
 			<div class="top_content_left content">
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-				<h2>H2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h2>
-
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-
-
-				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:</p>
-				
-				<ul>
-					<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li> 
-					<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
-					<li>Tam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</li> 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</li>
-			</ul>
-			
-			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem lorem ipsum dolor sit amet.</p>
-				
+				<?php the_field( 'section_three_content_one' ); ?>
 				
 			</div><!-- top_content_left -->
 			
@@ -42,7 +23,7 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 				
 				<a class="consult_button" href="">
 			
-					<div class="consult_left">Click For a Free Consultation</div><!-- consult_left -->
+					<div class="consult_left"><?php the_field( 'consultation_button_verbiage_sec_three' ); ?></div><!-- consult_left -->
 			
 					<div class="consult_right">
 				
@@ -59,7 +40,7 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 			
 			<a class="free_bar" href="">
 		
-					<span class="free_mobile_title">Free Consultation</span><!-- free_mobile_title -->
+					<span class="free_mobile_title"><?php the_field( 'mobile_button_verbiage_sec_three' ); ?></span><!-- free_mobile_title -->
 		
 					<span class="arrow">
 		
@@ -102,15 +83,15 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 						
 					</div><!-- stars -->
 					
-					<span class="sec_three_test_quote">“I really did appreciate the service that Riddle & Brantley provided for me.” </span><!-- sec_three_test_quote -->
+					<span class="sec_three_test_quote"><?php the_field( 'section_three_testimonial_quote' ); ?></span><!-- sec_three_test_quote -->
 					
-					<span class="sec_three_test_content"> I will be glad to recommend them to others. Everything was explained to me and they made sure I understood the process. If needed, I will use their services again.</span><!-- sec_three_test_content -->
+					<span class="sec_three_test_content"><?php the_field( 'section_three_testimonial_content' ); ?></span><!-- sec_three_test_content -->
 					
-					<span class="sec_three_test_name">Janeni H.</span><!-- sec_three_test_name -->
+					<span class="sec_three_test_name"><?php the_field( 'section_three_testimonial_name' ); ?></span><!-- sec_three_test_name -->
 					
-					<a class="consult_button desktop" href="">
+					<a class="consult_button desktop" href="<?php the_field( 'testimonial_page_link_sec_three' ); ?>">
 			
-					<div class="consult_left">Click For All Testimonials</div><!-- consult_left -->
+					<div class="consult_left"><?php the_field( 'testimonials_button_verbiage_sec_three' ); ?></div><!-- consult_left -->
 					
 					<div class="consult_right">
 				
@@ -120,9 +101,9 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 			
 				</a><!-- consult_button -->
 				
-				<a class="consult_button mobile" href="">
+				<a class="consult_button mobile" href="<?php the_field( 'testimonial_page_link_sec_three' ); ?>">
 			
-					<div class="consult_left">View Testimonials</div><!-- consult_left -->
+					<div class="consult_left"><?php the_field( 'testimonials_mobile_button_verbiage_sec_three' ); ?></div><!-- consult_left -->
 					
 					<div class="consult_right">
 				
@@ -132,7 +113,7 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 			
 				</a><!-- consult_button -->
 				
-				<span class="sec_three_disclaimer">While our lawyers give every client the attention and dedication they deserve, the outcome in this client’s case was specific to his or her case. Each case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span><!-- sec_three_disclaimer -->
+				<span class="sec_three_disclaimer"><?php the_field( 'disclaimer_sec_three' ); ?></span><!-- sec_three_disclaimer -->
 					
 				</div><!-- bottom_content_video -->
 				
@@ -144,22 +125,11 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 				
 				<div class="columns">
 					
-					<h2>H2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h2>
-					
-					<p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error</p>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
-					
+					<?php the_field( 'section_three_content_two' ); ?>
+										
 				</div><!-- columns -->
 				
-				<h3>H3 Lorem ipsum dolor sit amet, consectetur ad</h3>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</p>
+				<?php the_field( 'section_three_content_three' ); ?>
 				
 				
 			</div><!-- bottom_content_right -->

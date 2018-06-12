@@ -73,7 +73,7 @@
 					
 						<span class="city_address"><?php the_sub_field( 'city_address' ); ?></span><!-- city_address -->
 
-						<a class="city_directions" href="<?php the_sub_field( 'get_directions_google_url' ); ?>" target="_blank">Get Directions</a><!-- city_directions -->
+						<a class="city_directions" href="<?php the_sub_field( 'get_directions_google_url' ); ?>" target="_blank"><?php the_sub_field( 'get_directions_verbiage' ); ?></a><!-- city_directions -->
 					
 					</div><!-- city_address_wrapper -->
 	

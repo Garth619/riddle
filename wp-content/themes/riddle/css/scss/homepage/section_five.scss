@@ -76,8 +76,10 @@
 		line-height: 66px;
 		color:$blue;
 		display: block;
-		span.blue {
+		strong {
 			color:$bluelight;
+			font-weight: 300;
+			font-style: normal;
 		}
 	}
 	a.coco_button {
