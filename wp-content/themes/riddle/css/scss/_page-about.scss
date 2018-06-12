@@ -1,0 +1,59 @@
+.about_wrapper {
+	text-align: center;
+	padding:89px 0 0;
+	h1 {
+		font-weight: 300;
+		font-style:normal;
+		span.about_topline {
+			font-family: $tekoregular;
+			font-size:215px;
+			letter-spacing: 0.04em;
+			display: block;
+			text-transform: uppercase;
+			color:$blue;
+			span {
+				&:before {
+					content:"";
+					width:13px;
+					height:13px;
+					display: inline-block;
+					background: $bluelight;
+					transform: rotate(-45deg);
+					vertical-align: top;
+					margin:85px 0 0 0;
+					position: relative;
+					left:-28px;
+				}
+			}
+		}
+		span.about_bottomline {
+			color:#abacb2;
+			font-family: $freightbigpro;
+			font-weight: 400;
+			font-size: 86px;
+			display: block;
+			margin:-25px 0 0 0;
+		}
+	}
+}
+
+
+#about_section {
+	width:100%;
+	background:#f0f0f1;
+	margin:153px 0 0 0%;
+	display: flex;
+	color:$blue;
+	img {
+		margin-top:-42px;
+	}
+	.about_content_one {
+		padding:0 7% 0 5%;
+		span.intro {
+			font-family: $freightdisplay;
+			font-weight: 400;
+			font-size:30px;
+			line-height: 43px;
+		}
+	}
+}

@@ -95,6 +95,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-attdirectory.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -680,6 +693,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/content2_logo_01.png": {
+		"ft": 32768,
+		"iS": 59132,
+		"oA": 0,
+		"oAP": "\/images\/content2_logo_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/content2_logo_02.png": {
@@ -1719,6 +1743,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/loop.php",
+		"oF": 0
+		},
+	"\/page-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-about.php",
 		"oF": 0
 		},
 	"\/page-attdirectory.php": {
