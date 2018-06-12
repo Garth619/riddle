@@ -2,7 +2,7 @@
 	
 	<div class="sec_two_title_wrapper">
 		
-		<span class="sec_two_title">Why Choose Our Firm</span><!-- sec_two_title -->
+		<span class="sec_two_title"><?php the_field( 'section_two_title' ); ?></span><!-- sec_two_title -->
 		
 	</div><!-- sec_two_title_wrapper -->
 	
@@ -12,71 +12,44 @@
 	
 	
 	<div class="sec_two_slider">
+		
 			
-			<div class="sec_two_single_slide">
+			<?php if(get_field('selling_points_sec_two')): ?>
+			 
+				<?php while(has_sub_field('selling_points_sec_two')): ?>
 				
 				
-				<div class="sp_wrapper">
+					<div class="sec_two_single_slide">
+				
+				
+						<div class="sp_wrapper">
 					
+							
+							<?php $sectwosvg = get_sub_field( 'svg' );?>
+							
+							<?php echo file_get_contents("wp-content/themes/riddle/images/" . $sectwosvg . ""); ?>
 					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_sp_1.svg"); ?>
-					
-					<span class="slide_title">over <strong>160 years</strong><br/> of combined<br/> experience</span><!-- slide_title -->
+							<span class="slide_title"><?php the_sub_field( 'selling_points_verbiage' ); ?></span><!-- slide_title -->
 				
-				
-					<a class="view_button" href="">View Case Results</a><!-- view_button -->
+							<a class="view_button" href="<?php the_sub_field( 'slider_page_links' ); ?>"><?php the_sub_field( 'button_verbiage' ); ?></a><!-- view_button -->
 						
 					
-				</div><!-- sp_wrapper -->
+						</div><!-- sp_wrapper -->
 				
 				
-				
-				
-				
-			</div><!-- sec_two_single_slide -->
+					</div><!-- sec_two_single_slide -->
+
+			 
+					
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			
-			<div class="sec_two_single_slide">
-				
-				
-				<div class="sp_wrapper">
-					
-					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_sp_2.svg"); ?>
-					
-					
-					<span class="slide_title">we take calls<br/> <strong>24 hours a day,<br/> 7 days</strong> a week</span><!-- slide_title -->
-					
-					<a class="view_button" href="">View Case Results</a><!-- view_button -->
-					
-					
-			</div><!-- sp_wrapper -->
-				
-				
-			</div><!-- sec_two_single_slide -->
-			
-			
-			<div class="sec_two_single_slide">
-				
-				
-				<div class="sp_wrapper">
-					
-					
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_sp_3.svg"); ?>
-					
-					
-					<span class="slide_title">we have<br/> recovered <strong>millions</strong><br/> for our clients</span><!-- slide_title -->
-					
-					<a class="view_button" href="">View Case Results</a><!-- view_button -->
-						
-					
-				</div><!-- sp_wrapper -->
-				
-				
-			</div><!-- sec_two_single_slide -->
 			
 
 			
+					
 		</div><!-- sec_two_slider -->
 
 		

@@ -2,11 +2,11 @@
 	
 	<div class="inner_sec_one">
 		
-		<span class="sec_one_title">Dedicated injury lawyers that are<br/> <strong>ready to talk.</strong></span><!-- sec_one_title -->
+		<span class="sec_one_title"><?php the_field( 'intro_header' ); ?></span><!-- sec_one_title -->
 		
 		<a class="consult_button" href="">
 			
-			<div class="consult_left">Click For a Free Consultation</div><!-- consult_left -->
+			<div class="consult_left"><?php the_field( 'consultation_button_verbiage_sec_one' ); ?></div><!-- consult_left -->
 			
 			<div class="consult_right">
 				
@@ -29,7 +29,7 @@
 
 	<a class="free_bar" href="">
 		
-		<span class="free_mobile_title">Free Consultation</span><!-- free_mobile_title -->
+		<span class="free_mobile_title"><?php the_field( 'mobile_consultation_verbiage_sec_one' ); ?></span><!-- free_mobile_title -->
 		
 		<span class="arrow">
 		

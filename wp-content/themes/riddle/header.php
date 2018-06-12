@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <link rel="stylesheet" href="https://use.typekit.net/ujf1ruo.css">
 <?php wp_head(); ?>
-
+<?php the_field( 'tracking','option'); ?>
 </head>
 
 <body <?php body_class(); ?>>
