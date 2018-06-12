@@ -65,9 +65,10 @@ jQuery(document).ready(function($){
 		slidesToScroll: 1,
 		mobileFirst:true,
 		dots:true,
+		arrows:false,
 		responsive: [
 			{
-      	breakpoint: 1066,
+      	breakpoint: 767,
 				settings: {
         	slidesToShow: 2,
 					slidesToScroll: 2,
@@ -81,6 +82,43 @@ jQuery(document).ready(function($){
     	}
 		]
 	});
+	
+	
+	// check width
+	
+		
+		var windowWidth = $(window).width();
+	
+	
+	
+		function checkWidthcr() {
+	    
+	    if (windowWidth < 1230) {
+	        
+	      
+	    	$('.sec_four_single').on('click', function(e) {
+		    	
+		    	$('.sec_four_single').removeClass('open');
+		    	
+		    	$(this).addClass('open');
+	    	  
+	    	});
+	    	   		
+	    		
+	    } 
+	    
+	    
+	    
+	    
+			if (windowWidth > 970) {
+			
+	
+				
+			}
+	};
+		
+	
+	checkWidthcr();
  
  
  

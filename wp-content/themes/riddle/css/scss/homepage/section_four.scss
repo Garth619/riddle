@@ -255,11 +255,16 @@
 		a.consult_button {
 			margin: 45px auto 0;
 		}
+		span.cr_description {
+			transform: translate(0);
+		}
+		a.consult_button {
+			transform: translate(0);
+		}
 	}
 	
 	
 	.sec_four_inner {
-		
 		.slick-dots {
 			bottom: 33px;
 			li.slick-active {
@@ -292,6 +297,10 @@
 		}
 	}
 	
+	.cr_diamond {
+		transform: translate(0);
+	}
+	
 	
 	.sec_four_single {
 		&:hover {
@@ -315,6 +324,31 @@
 				opacity: 0;
 			}
 		}
+	}
+	
+	
+	.sec_four_single.open {
+			background: $blue;
+			
+			.sec_four_single_inner {
+				
+			}
+			.cr_svg {
+				opacity: 1;
+			}
+			.cr_diamond {
+				opacity: 1;
+			}
+			.accent {
+				opacity: 0;
+			}
+			span.cr_description {
+				opacity: 1;
+			}
+			a.consult_button {
+				opacity: 1;
+			}
+		
 	}
 	
 	
@@ -391,6 +425,31 @@
 	
 	.cr_svg {
 		display: none;
+	}
+	
+	
+	.sec_four_single.open {
+			background: transparent;
+			
+			.sec_four_single_inner {
+				
+			}
+			.cr_svg {
+				opacity: 0;
+			}
+			.cr_diamond {
+				opacity: 0;
+			}
+			.accent {
+				opacity: 1;
+			}
+			span.cr_description {
+				opacity: 0;
+			}
+			a.consult_button {
+				opacity: 0;
+			}
+		
 	}
 
 	

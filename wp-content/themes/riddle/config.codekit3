@@ -528,7 +528,7 @@
 		"oAP": "\/images\/caseresults_img_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/caseresults_img_mobile.jpg": {
@@ -1157,26 +1157,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/new_cr.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/new_cr.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/new_crdiamond.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/new_crdiamond.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/images\/new_diamonds.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1729,7 +1709,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 171434,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
