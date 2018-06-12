@@ -196,3 +196,9 @@
 	</a><!-- free_bar -->
 	
 </section><!-- section_four -->
+
+<div class="sec_four_disclaimer">
+		
+		<span>Above is a list of some of the cases our attorneys have handled. Please note that the results above are intended to illustrate the type of matters handled by our firm, and not all of the firm’s results are listed. These prior results do not guarantee a similar outcome, and they should not be construed to constitute a promise or guarantee of a particular result in any particular case. Every case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span>
+		
+	</div><!-- sec_four_disclaimer -->

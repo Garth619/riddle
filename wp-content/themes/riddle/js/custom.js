@@ -121,6 +121,19 @@ jQuery(document).ready(function($){
 	checkWidthcr();
  
  
+ // org slider
+ 
+ 
+ $('.org_slider').slick({
+  	infinite: true,
+		slidesToShow:3,
+		slidesToScroll: 1,
+		dots:false,
+		arrows:true
+
+});
+
+ 
  
  // footer location
  
