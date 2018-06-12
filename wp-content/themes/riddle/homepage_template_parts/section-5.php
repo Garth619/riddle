@@ -10,6 +10,8 @@
 				
 				<img class="coco desktop" src="<?php bloginfo('template_directory');?>/images/content2_img_01_desktop.jpg"/>
 				
+<!-- 				<img class="coco mobile" src="<?php bloginfo('template_directory');?>/images/content2_img_01_mobile.jpg"/> -->
+				
 				<div class="coco_content_wrapper">
 				
 					<span class="coco_content">Coconut and his pal Roscoe are <span class="blue">proud animal ambassadors</span>, reminding their friends and fans every day that life wouldn’t be the same without their family.</span>
@@ -48,31 +50,31 @@
 						
 						<div class="org_single_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/org1.png"/>
+							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_01.png"/>
 							
 						</div><!-- org_single_slide -->
 						
 						<div class="org_single_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/org2.png"/>
+							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_03.png"/>
 							
 						</div><!-- org_single_slide -->
 						
 						<div class="org_single_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/org3.png"/>
+							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_02.png"/>
 							
 						</div><!-- org_single_slide -->
 						
 						<div class="org_single_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/org3.png"/>
+							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_02.png"/>
 							
 						</div><!-- org_single_slide -->
 						
 						<div class="org_single_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/org3.png"/>
+							<img src="<?php bloginfo('template_directory');?>/images/content2_logo_02.png"/>
 							
 						</div><!-- org_single_slide -->
 						
