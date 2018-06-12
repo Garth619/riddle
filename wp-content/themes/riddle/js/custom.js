@@ -129,9 +129,24 @@ jQuery(document).ready(function($){
 		slidesToShow:3,
 		slidesToScroll: 1,
 		dots:false,
-		arrows:true
-
-});
+		arrows:true,
+		prevArrow:".org_back",
+		nextArrow:".org_next",
+		responsive: [
+			{
+      	breakpoint: 1280,
+				settings: {
+        	slidesToShow: 2,
+					slidesToScroll: 2,
+					infinite: true,
+      	}
+    	},
+			{
+      	breakpoint: 767,
+				settings: "unslick"
+    	}
+		]
+	});
 
  
  
