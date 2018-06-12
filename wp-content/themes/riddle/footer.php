@@ -1,4 +1,4 @@
-<footer>
+<footer id="consultation">
 	
 	<div class="inner_footer">
 		

@@ -21,7 +21,7 @@
 				
 			<div class="first_image">
 				
-				<a class="consult_button" href="">
+				<a class="consult_button" href="#consultation">
 			
 					<div class="consult_left"><?php the_field( 'consultation_button_verbiage_sec_three' ); ?></div><!-- consult_left -->
 			
@@ -38,7 +38,7 @@
 				
 			</div><!-- first_image -->
 			
-			<a class="free_bar" href="">
+			<a class="free_bar" href="#consultation">
 		
 					<span class="free_mobile_title"><?php the_field( 'mobile_button_verbiage_sec_three' ); ?></span><!-- free_mobile_title -->
 		

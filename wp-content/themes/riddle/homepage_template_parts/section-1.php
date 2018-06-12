@@ -4,7 +4,7 @@
 		
 		<span class="sec_one_title"><?php the_field( 'intro_header' ); ?></span><!-- sec_one_title -->
 		
-		<a class="consult_button" href="">
+		<a class="consult_button" href="#consultation">
 			
 			<div class="consult_left"><?php the_field( 'consultation_button_verbiage_sec_one' ); ?></div><!-- consult_left -->
 			
@@ -27,7 +27,7 @@
 	
 </section><!-- section_one -->
 
-	<a class="free_bar" href="">
+	<a class="free_bar" href="#consultation">
 		
 		<span class="free_mobile_title"><?php the_field( 'mobile_consultation_verbiage_sec_one' ); ?></span><!-- free_mobile_title -->
 		
