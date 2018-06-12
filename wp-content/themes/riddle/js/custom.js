@@ -141,9 +141,13 @@ jQuery(document).ready(function($){
 					infinite: true,
       	}
     	},
-			{
-      	breakpoint: 767,
-				settings: "unslick"
+    	{
+      	breakpoint: 1066,
+				settings: {
+        	slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true,
+      	}
     	}
 		]
 	});
