@@ -937,7 +937,7 @@
 		"oAP": "\/images\/intl_about_img_03_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_about_img_03_mobile.jpg": {
@@ -979,6 +979,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img_04_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/intl_about_Img_05_desktop.jpg": {
+		"ft": 16384,
+		"iS": 58583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/intl_about_Img_05_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1824,7 +1835,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 171434,
+		"iS": 57403,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,

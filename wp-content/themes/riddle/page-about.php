@@ -145,6 +145,29 @@ get_header(); ?>
 			</div><!-- about_content_three -->
 			
 		</section><!-- about_section_three -->
+		
+		<section id="about_section_four">
+			
+			
+			<span class="request_title">Requesting a Consultation</span><!-- request_title -->
+			
+			<span class="request_description">When you call Riddle & Brantley, LLP concerning a potential case, you will speak with a member of our intake staff who will help gather information about your case for an attorney to review. At any time, you may request to speak with an attorney, and one will contact you as soon as possible. All of our intake staff work under attorney supervision. If you need legal assistance or have questions about an accident, then contact our North Carolina personal injury law firm today to schedule a free initial consultation at any of our local offices.</span><!-- request_description -->
+			
+			
+			<a class="consult_button" href="#consultation">
+			
+				<div class="consult_left">Click For a Free Consultation</div><!-- consult_left -->
+			
+				<div class="consult_right">
+				
+					<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
+				
+				</div><!-- consult_right -->
+			
+			</a><!-- consult_button -->
+			
+			
+		</section><!-- about_section_four -->
 	
 </div><!-- main -->
 

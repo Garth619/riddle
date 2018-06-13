@@ -52,15 +52,15 @@ img.aligncenter {
 		}
 	}
 	p,ul {
-		//margin-bottom:14px;
-		margin-bottom: 34px;
+		margin-bottom:14px;
+		//margin-bottom: 34px;
 	}
 	h2 {
 		color:$bluelight;
 		font-family: $helveticabold;
 		font-size:28px;
 		line-height: 35px;
-		padding: 26px 0 0;
+		padding: 15px 0 3px;
 		font-weight: 300;
 		font-style: normal;
 	}
@@ -73,7 +73,7 @@ img.aligncenter {
 		color:$blue;
 		font-weight: 300;
 		font-style: normal;
-		padding:10px 0 0px;
+		padding:12px 0 0px;
 	}
 	ul {
 		list-style: none;
