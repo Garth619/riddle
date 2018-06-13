@@ -126,6 +126,23 @@ img.aligncenter {
 } /* Media Query */
 
 
+@media screen and (max-width: 1066px) {
+	
+	
+	.content {
+		blockquote {
+			padding-top: 13px;
+			font-size:43px;
+			line-height: 60px;
+			margin-bottom: 36px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 767px) {
 	
 	
