@@ -208,6 +208,9 @@ a.view_story {
 		display: block;
 		color:#fff;
 	}
+	a.consult_button.mobile {
+		display: none;
+	}
 	a.consult_button {
 		margin-top:42px;
 	}
@@ -239,6 +242,7 @@ a.view_story {
 	
 	.about_image_three {
 		width: 673px;
+		max-height: 980px;
 		img {
 			max-width:100%;
 			height:auto;
@@ -541,6 +545,23 @@ a.view_story {
 	span.request_description {
 		font-size:16px;
 		line-height: 30px;
+	}
+}
+
+
+#about_section_four {
+	padding-left:22px;
+	padding-right:22px;
+	padding-bottom: 105px;
+	a.consult_button.mobile {
+		display: flex;
+		width: 263px;
+		margin-top:75px;
+		.consult_right {
+			svg {
+				width: 7px;
+			}
+		}
 	}
 }
 	 
