@@ -6,47 +6,32 @@
 	<div class="container">
 		
 		
-					
+		
+		<?php global $post;
+			
+			
+			$myparentid = $post->post_parent;
+			
+			
+		?>
 		
 		
-	
-	
-		<div class="inner_banner" style="background: url(<?php the_field( 'pa_banner_image' ); ?>) top center no-repeat no-repeat;
+		<?php if(get_field('pa_banner_image',$myparentid)) { ?>
+
+		
+		<?php if ( is_tree($myparentid)) { ?>
+  
+		
+		<div class="inner_banner" style="background: url(<?php the_field( 'pa_banner_image', $myparentid ); ?>) top center no-repeat no-repeat;
 				background-size:cover;">
 		
 		
 		
 		</div><!-- inner_banner -->
 		
+		<?php } ?>
 		
-		<?php
-global $post;
-$children = get_pages( array( 'child_of' => $post->ID ) );
-
-if ( is_page() && $post->post_parent ) : ?>
-This is a child-page.
-
-<?php elseif ( is_page() && count( $children ) > 0 ) : ?>
-This is a parent-page (with one or more children)
-
-<?php else : ?>
-This is a parent page without children.
-
-<?php endif; ?>
-		
-		
-		
-<!--
-			
-			<?php 
-			
-			$direct_parent = $post->post_parent; ?>
-			
-			<?php echo $direct_parent;?>
--->
-
-
-
+		<?php } ?>
 			
 		
 		
