@@ -53,6 +53,7 @@
 		span {
 			font-family: $freightbigpro;
 			font-weight: 400;
+			font-style: italic;
 			display: inline-block;
 			&:before {
 				content:"";
@@ -115,6 +116,7 @@
 			color:#fff;
 			text-transform: lowercase;
 			font-family: $freightbigpro;
+			font-style: italic;
 			font-weight: 400;
 			font-size:52px;
 			display: block;
