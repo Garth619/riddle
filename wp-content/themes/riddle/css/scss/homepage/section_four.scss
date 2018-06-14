@@ -286,6 +286,7 @@
 		}
 		a.consult_button {
 			transform: translate(0);
+			visibility: hidden;
 		}
 	}
 	
@@ -373,6 +374,7 @@
 			}
 			a.consult_button {
 				opacity: 1;
+				visibility: visible;
 			}
 		
 	}
