@@ -58,7 +58,7 @@
 		
 		<div class="espanol">
 			
-			<a href=""></a>
+			<a href="<?php the_field( 'espanol_page_link','option'); ?>"></a>
 		
 		</div><!-- espanol -->
 		

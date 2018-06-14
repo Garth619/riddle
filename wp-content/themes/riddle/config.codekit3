@@ -984,6 +984,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/intl_about_Img_05_desktop.jpg": {
+		"ft": 16384,
+		"iS": 58583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/intl_about_Img_05_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/intl_ap_img_Adam.jpg": {
 		"ft": 16384,
 		"iS": 20656,
@@ -1750,6 +1761,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-about.php",
+		"oF": 0
+		},
+	"\/page-about_espanol.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-about_espanol.php",
 		"oF": 0
 		},
 	"\/page-attdirectory.php": {
