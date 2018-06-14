@@ -69,7 +69,7 @@ get_header(); ?>
 
 <p>También tenemos recursos extensivos para ayudar con su reclamación. Nuestra firma tiene oficiales de policía retirados de la Carolina del Norte que pueden ayudar con la investigación y reunir evidencia que podría ayudarnos a construir un caso sucesivo. Nuestros abogados de lesiones personales expertos de Carolina del Norte representan clientes con una variedad de asuntos relacionados a lesiones personales:</p>
 
-<ul>
+<ul class="columns">
 	<li>Herida en Sitio de Construcción</li>
 	<li>Drogas y Dispositivos Peligrosos</li>
 	<li>Mordeduras de Perro y Animal</li>
@@ -88,7 +88,7 @@ get_header(); ?>
 <p>Nuestro equipo quiere asegurarse de que usted entienda la naturaleza de su caso antes de proceder con cualquier acción. Explicaremos los hechos mientras contestamos sus preguntas honestamente para que usted pueda hacer una decisión informada sobre su caso.
 Los abogados de accidentes automovilísticos en Riddle & Brantley, LLP tienen más de 160 años de experiencia combinada que incluye, pero no está limitado a:</p>
 
-<ul>
+<ul class="columns">
 <li>Accidentes de Peatones y Ciclistas</li>
 <li>Accidentes de Carro</li>
 <li>Accidentes por Conductores Distractos</li>
@@ -134,7 +134,7 @@ Usted tiene derechos y opciones – ejércelos con uno de nuestros abogados de c
 					<p>Los abogados de incapacidad de Riddle & Brantley, LLP conocen el sistema de seguro social y pueden luchar por los beneficios que merece.
 Tal vez encuentre nuestra lista de preguntas frecuentes sobre el seguro social por incapacidad útil:</p>
 
-	<ul>
+	<ul class="columns">
 		<li>¿Qué es Seguro Social por Incapacidad?</li>
 		<li>¿Qué es Una Incapacidad?</li>
 		<li>¿Cómo es Determinada la Incapacidad?</li>
@@ -146,9 +146,7 @@ Tal vez encuentre nuestra lista de preguntas frecuentes sobre el seguro social p
 
 <p>¡En Riddle & Brantley, LLP, cada uno de nuestros abogados tiene miembros de familia que han servido en las fuerzas armadas, y creemos que veteranos incapacitados deben ser intitulados a recibir los beneficios que se merecen!</p>
 
-<p>Nuestro equipo trabajará sin descanso a su nombre, para lograr los beneficios máximo que usted merece. Con ubicaciones de oficinas en Goldsboro, Raleigh, Kinston y Jacksonville, Carolina del Norte, nuestros abogados pueden servir en todo el estado, y en otros lugares necesarios.</p>
-
-<p>¡Para más información, les invitamos a llamarnos al <a href="tel:800-525-7111">800-525-7111</a>, o complete el formulario en esta pagina para una Evaluación de Caso Gratuita!</p>
+<p>Nuestro equipo trabajará sin descanso a su nombre, para lograr los beneficios máximo que usted merece. Con ubicaciones de oficinas en Goldsboro, Raleigh, Kinston y Jacksonville, Carolina del Norte, nuestros abogados pueden servir en todo el estado, y en otros lugares necesarios.¡Para más información, les invitamos a llamarnos al <a href="tel:800-525-7111">800-525-7111</a>, o complete el formulario en esta pagina para una Evaluación de Caso Gratuita!</p>
 					
 				</div><!-- img_content -->
 				
@@ -156,80 +154,115 @@ Tal vez encuentre nuestra lista de preguntas frecuentes sobre el seguro social p
 			
 			
 		</section><!-- about_section_two -->
+
 		
-		<section id="about_section_three">
+		<section id="about_section_es">
 			
-			<div class="about_image_three">
-				
-				
-				<img src="<?php bloginfo('template_directory');?>/images/intl_about_img_04_desktop.jpg"/>
-				
-				<div class="about_imge_three_side_content">
-					
-					<span class="side_title">Coconut <span>Riddle</span></span><!-- title -->
-					
-					<span class="side_content">Learn more about our proud animal ambassador and the humane society we support.</span><!-- side_content -->
-					
-					
-					<a class="view_story" href="">View Full Story</a>
-					
-				</div><!-- about_imge_three_side_content -->
-				
-			</div><!-- about_image_three -->
 			
-			<div class="about_content_three content">
+			<div class="about_section_es_image">
 				
-				<h2>Get to Know Our Personal Injury Attorneys</h2>
+				<img src="<?php bloginfo('template_directory');?>/images/intl_spanish_img_04.jpg"/>
+				
+			</div><!-- about_section_es_image -->
+			
+			<div class="about_section_es_content content">
+				
+				<h2>Contacte los Abogados de Lesiones en Riddle & Brantley, LLP</h2>
 
-				<p>Meet the Team! Our personal injury lawyers will fight for you to ensure you get the compensation you deserve after an accident. Meanwhile, they will do everything possible to make your experience in the legal system understandable and comfortable. Riddle & Brantley, LLP currently employs 11 attorneys with over 160 years combined legal experience. Two of our attorneys are Board Certified in Workers Compensation. Additionally, several of our attorneys belong to the Million Dollar Advocates forum and the Multi-Million Dollar Advocates Forum. Many are also ranked among North Carolina Super Lawyers and the Top Trial Lawyers of North Carolina. These organizations honor only small groups of attorneys who have met all membership criteria. Our team often works collectively to help maximize our legal knowledge and experience when we work on your case. We are available to offer you help whenever you need it, 24 hours a day, 7 days a week.</p>
+				<p>Entendemos que unas víctimas no pueden desplazarse después de ser lesionado debido a la negligencia de otros, y es por eso que las oficinas de Riddle & Brantley, LLP están orgullosos de hacer visitas de hospital u hogar.</p>
+				
+				<p>¡Con nosotros representándolo y a su lado, tiene más de 160 años de experiencia, un equipo de investigadores y asistentes legales en su esquina!</p>
 
-				<h2>Riddle & Brantley, LLP Works with a Team of Investigators</h2>
-
-				<p>Meet our investigators! We have several investigators who help gather information about accidents and injuries for our attorneys. Our investigators also meet with clients who are unable to come to our offices to see with an attorney. They can meet you at your home, office, job site, hospital or any other place most convenient for you. They will provide you with all necessary paperwork the attorney will need to begin working on your case. If you have questions or concerns during their visit, they will call an attorney on the phone to help you.</p>
+				<p>Contacte cualquiera de nuestras 4 ubicaciones a través de Carolina del Norte para una Evaluación de Caso GRATUITA.</p>
+				
+				<p>¡Déjenos usar nuestro conocimiento, experiencia y recursos para ayudarlo a obtener los resultados que merece! ¡Llámenos o llene nuestro formulario hoy para una Evaluación de Caso GRATUITA – es estrictamente confidencial!</p>
+				
+				
+				<div class="four_columns">
 					
-				<p>Most of our investigators have prior experience with the North Carolina State Highway Patrol or other law enforcement agencies. We even have a retired District Commander for the North Carolina Highway Patrol who helps communicate with responding officers, OSHA or any other investigatory agency, and witnesses when an incident needs investigating or evidence preservation.</p>
-
-
-
+					<div class="four_col">
+						
+						<h3>Raleigh, NC</h3>
+						
+						<ul>
+							
+							<li>Apex</li>
+							<li>Cary</li>
+							<li>Garner</li>
+							<li>Holly Springs</li>
+							<li>Knightdale</li>
+							<li>Morrisville</li>
+							<li>Rolesville</li>
+							<li>Wake Forest</li>
+							<li>Wendell</li>
+							<li>Zebulon</li>
+							<li>y las áreas alrededort</li>
+							
+						</ul>
+						
+					</div><!-- four_col -->
+					
+					<div class="four_col">
+						
+						<h3>Jacksonville, NC</h3>
+						
+						<ul>
+							
+							<li>Holly Ridge</li>
+							<li>Maysville</li>
+							<li>North Topsail Beach</li>
+							<li>Richlands</li>
+							<li>Surf City</li>
+							<li>Topsail Beach</li>
+							<li> y las áreas alrededort</li>
+							
+						</ul>
+						
+					</div><!-- four_col -->
+					
+					<div class="four_col">
+						
+						<h3>Goldsboro, NC</h3>
+						
+						<ul>
+							
+							<li>Eureka</li>
+							<li>Fremont</li>
+							<li>Mount Olive</li>
+							<li>Pikeville</li>
+							<li>Seven Springs</li>
+							<li>Walnut Creek</li>
+							<li>y las áreas alrededort</li>
+							
+						</ul>
+						
+					</div><!-- four_col -->
+					
+					
+					<div class="four_col">
+						
+						<h3>Kinston, NC</h3>
+						
+						<ul>
+							
+							<li>Deep Run</li>
+							<li>Grifton</li>
+							<li>La Grange</li>
+							<li>Pink Hill</li>
+							<li>y las áreas alrededort</li>			
+						</ul>
+						
+					</div><!-- four_col -->
+					
+					
+					
+				</div><!-- four_columns -->
 				
-			</div><!-- about_content_three -->
-			
-		</section><!-- about_section_three -->
-		
-		<section id="about_section_four">
-			
-			
-			<span class="request_title">Requesting a Consultation</span><!-- request_title -->
-			
-			<span class="request_description">When you call Riddle & Brantley, LLP concerning a potential case, you will speak with a member of our intake staff who will help gather information about your case for an attorney to review. At any time, you may request to speak with an attorney, and one will contact you as soon as possible. All of our intake staff work under attorney supervision. If you need legal assistance or have questions about an accident, then contact our North Carolina personal injury law firm today to schedule a free initial consultation at any of our local offices.</span><!-- request_description -->
-			
-			
-			<a class="consult_button desktop" href="#consultation">
-			
-				<div class="consult_left">Click For a Free Consultation</div><!-- consult_left -->
-			
-				<div class="consult_right">
 				
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
-				
-				</div><!-- consult_right -->
-			
-			</a><!-- consult_button -->
-			
-			<a class="consult_button mobile" href="#consultation">
-			
-				<div class="consult_left">Free Consultation</div><!-- consult_left -->
-			
-				<div class="consult_right">
-				
-					<?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
-				
-				</div><!-- consult_right -->
-			
-			</a><!-- consult_button -->
+			</div><!-- about_section_es_content -->
 			
 			
-		</section><!-- about_section_four -->
+		</section><!-- about_section_es -->
 	
 </div><!-- main -->
 

@@ -68,15 +68,19 @@
 			display: block;
 			margin-bottom:37px;
 		}
-		ul.columns {
+		
+	}
+}
+
+
+	ul.columns {
 			column-count:2;
+			column-gap:45px;
 			padding-top:10px;
 			li {
 				line-height: 26px;
 			}
 		}
-	}
-}
 
 
 
@@ -115,6 +119,11 @@
 		margin-top:50px;
 		padding-right:17%;
 	}
+}
+
+
+body.page-template-page-about_espanol .about_img_two img.img_two {
+	margin-top: -184px;
 }
 
 
@@ -223,6 +232,71 @@ a.view_story {
 	}
 }
 
+#about_section_es {
+	background: #f0f0f1;
+	display: flex;
+	width:100%;
+	padding-bottom:85px;
+	margin-top:95px;
+}
+
+.about_section_es_image {
+	margin-top:83px;
+	width:717px;
+	img {
+		max-width:100%;
+		height:auto;
+		display: block;
+	}
+}
+
+
+.about_section_es_content {
+	width:calc(100% - 717px);
+	color:$blue;
+	margin-top:75px;
+	padding-left:5%;
+	padding-right:9%;
+}
+
+
+.four_columns {
+	display: flex;
+	justify-content: space-between;
+	margin-top:47px;
+	ul {
+		margin-top:6px;
+		margin-bottom:35px;
+		li {
+			line-height: 25px;
+		}
+	}
+}
+
+@media screen and (max-width: 1755px) {
+	
+	
+.four_columns {
+	display: block;
+	column-count:2;
+	margin-top:47px;
+	.four_col {
+		display: inline-block;
+		width:100%;
+	}
+	ul {
+		margin-top:6px;
+		li {
+			line-height: 25px;
+		}
+	}
+}
+	
+	
+} /* Media Query */
+
+
+
 
 @media screen and (max-width: 1615px) {
 	
@@ -264,6 +338,18 @@ a.view_story {
 	.about_imge_three_side_content {
 		padding-left: 8%;
 	}
+	
+	
+	.about_section_es_image {
+		width:650px;
+	}
+	
+	.about_section_es_content {
+		width:calc(100% - 650px);
+	}
+	
+
+	
 	
 	
 } /* Media Query */
@@ -331,6 +417,23 @@ a.view_story {
 			margin-right:auto;
 		}
 	}
+	
+	#about_section_es {
+		flex-direction: column;
+	}
+	
+	.about_section_es_image {
+		width:100%;
+		order:2;
+		display: none;
+	}
+	
+	.about_section_es_content {
+		width:100%;
+		order:1;
+	}
+	
+	
 	
 	
  } /* Media Query */
@@ -440,8 +543,33 @@ a.view_story {
 		
 	}
 }
-	 
-	 
+
+
+#about_section_es {
+	margin-top:60px;
+}
+
+.about_section_es_content {
+	margin-top: 47px;
+
+}
+
+
+.four_columns {
+	ul {
+		
+	}
+}
+
+
+
+ .about_section_es_image {
+		 display: block;
+		 width:100%;
+		 max-width:600px;
+	 }
+
+
 	 
  } /* Media Query */
  
@@ -571,7 +699,23 @@ a.view_story {
 		}
 	}
 }
+
+ ul.columns {
+		 column-count:1;
+	 }
+	 
+	 
+	 
+	 #about_section_es {
+		 padding-bottom:0px;
+		 max-width:100%;
+	 }
+	 
+	 
 	 
 	 
 	 
  } /* Media Query */
+ 
+ 
+
