@@ -81,7 +81,7 @@
 		justify-content: center;
 		align-items: center;
 		a.consult_button {
-			margin-top:-85px;
+			margin-top: -35px;
 		}
 	}
 	img.second_image {
@@ -307,7 +307,8 @@ span.sec_three_disclaimer {
 		flex-basis: auto;
 		width:550px;
 		.first_image {
-			background: url(#{$themePath}images/second_image_tablet.jpg) top left no-repeat;
+			//background: url(#{$themePath}images/second_image_tablet.jpg) top left no-repeat;
+			background-size:549px;
 			a.consult_button {
 				margin-top: -203px;
 			}
@@ -449,7 +450,7 @@ span.sec_three_disclaimer {
 	width:100%;
 	max-width: 799px;
 	.first_image {
-		background: url(#{$themePath}images/content1_img_01_mobile.jpg) top left;
+		background: url(#{$themePath}images/content1_img_01_tablet.jpg) top left;
 		height:334px;
 		width:100%;
 		a.consult_button {
@@ -517,7 +518,8 @@ img.video_banner {
 	.top_content_right {
 		padding-left:0;
 		.first_image {
-			background-position-x:center;
+			background-size: 767px;
+			background: url(#{$themePath}images/content1_img_01_desktop.jpg) top center;
 		}
 	}
 	
