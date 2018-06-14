@@ -125,10 +125,12 @@
 	padding-bottom:95px;
 	.stars {
 		text-align: center;
-		margin: 75px 0 0;
+		margin: 65px 0 0;
 		svg {
-			width:72px;
-			height:72px;
+			width: 76px;
+			height: 76px;
+			margin-left:2px;
+			margin-right:4px;
 		}
 	}
 	a.consult_button {
@@ -318,18 +320,22 @@ span.sec_three_disclaimer {
 	.bottom_content_left {
 		flex-basis: auto;
 		width:675px;
+		margin-top: 78px;
 	}
 	
 	img.video_banner {
 		max-width:617px;
+		top: -52px;
 	}
 	
 	
 	.sec_three_play {
 		width:118px;
 		height:118px;
-		margin: -154px auto 0;
+		margin: -113px auto 0;
 	}
+	
+	
 	
 	
 	
@@ -344,6 +350,7 @@ span.sec_three_disclaimer {
 		}
 		a.consult_button {
 			 margin: 67px auto 0;
+			 width: 350px;
 		}
 	} 
 	
@@ -369,6 +376,14 @@ span.sec_three_disclaimer {
 	span.sec_three_disclaimer {
 		margin: 62px auto 0;
 		max-width: 541px;
+	}
+	
+	.bottom_content_right {
+		padding-left:3.5%;
+		padding-bottom: 108px;
+		.columns {
+			margin-bottom:0;
+		}
 	}
 	    
 	

@@ -48,7 +48,7 @@
 .location_slider {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 722px;
+	max-width: 892px;
 	margin:0 auto;
 	padding-top:20px;
 }
@@ -273,6 +273,7 @@
 	
 	.location_slider {
 		padding-top:21px;
+		max-width: 726px;
 	}
 	
 .single_location_slide {
@@ -305,10 +306,12 @@
 	
 	.bottom_footer_left {
 		flex-basis: 465px;
+		
 	}
 	
 	.bottom_footer_right {
-		padding-left: 41px;
+		padding-left: 50px;
+		padding-right: 75px;
 	}
 	
 	    
