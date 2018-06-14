@@ -28,6 +28,8 @@
 		
 		<div class="profile_left">
 			
+			<div class="profile_left_inner">
+			
 			
 			<?php if(get_field( 'attorney_image' )) : ?>
 			
@@ -86,6 +88,8 @@
 				
 								
 			</div><!-- accolades_wrapper -->
+			
+			</div><!-- profile_left_inner -->
 			
 		</div><!-- profile_left -->
 	
