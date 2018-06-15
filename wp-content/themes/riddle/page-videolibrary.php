@@ -17,7 +17,20 @@
 				
 				if ($post->post_parent == '135') { // if current page is child of page with page ID 100 ?>
 					
-					Home --> Video Library --> <?php the_title();?>
+					
+					<div class="my_breadcrumb">
+					
+						<a href="<?php bloginfo('url');?>">Home</a>
+						
+						<span class="breadcrumb_arrow"><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+						
+						<a href="<?php the_permalink(135);?>">Video Library</a> 
+						
+						<span class="breadcrumb_arrow"><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+						
+						<span class="current_title"><?php the_title();?></span>
+					
+					</div><!-- my_breadcrumb -->
 				
 			<?php } ?>
 			

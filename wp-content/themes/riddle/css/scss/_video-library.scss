@@ -110,6 +110,54 @@ nav.video_nav {
 	}
 }
 
+.my_breadcrumb {
+	position: relative;
+	z-index:1;
+	text-transform: uppercase;
+	font-size:16px;
+	line-height: 19px;
+	font-family: $helveticabold;
+	letter-spacing: 0.02em;
+	margin-bottom:35px;
+	a {
+		
+	}
+	span.breadcrumb_arrow {
+		margin:0 7px;
+		display: inline-block;
+		svg {
+			width:8px;
+			height: 11px;
+			transform: rotate(-180deg);
+			fill:$bluelight;
+		}
+	}
+}
+
+
+.back_wrapper {
+	position: relative;
+	z-index:1;
+	text-transform: uppercase;
+	font-size:16px;
+	line-height: 19px;
+	font-family: $helveticabold;
+	letter-spacing: 0.02em;
+	margin-bottom:35px;
+	a {
+		
+	}
+	span {
+		margin:0 3px 0 0;
+		display: inline-block;
+		svg {
+			width:8px;
+			height: 11px;
+			fill:$bluelight;
+		}
+	}
+}
+
 
 @media screen and (max-width: 890px) {
 	

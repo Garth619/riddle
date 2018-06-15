@@ -21,10 +21,17 @@
 						
 			?>
 			
-			
-    
+					<div class="back_wrapper">
+						
+						<a href="<?php bloginfo('url');?>/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">
+							
+							<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+							
+							Back to Video Library
+						
+						</a>
 					
-					<h2><a href="<?php bloginfo('url');?>/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">Back to Video Library</a></h2>
+					</div><!-- back_wrapper -->
 						
 						
 				<?php	} ?>
