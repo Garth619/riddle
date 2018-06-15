@@ -1505,6 +1505,138 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/updates\/content1_img_01_desktop.jpg": {
+		"ft": 16384,
+		"iS": 117093,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/content1_img_01_laptop.jpg": {
+		"ft": 16384,
+		"iS": 72643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/content1_img_01_mobile.jpg": {
+		"ft": 16384,
+		"iS": 31305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/content1_img_01_tablet.jpg": {
+		"ft": 16384,
+		"iS": 50964,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_desktop.jpg": {
+		"ft": 16384,
+		"iS": 166532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_laptop.jpg": {
+		"ft": 16384,
+		"iS": 110232,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_mobile.jpg": {
+		"ft": 16384,
+		"iS": 33265,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_tablet.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/intl_about_img_01_desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/intl_about_img_01_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/intl_about_img_01_mobile.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/intl_about_img_01_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/intl_about_img_01_tablet.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/intl_about_img_01_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/intl_contact_img.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/intl_contact_img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
