@@ -15,7 +15,7 @@
 			
 			<?php
 				
-				if ($post->post_parent == '1004415') { // if current page is child of page with page ID 100 ?>
+				if ($post->post_parent == '135') { // if current page is child of page with page ID 100 ?>
 					
 					Home --> Video Library --> <?php the_title();?>
 				
@@ -35,11 +35,15 @@
 			
 			<?php 
 				
-				if ( !is_paged() ) {
+				if ( !is_paged() ) { ?>
+				
+				<div class="video_intro">
   
-				get_template_part( 'loop', 'page' );
+					<?php get_template_part( 'loop', 'page' );?>
+				
+				</div><!-- video_intro -->
   
-				}
+				<?php }
 				
 				if ( is_paged() ) { 
 			
@@ -59,7 +63,7 @@
 				
 				<?php
 					
-					$myterm = get_field('video_category');
+					$myterm = get_field('video_library_category');
 					
 					
 					$temp = $wp_query; 
@@ -96,16 +100,17 @@
 				</div><!-- single_video_post -->
 
 			
-				<br/>
-				<br/>
+				
 				
 				
 
 			<?php endwhile; ?>
+			
+			<?php $svgarrow = file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?>
 
-			<nav>
-				<?php previous_posts_link('&laquo; Newer') ?>
-				<?php next_posts_link('Older &raquo;') ?>
+			<nav class="video_nav">
+				<?php previous_posts_link('<span class="newer">' . $svgarrow . '</span>') ?>
+				<?php next_posts_link('<span class="older">' . $svgarrow . '</span>') ?>
 			</nav>
 
 		<?php 

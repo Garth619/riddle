@@ -25,16 +25,18 @@
 		
 		<div class="sidebar_list_wrapper">
 			
-			<ul>
-    <?php
-    wp_list_pages( array(
-        'title_li'    => '',
-        'child_of'    => 1004415
-        
-        
-    ) );
-    ?>
-</ul>
+			<ul class="video_list">
+			
+				<?php
+			
+					wp_list_pages( array(
+        		'title_li'    => '',
+						'child_of'    => 135
+						) );
+    
+    		?>
+			
+			</ul><!-- video_list -->
 			
 			
 			
