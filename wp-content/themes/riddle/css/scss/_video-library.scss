@@ -1,0 +1,73 @@
+.video_library_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top:55px;
+}
+
+h2.paged_header {
+	margin-top:-30px;
+}
+
+.single_video_post {
+	width:47%;
+	text-align: center;
+	margin-bottom:40px;
+	&:hover {
+		.video_library_overlay {
+			&:before {
+				opacity: 1;
+			}
+		}
+		
+	}
+	a {
+		display: block;
+		color:#fff;
+		&:hover {
+			color:#fff;
+		}
+	}
+	
+	.video_library_overlay {
+		position: relative;
+		&:before {
+			content:"view post";
+			display: block;
+			opacity: 0;
+			transition: all 200ms ease-in-out;
+			position: absolute;
+			top:0;
+			left:0;
+			background:rgba(51, 193, 251, 0.8);
+			width:100%;
+			height:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: $freightbigpro;
+			font-style: italic;
+			font-size: 40px;
+		}
+		img.video_thumb {
+			max-width:100%;
+			height:auto;
+			display: block;
+		}
+	}
+}
+
+
+@media screen and (max-width: 890px) {
+	
+	
+	.single_video_post {
+		width:100%;
+		h3 {
+			margin-top:15px;
+		}
+	}
+	
+	
+	
+} /* Media Query */

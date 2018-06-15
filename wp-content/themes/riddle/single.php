@@ -9,6 +9,26 @@
 		
 		<div class="inner_container content">
 			
+			
+			<?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+
+					if (strpos($url,'videolibrary') !== false) {
+						
+						$backtitle = $_GET['videolibrary']; 
+						
+						$backpage = $_GET['videopage'];
+						
+			?>
+			
+			
+    
+					
+					<h2><a href="<?php bloginfo('url');?>/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">Back to Video Library</a></h2>
+						
+						
+				<?php	} ?>
+			
 			<h1 class="pa_title"><?php the_title();?></h1>
 			
 			<div class="meta">
