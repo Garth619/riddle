@@ -369,7 +369,22 @@ body.page-template-page-contact {
 
 
 
+@media screen and (max-width: 1150px) {
+	
+	
+	body.page-template-page-contact {
+		.inner_footer {
+			padding: 185px 45px 45px;
+		}
+		.bottom_footer {
+			height: 125px;
+		}
+	} 
+	
+	
 
+	
+} /* Media Query */
 
 
 
@@ -562,7 +577,7 @@ body.page-template-page-contact {
 	}
 	.bottom_footer {
 		 margin-top: 0px;
-     height: 83px;
+     height: 93px;
 		 .bottom_footer_left {
 	    align-items: center;
 	    a.ilawyer {

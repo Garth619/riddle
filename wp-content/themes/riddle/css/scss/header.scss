@@ -352,6 +352,13 @@ body:not(.page-template-page-home) {
 }
 
 
+.logo {
+	svg {
+		.logo-cls-1{fill:#33c1fa;}.cls-2{fill:#13172d;}
+	}
+}
+
+
 @media screen and (max-width: 1857px) {
 	
 	
@@ -1445,9 +1452,11 @@ body:not(.page-template-page-home) {
 		}
 		a.logo {
 			 flex-basis: 203px;
-			 //display: none;
+			 
+			 display: none;
 			 svg {
 					width: 203px;
+					
 			 }
 		 }
 	}
@@ -1493,6 +1502,9 @@ body:not(.page-template-page-home) {
 			 flex-basis: 198px;
 			 padding-top: 0px;
 			 margin-left: 15px;
+			 opacity: 1;
+			 visibility: visible;
+			 transition: all 200ms ease-in-out;
 			svg {
 				width: 198px;	
 			}
@@ -1524,13 +1536,20 @@ body:not(.page-template-page-home) {
 	}
 }
 
+/*
+.logo {
+	svg {
+		.logo-cls-1{fill:#fff}.cls-2{fill:#fff}
+	}
+}
 	
-	
+*/
 	
 	.mobile_logo_svg {
-		opacity: 0;
-		visibility: hidden;
+		opacity: 1;
+		visibility: visible;
 		display: block;
+		transition: all 200ms ease-in-out;
 		a {
 			display: block;
 			text-decoration: none;
@@ -1561,17 +1580,34 @@ body:not(.page-template-page-home) {
 }
 
 body:not(.page-template-page-home) {
+	.header_left {
+		a.logo {
+			opacity: 1;
+			visibility: visible;
+			display: block;
+		}
+		.mobile_logo_svg {
+			opacity: 0;
+			visibility: hidden;
+			a {
+				span.mobile_phone_consultation_title {
+					color:$blue;
+				}
+			}
+		}
+	}
 	.header_left.visible {
 		a.logo {
 			opacity: 0;
 			visibility: hidden;
+			
 		}
 		.mobile_logo_svg {
 			opacity: 1;
 			visibility: visible;
 			a {
 				span.mobile_phone_consultation_title {
-					color:$blue;
+					// color:$blue;
 				}
 			}
 		}

@@ -56,7 +56,7 @@
 		
 		<div class="mobile_logo_svg">
 			
-			<a href="#consultation">
+			<a href="tel:(800)525-7111">
 				
 				<span class="phone_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_phone.svg"); ?></span>
 				
