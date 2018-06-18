@@ -568,7 +568,7 @@
 		},
 	"\/images\/caseresults_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 160574,
+		"iS": 263243,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/caseresults_img_desktop.jpg",
@@ -612,7 +612,7 @@
 		},
 	"\/images\/content1_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 117093,
+		"iS": 111238,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content1_img_01_desktop.jpg",
@@ -634,7 +634,7 @@
 		},
 	"\/images\/content1_img_01_mobile.jpg": {
 		"ft": 16384,
-		"iS": 31305,
+		"iS": 66493,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content1_img_01_mobile.jpg",
@@ -743,7 +743,7 @@
 		},
 	"\/images\/content2_logo_02.png": {
 		"ft": 32768,
-		"iS": 4757,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/content2_logo_02.png",
 		"oF": 0,
@@ -754,7 +754,7 @@
 		},
 	"\/images\/content2_logo_03.png": {
 		"ft": 32768,
-		"iS": 8024,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/content2_logo_03.png",
 		"oF": 0,
@@ -847,7 +847,7 @@
 		},
 	"\/images\/hero_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 166532,
+		"iS": 150748,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_desktop.jpg",
@@ -858,7 +858,7 @@
 		},
 	"\/images\/hero_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 110232,
+		"iS": 100400,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_laptop.jpg",
@@ -869,7 +869,7 @@
 		},
 	"\/images\/hero_img_mobile.jpg": {
 		"ft": 16384,
-		"iS": 33265,
+		"iS": 15653,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_mobile.jpg",
@@ -880,7 +880,7 @@
 		},
 	"\/images\/hero_img_tablet.jpg": {
 		"ft": 16384,
-		"iS": 94499,
+		"iS": 64683,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_tablet.jpg",
@@ -931,28 +931,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/intl_about_img_01_mobile.jpg": {
-		"ft": 16384,
-		"iS": 19227,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/intl_about_img_01_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/intl_about_img_01_tablet.jpg": {
-		"ft": 16384,
-		"iS": 66789,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/intl_about_img_01_tablet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/intl_about_img_02_desktop.jpg": {
 		"ft": 16384,
 		"iS": 208794,
@@ -988,7 +966,7 @@
 		},
 	"\/images\/intl_about_img_03_desktop.jpg": {
 		"ft": 16384,
-		"iS": 70729,
+		"iS": 64389,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img_03_desktop.jpg",
@@ -1526,94 +1504,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/updates\/content1_img_01_desktop.jpg": {
-		"ft": 16384,
-		"iS": 117093,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/content1_img_01_desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/content1_img_01_laptop.jpg": {
-		"ft": 16384,
-		"iS": 72643,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/content1_img_01_laptop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/content1_img_01_mobile.jpg": {
-		"ft": 16384,
-		"iS": 31305,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/content1_img_01_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/content1_img_01_tablet.jpg": {
-		"ft": 16384,
-		"iS": 50964,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/content1_img_01_tablet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/hero_img_desktop.jpg": {
-		"ft": 16384,
-		"iS": 166532,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/hero_img_desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/hero_img_laptop.jpg": {
-		"ft": 16384,
-		"iS": 110232,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/hero_img_laptop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/hero_img_mobile.jpg": {
-		"ft": 16384,
-		"iS": 33265,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/hero_img_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/updates\/hero_img_tablet.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/updates\/hero_img_tablet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/index.php": {
 		"cB": 0,

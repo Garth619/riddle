@@ -3,14 +3,14 @@ img.alignleft {
 	display: inline;
 	float: left;
 	margin-right: 24px;
-	margin-top: 4px;
+	margin-top: 14px;
 }
 .alignright,
 img.alignright {
 	display: inline;
 	float: right;
 	margin-left: 24px;
-	margin-top: 4px;
+	margin-top: 14px;
 }
 .aligncenter,
 img.aligncenter {
@@ -51,7 +51,7 @@ img.aligncenter {
 			color:#abacb2;
 		}
 	}
-	p,ul {
+	p,ul,ol {
 		margin-bottom:14px;
 		//margin-bottom: 34px;
 	}
@@ -75,6 +75,27 @@ img.aligncenter {
 		font-style: normal;
 		padding:12px 0 0px;
 	}
+	ol {
+			list-style: none;
+			counter-reset: item;
+			> li {
+				counter-increment: item;
+				//margin-bottom: 5px;
+				position: relative;
+				padding-left:30px;
+	 		}
+	 		> li:before {
+	 				margin-right: 10px;
+	 				content: counter(item)".";
+	 				color: $bluelight;
+	 				width: 1em;
+	 				display: inline-block;
+	 				font-family: $helveticabold;
+	 				position: absolute;
+	 				top:0;
+	 				left:0;
+	 			}
+		}
 	ul {
 		list-style: none;
 		li {
