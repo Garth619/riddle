@@ -348,6 +348,7 @@ body:not(.page-template-page-home) {
 .mobile_logo_svg {
 	opacity: 0;
 	visibility: hidden;
+	display: none;
 }
 
 
@@ -1071,7 +1072,7 @@ body:not(.page-template-page-home) {
 	}
 	
 	.header_left {
-		
+		padding-top:10px;
 		nav {
 			position: fixed;
 			overflow-y: scroll;
@@ -1444,7 +1445,7 @@ body:not(.page-template-page-home) {
 		}
 		a.logo {
 			 flex-basis: 203px;
-			 display: none;
+			 //display: none;
 			 svg {
 					width: 203px;
 			 }
@@ -1487,7 +1488,7 @@ body:not(.page-template-page-home) {
 		
 	}
 	.header_left {
-		
+		background: #fff;
 		a.logo {
 			 flex-basis: 198px;
 			 padding-top: 0px;
@@ -1527,8 +1528,9 @@ body:not(.page-template-page-home) {
 	
 	
 	.mobile_logo_svg {
-		opacity: 1;
-		visibility: visible;
+		opacity: 0;
+		visibility: hidden;
+		display: block;
 		a {
 			display: block;
 			text-decoration: none;
@@ -1536,7 +1538,6 @@ body:not(.page-template-page-home) {
 			position: absolute;
 			top:0;
 			left:0;
-			background: red;
 			height:68px;
 			justify-content: center;
 			align-items: center;
@@ -1557,6 +1558,24 @@ body:not(.page-template-page-home) {
 				font-family: $tekoregular;
 			}
 		}
+}
+
+body:not(.page-template-page-home) {
+	.header_left.visible {
+		a.logo {
+			opacity: 0;
+			visibility: hidden;
+		}
+		.mobile_logo_svg {
+			opacity: 1;
+			visibility: visible;
+			a {
+				span.mobile_phone_consultation_title {
+					color:$blue;
+				}
+			}
+		}
+	}
 }
 	
 	

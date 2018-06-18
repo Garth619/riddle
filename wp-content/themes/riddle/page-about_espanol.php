@@ -5,7 +5,7 @@
 get_header(); ?>
 
 
-<div class="main">
+<div id="main_trigger" class="main">
 	
 	
 	<div class="about_wrapper">

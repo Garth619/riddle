@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="main two_col">
+<div id="main_trigger" class="main two_col">
 
 	<div class="container">
 		

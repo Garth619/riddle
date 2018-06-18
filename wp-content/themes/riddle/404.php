@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="main">
+<div id="main_trigger" class="main">
 
 	<div class="not_found_wrapper">
 	

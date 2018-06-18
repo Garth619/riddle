@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){function e(e,n,t,l,o,a){var f=new Waypoint({element:document.getElementById(e),handler:function(e){"down"===e?($(n).addClass(t),"function"==typeof o&&o.call()):a&&($(n).removeClass(t),"function"==typeof o&&o.call())},offset:l})}e("main_trigger",".header_left","visible",-60,null,!0)});
