@@ -95,6 +95,13 @@ a.free_bar {
 }
 
 
+.mobile_logo {
+	display: none;
+}
+
+
+
+
 @media screen and (max-width: 1450px) {
 	
 	
@@ -195,7 +202,7 @@ a.consult_button {
 	
 	
 	.inner_sec_one {
-		padding: 180px 0 0 0;
+		padding: 46px 0 0 0;
 		span.sec_one_title {
 			font-size:54px;
 			line-height: 51px;
@@ -237,6 +244,13 @@ a.consult_button {
 			}
 			
 		}
+	}
+	
+	
+	.mobile_logo {
+		display: block;
+		width:242px;
+		margin:0 auto 58px;
 	}
 	
 	

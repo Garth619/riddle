@@ -922,7 +922,7 @@
 		},
 	"\/images\/intl_about_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 122792,
+		"iS": 126909,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img_01_desktop.jpg",
@@ -1185,7 +1185,7 @@
 		},
 	"\/images\/intl_contact_img.jpg": {
 		"ft": 16384,
-		"iS": 135653,
+		"iS": 131473,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_contact_img.jpg",
@@ -1345,6 +1345,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/new_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_logomobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_logomobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_phone.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

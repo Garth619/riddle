@@ -54,6 +54,18 @@
 		
 		</a>
 		
+		<div class="mobile_logo_svg">
+			
+			<a href="#consultation">
+				
+				<span class="phone_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_phone.svg"); ?></span>
+				
+				<span class="mobile_phone_consultation_title">Free Consultation</span><!-- mobile_phone_consultation_title -->
+				
+			</a>
+			
+		</div><!-- mobile_logo_svg -->
+		
 		<nav>
 			
 			<div class="close"></div><!-- close -->

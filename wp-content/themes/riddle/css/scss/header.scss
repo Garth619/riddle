@@ -345,6 +345,11 @@ body:not(.page-template-page-home) {
 }
 
 
+.mobile_logo_svg {
+	opacity: 0;
+	visibility: hidden;
+}
+
 
 @media screen and (max-width: 1857px) {
 	
@@ -1396,7 +1401,7 @@ body:not(.page-template-page-home) {
 	
 	
 	header {
-		background: #fff;
+		background: $blue;
 		padding: 0px 0px 0 12px;
 		height: 68px;
 		position: fixed;
@@ -1407,6 +1412,7 @@ body:not(.page-template-page-home) {
 	
 	.header_left {
 		padding: 11px 0 0;
+		position: relative;
 		nav {
 			top: 68px;
 			padding: 49px 0;
@@ -1438,6 +1444,7 @@ body:not(.page-template-page-home) {
 		}
 		a.logo {
 			 flex-basis: 203px;
+			 display: none;
 			 svg {
 					width: 203px;
 			 }
@@ -1519,7 +1526,38 @@ body:not(.page-template-page-home) {
 	
 	
 	
-	
+	.mobile_logo_svg {
+		opacity: 1;
+		visibility: visible;
+		a {
+			display: block;
+			text-decoration: none;
+			display: flex;
+			position: absolute;
+			top:0;
+			left:0;
+			background: red;
+			height:68px;
+			justify-content: center;
+			align-items: center;
+			padding:0 0 0 10px;
+			span.phone_svg {
+				svg {
+					width:42px;
+					height:42px;
+					margin-right:17px;
+				}
+			}
+			span.mobile_phone_consultation_title {
+				color:#fff;
+				text-transform: uppercase;
+				font-size:22px;
+				line-height: 19px;
+				letter-spacing: 0.12em;
+				font-family: $tekoregular;
+			}
+		}
+}
 	
 	
 	
