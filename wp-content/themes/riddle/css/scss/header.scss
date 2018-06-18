@@ -91,6 +91,13 @@ header {
 				}
 				
 			}
+			
+			>li.current-menu-item {
+				> a {
+						color:$bluelight;
+				}
+				
+			}
 			> li.menu-item-has-children {
 				position: relative;
 					&:hover {
@@ -101,7 +108,7 @@ header {
 						}
 					}
 					> a {
-						
+							position: relative;
 							&:after {
 								content:"";
 								transform: rotate(45deg);
@@ -110,7 +117,7 @@ header {
 								background: $bluelight;
 								display: block;
 								position: absolute;
-								top:5px;
+								top:11px;
 								right:-11px;
 							}
 						}
@@ -131,6 +138,13 @@ header {
 			visibility: hidden;
 			transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out, transform 800ms cubic-bezier(.17,.66,.34,.98);
 			transform: translateY(-7px);
+			>li.current-menu-item {
+				> a {
+						color:$bluelight;
+				}
+				
+			}
+			
 			> li.menu-item-has-children {
 					position: relative;
 					> a {
@@ -275,7 +289,38 @@ body:not(.page-template-page-home) {
 			padding-right: 39px;
 			padding-top: 32px;
 			ul.menu {
+				>li.current-menu-ancestor {
+				> a {
+					color:$bluelight;
+				}
+			}
+				>li.current-menu-item {
+				> a {
+						color:$bluelight;
+				}
 				
+			}
+			>li.menu-item-has-children {
+				> ul.sub-menu {
+						> li {
+								&:hover {
+									>a {
+										color:$bluelight;
+									}
+								}
+						}
+						>li.current-menu-ancestor {
+							> a {
+								color:$bluelight;
+							}
+						}
+						>li.current-menu-item {
+							>a {
+								color:$bluelight;
+							}
+						}
+				}
+			}
 				> li {
 					&:hover {
 						> a {
@@ -855,7 +900,7 @@ body:not(.page-template-page-home) {
 			}
 		}
 		nav {
-			;
+			
 			ul.menu {
 				
 				> li {
@@ -914,7 +959,7 @@ body:not(.page-template-page-home) {
 			}
 		}
 		nav {
-			;
+			
 			ul.menu {
 				
 				> li {
@@ -1081,6 +1126,7 @@ body:not(.page-template-page-home) {
 							}
 						}
 				}
+				
 				> li.menu-item-has-children {
 						opacity: 1;
 						visibility: visible;
@@ -1089,17 +1135,14 @@ body:not(.page-template-page-home) {
 							> ul.sub-menu {
 								opacity: 0;
 								visibility: hidden;
-								li {
+								li.menu-item-has-children {
 									ul.sub-menu {
 										opacity: 0;
 										visibility: hidden;
 									}
 								}
 							}
-/*
-							opacity: 0;
-							visibility: hidden;
-*/
+
 						}
 					 	a {
 						 	position: relative;
@@ -1249,7 +1292,45 @@ body:not(.page-template-page-home) {
 		nav {
 			padding:180px 0;
 			ul.menu {
-				
+				>li.menu-item-has-children {
+					> a {
+						position: relative;
+					}
+					>ul.sub-menu {
+						>li.menu-item-has-children {
+							>ul.sub-menu {
+								li.current_page_item {
+									a {
+										color:$bluelight;
+									}
+								}
+							}
+						}
+						>li.current-menu-item {
+							> a {
+								color:$blue;
+							}
+							
+						}
+						>li.current-menu-ancestor {
+							> a {
+									color:$blue;
+							}
+						}
+						>li {
+								&:hover {
+									a {
+										color:$blue;
+									}
+								}
+							> a {
+								&:hover {
+									color:$blue;
+								}
+							}
+						}
+					}
+				}
 				> li {
 					&:hover {
 						> a {

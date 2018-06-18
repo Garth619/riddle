@@ -3,6 +3,7 @@
 
 jQuery(document).ready(function($){
 	
+
 	
 	$('nav ul.menu > li.menu-item-has-children > a').on('click', function(e) {
 		
@@ -22,6 +23,7 @@ jQuery(document).ready(function($){
 			$(this).next('ul.sub-menu').toggleClass('open');
 	  
 	});
+
 	
 
 	
@@ -207,9 +209,9 @@ jQuery(document).ready(function($){
 
 	 
  
- 	$('li.current-menu-ancestor a').next('ul.sub-menu').addClass('open');
+ 	$('.sidebar_list_wrapper li.current-menu-ancestor a').next('ul.sub-menu').addClass('open');
  	
- 	$('li.current-menu-ancestor').addClass('open');
+ 	$('.sidebar_list_wrapper li.current-menu-ancestor').addClass('open');
  
  
 

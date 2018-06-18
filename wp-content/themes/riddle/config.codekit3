@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "E8BE10BE-98F8-4809-8A9F-CE9CE3895AB2"
+		"uuidString": "B9DE5A46-FFA5-46C0-8548-666048195784"
 		}
 	],
 "creatorBuild": "26680",
@@ -568,7 +568,7 @@
 		},
 	"\/images\/caseresults_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 263243,
+		"iS": 160574,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/caseresults_img_desktop.jpg",
@@ -612,7 +612,7 @@
 		},
 	"\/images\/content1_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 111238,
+		"iS": 117093,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content1_img_01_desktop.jpg",
@@ -634,7 +634,7 @@
 		},
 	"\/images\/content1_img_01_mobile.jpg": {
 		"ft": 16384,
-		"iS": 66493,
+		"iS": 31305,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content1_img_01_mobile.jpg",
@@ -743,23 +743,23 @@
 		},
 	"\/images\/content2_logo_02.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4757,
 		"oA": 0,
 		"oAP": "\/images\/content2_logo_02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/content2_logo_03.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 8024,
 		"oA": 0,
 		"oAP": "\/images\/content2_logo_03.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -847,7 +847,7 @@
 		},
 	"\/images\/hero_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 150748,
+		"iS": 166532,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_desktop.jpg",
@@ -858,7 +858,7 @@
 		},
 	"\/images\/hero_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 100400,
+		"iS": 110232,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_laptop.jpg",
@@ -869,7 +869,7 @@
 		},
 	"\/images\/hero_img_mobile.jpg": {
 		"ft": 16384,
-		"iS": 15653,
+		"iS": 33265,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_mobile.jpg",
@@ -880,7 +880,7 @@
 		},
 	"\/images\/hero_img_tablet.jpg": {
 		"ft": 16384,
-		"iS": 64683,
+		"iS": 94499,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_tablet.jpg",
@@ -922,10 +922,32 @@
 		},
 	"\/images\/intl_about_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 126909,
+		"iS": 122792,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img_01_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/intl_about_img_01_mobile.jpg": {
+		"ft": 16384,
+		"iS": 19227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/intl_about_img_01_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/intl_about_img_01_tablet.jpg": {
+		"ft": 16384,
+		"iS": 66789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/intl_about_img_01_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -966,13 +988,13 @@
 		},
 	"\/images\/intl_about_img_03_desktop.jpg": {
 		"ft": 16384,
-		"iS": 64389,
+		"iS": 70729,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img_03_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_about_img_03_mobile.jpg": {
@@ -1163,7 +1185,7 @@
 		},
 	"\/images\/intl_contact_img.jpg": {
 		"ft": 16384,
-		"iS": 131473,
+		"iS": 135653,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_contact_img.jpg",
@@ -1504,6 +1526,94 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/updates\/content1_img_01_desktop.jpg": {
+		"ft": 16384,
+		"iS": 117093,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/content1_img_01_laptop.jpg": {
+		"ft": 16384,
+		"iS": 72643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/content1_img_01_mobile.jpg": {
+		"ft": 16384,
+		"iS": 31305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/content1_img_01_tablet.jpg": {
+		"ft": 16384,
+		"iS": 50964,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/content1_img_01_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_desktop.jpg": {
+		"ft": 16384,
+		"iS": 166532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_laptop.jpg": {
+		"ft": 16384,
+		"iS": 110232,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_mobile.jpg": {
+		"ft": 16384,
+		"iS": 33265,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/updates\/hero_img_tablet.jpg": {
+		"ft": 16384,
+		"iS": 94499,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/updates\/hero_img_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.php": {
 		"cB": 0,
@@ -1958,10 +2068,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 549858538,
+	"creationDate": 550975930,
 	"displayValue": "riddle",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-chloe",
+	"iconImageName": "meme-cocaine",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
