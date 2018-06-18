@@ -11,49 +11,6 @@
 			<?php gravity_form(1, false, false, false, '', true, 12); ?>
 			
 			<span class="required">All Fields Required</span><!-- required -->
-			
-			<div class="mobile_social_wrapper contact_page_form">
-			
-			
-			<div class="social_media">
-				
-				
-				<ul>
-					
-					<?php if(get_field('social_media','option')): ?>
-					 
-						<?php while(has_sub_field('social_media','option')): ?>
-					 
-							<li>
-								<a href="<?php the_sub_field( 'link' ); ?>" class="<?php the_sub_field( 'class' ); ?>" target="_blank">
-									
-									<?php $socialsvg = get_sub_field( 'svg' );?>
-							
-									<?php echo file_get_contents("wp-content/themes/riddle/images/" . $socialsvg .""); ?>
-							
-								</a>
-							</li>
-					    
-						<?php endwhile; ?>
-					 
-					<?php endif; ?>
-					
-				</ul>
-				
-			</div><!-- social_media -->
-			
-			<div class="copyright">
-				
-				<ul>
-					<li>&copy;2018 Riddle & Breantley, LLP<br/> All Rights Reserved.</li>
-					<li><a href="">Disclaimer</a></li>
-				</ul>
-				
-			</div><!-- copyright -->
-			
-			
-		</div><!-- mobile_social_wrapper -->
-			
 
 		</div><!-- form_wrapper -->
 		
@@ -225,6 +182,8 @@
 </footer>
 
 <?php wp_footer();?>
+
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 
 <?php the_field( 'tracking_codes_footer','option'); ?>
 

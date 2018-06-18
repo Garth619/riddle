@@ -67,7 +67,12 @@
 					
 					<img class="video_banner" src="<?php bloginfo('template_directory');?>/images/content1_img_03_desktop.jpg"/>
 					
-					<div class="sec_three_play"></div><!-- sec_three_play -->
+					
+					
+					
+					<div class="sec_three_play wistia_embed wistia_async_<?php the_field( 'wistia_video_id_section_three' ); ?> popover=true popoverContent=html"></div><!-- sec_three_play -->
+					
+					
 					
 					<div class="stars">
 						
