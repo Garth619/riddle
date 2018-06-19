@@ -1,0 +1,19 @@
+
+@keyframes arrow_move {
+  0 {
+    transform: translateX(0px) rotate(180deg);
+ 		
+  }
+  
+ 50% {
+    transform: translateX(-6px) rotate(180deg);
+    
+  }
+  
+  100% {
+	  transform: translateX(0px) rotate(180deg)
+  }
+}
+
+
+

@@ -12,7 +12,11 @@
 		
 		<a class="consult_button" href="#consultation">
 			
-			<div class="consult_left"><?php the_field( 'consultation_button_verbiage_sec_one' ); ?></div><!-- consult_left -->
+			<div class="consult_left">
+				
+				<span><?php the_field( 'consultation_button_verbiage_sec_one' ); ?></span>
+				
+			</div><!-- consult_left -->
 			
 			<div class="consult_right">
 				

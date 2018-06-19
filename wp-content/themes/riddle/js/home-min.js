@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){function n(n,e,o,t,l,c){var i=new Waypoint({element:document.getElementById(n),handler:function(n){"down"===n?($(e).addClass(o),"function"==typeof l&&l.call()):c&&($(e).removeClass(o),"function"==typeof l&&l.call())},offset:t})}n("section_one","#section_one","visible",0,null,!0)});
