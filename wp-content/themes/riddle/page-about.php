@@ -156,7 +156,11 @@ get_header(); ?>
 			
 			<a class="consult_button desktop" href="#consultation">
 			
-				<div class="consult_left">Click For a Free Consultation</div><!-- consult_left -->
+				<div class="consult_left">
+					
+					<span>Click For a Free Consultation</span>
+					
+				</div><!-- consult_left -->
 			
 				<div class="consult_right">
 				
@@ -168,7 +172,11 @@ get_header(); ?>
 			
 			<a class="consult_button mobile" href="#consultation">
 			
-				<div class="consult_left">Free Consultation</div><!-- consult_left -->
+				<div class="consult_left">
+					
+					<span>Free Consultation</span>
+				
+				</div><!-- consult_left -->
 			
 				<div class="consult_right">
 				

@@ -59,7 +59,7 @@ get_header(); ?>
 		</section><!-- about_section -->
 
 		
-		<section class="about_section_two">
+		<section id="about_section_two_trigger" class="about_section_two">
 			
 			<div class="about_content_two content">
 				

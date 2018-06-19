@@ -50,7 +50,10 @@ createWaypoint("about_section", "#about_section", "visible", 250, null, true);
 
 createWaypoint("about_section_two_trigger", "#about_section_two_trigger", "visible", 200, null, true); 
 
-createWaypoint("about_section_three", "#about_section_three", "visible", 300, null, true);
+
+createWaypoint("about_section_es", "#about_section_es", "visible", 300, null, true); 
+
+
 
 
 

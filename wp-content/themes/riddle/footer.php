@@ -8,7 +8,7 @@
 		
 		<div class="form_wrapper">
 			
-			<?php gravity_form(1, false, false, false, '', true, 12); ?>
+			<?php gravity_form(1, false, false, false, '', true, 1266); ?>
 			
 			<span class="required">All Fields Required</span><!-- required -->
 

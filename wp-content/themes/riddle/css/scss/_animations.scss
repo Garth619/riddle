@@ -254,7 +254,7 @@
 		.about_img {
 			img {
 				transform: translateY(-45px);
-				opacity: 0;
+				// opacity: 0;
 				transition: opacity 500ms linear, transform 1400ms cubic-bezier(.17,.66,.34,.98);
 			}
 		}
@@ -265,10 +265,71 @@
 		.about_img {
 			img {
 				transform: translateY(0px);
-				opacity: 1;
+				// opacity: 1;
 			}
 		}
 	}
+	
+	.about_img_two {
+		img.img_one {
+			transform: translateY(-45px);
+			transition: transform 1300ms  cubic-bezier(.17,.66,.34,.98);
+		}	
+		img.img_two {
+			transform: translateY(45px);
+			transition: transform 1300ms  cubic-bezier(.17,.66,.34,.98);
+		}	
+	}
+	
+	
+	#about_section_two_trigger.visible {
+		.about_img_two {
+			img.img_one {
+				transform: translateY(0px);
+			}	
+			img.img_two {
+				transform: translateY(0px);
+			}	
+		}
+	}
+	
+	.about_image_three {
+		img {
+			transform: translateY(-45px);
+			transition: all 900ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+	
+	#about_section_three.visible {
+		.about_image_three {
+			img {
+				transform: translateY(0px);
+			}
+		}
+	}
+	
+	
+	
+
+		.about_section_es_image {
+			img {
+				transform: translateY(-5px);
+				transition: all 1300ms  cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	
+	
+	
+	#about_section_es.visible {
+		.about_section_es_image {
+			img {
+				transform: translateY(0px);
+			}
+		}
+	}
+	
+	
+	
 	
 	
 } /* Media Query */
