@@ -56,7 +56,7 @@
 		
 		<div class="mobile_logo_svg">
 			
-			<a href="tel:<?php the_field( 'phone_number' ); ?>">
+			<a href="tel:<?php the_field( 'phone_number','option'); ?>">
 				
 				<span class="phone_svg"><?php echo file_get_contents("wp-content/themes/riddle/images/new_phone.svg"); ?></span>
 				
@@ -86,7 +86,7 @@
 		
 		<div class="phone_wrapper">
 			
-			<a class="tel" href="tel:<?php the_field( 'phone_number' ); ?>"><?php the_field( 'phone_number' ); ?></a>
+			<a class="tel" href="tel:<?php the_field( 'phone_number','option'); ?>"><?php the_field( 'phone_number','option'); ?></a>
 			
 			<span>Free Consultation</span>
 			
