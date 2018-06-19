@@ -38,7 +38,11 @@
 			
 					<a class="consult_button" href="<?php the_sub_field( 'case_results_page_link' ); ?>">
 			
-						<div class="consult_left"><?php the_sub_field( 'case_results_button_verbiage' ); ?></div><!-- consult_left -->
+						<div class="consult_left">
+							
+							<span><?php the_sub_field( 'case_results_button_verbiage' ); ?></span>
+						
+						</div><!-- consult_left -->
 			
 						<div class="consult_right">
 				

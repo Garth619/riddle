@@ -38,6 +38,13 @@ function my_jquery_enqueue() {
 	     
      }
      
+     if(is_page_template('page-about.php')) {
+	     
+	     
+	     wp_enqueue_script( 'jquery-about', get_template_directory_uri() . '/js/about-min.js', array('jquery'), '', true );
+	     
+     }
+     
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );

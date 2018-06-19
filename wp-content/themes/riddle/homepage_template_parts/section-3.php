@@ -64,7 +64,7 @@
 		
 		<div class="sec_three_bottom_content">
 			
-			<div class="bottom_content_left">
+			<div id="bottom_content_trigger" class="bottom_content_left">
 				
 				
 				<div class="bottom_content_video">
@@ -100,7 +100,11 @@
 					
 					<a class="consult_button desktop" href="<?php the_field( 'testimonial_page_link_sec_three' ); ?>">
 			
-					<div class="consult_left"><?php the_field( 'testimonials_button_verbiage_sec_three' ); ?></div><!-- consult_left -->
+					<div class="consult_left">
+						
+						<span><?php the_field( 'testimonials_button_verbiage_sec_three' ); ?></span>
+					
+					</div><!-- consult_left -->
 					
 					<div class="consult_right">
 				

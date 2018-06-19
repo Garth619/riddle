@@ -16,7 +16,7 @@
 		
 	</div><!-- inner_footer -->
 	
-	<div class="footer_locations">
+	<div id="footer_locations_trigger" class="footer_locations">
 		
 		
 		<div class="locations_left">

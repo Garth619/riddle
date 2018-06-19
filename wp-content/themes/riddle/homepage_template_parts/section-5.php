@@ -2,7 +2,7 @@
 	
 	<span class="large_header"><?php the_field( 'section_five_title' ); ?></span>
 		
-		<div class="sec_five_inner">
+		<div id="sec_five_inner_trigger" class="sec_five_inner">
 		
 		<div class="sec_five_left">
 			

@@ -41,20 +41,15 @@ jQuery(document).ready(function($){
             //Waypoint Instance - Call Function
             //Template -> createWaypoint("id-name", null, null, null, function-name, true);
             //Example -> createWaypoint("section-2", null, null, null, test, true);
-            
-            
-            createWaypoint("section_one", "#section_one", "visible", 0, null, false);
-            
-            
-            createWaypoint("section_three", "#section_three", "visible", 100, null, false);
-            
-            
-            createWaypoint("bottom_content_trigger", "#bottom_content_trigger", "visible", 300, null, false);
-            
-            createWaypoint("sec_five_inner_trigger", "#sec_five_inner_trigger", "visible", 300, null, false);
 
 
-							
 
-}); // Document Ready
 
+
+createWaypoint("about_section", "#about_section", "visible", 250, null, true);     
+
+createWaypoint("about_section_two_trigger", "#about_section_two_trigger", "visible", 250, null, true);  
+
+
+
+}); // Document Ready      
