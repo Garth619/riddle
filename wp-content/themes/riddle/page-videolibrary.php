@@ -76,6 +76,18 @@
 				
 				<?php
 					
+					if ( is_page() && $post->post_parent > 0 ) { 
+						
+						$mychild = 'true';
+					
+					}
+					
+					else {
+						
+						$mychild = 'false';
+						
+					}
+					
 					$myterm = get_field('video_library_category');
 					
 					
@@ -91,7 +103,7 @@
 				<div class="single_video_post">
 					
 					
-					<a href="<?php the_permalink();?>?videolibrary=<?php echo $mypost_slug;?>&videopage=<?php echo $paged;?>">
+					<a href="<?php the_permalink();?>?videolibrary=<?php echo $mypost_slug;?>&videopage=<?php echo $paged;?>&child=<?php echo $mychild;?>">
 					
 					<div class="video_image">
 						
