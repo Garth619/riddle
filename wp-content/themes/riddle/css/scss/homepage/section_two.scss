@@ -236,6 +236,7 @@
 .sec_two_slider {
 	margin: 61px auto 0;
 	max-width:600px;
+	border:1px solid $bluelight;
 	.slick-dots {
 		bottom: 50px;
 		li.slick-active {
@@ -269,7 +270,7 @@
 }
 
 .sec_two_single_slide {
-	border:1px solid $bluelight;
+	border:1px solid transparent;
 	.sp_wrapper {
 		padding: 90px 0 0;
 		svg {
@@ -298,7 +299,7 @@
 .sec_two_single_slide {
 	
 	&:hover {
-		border:1px solid $bluelight;
+		border:1px solid transparent;
 		.sp_wrapper {
 			transform: translateY(0px);
 		}

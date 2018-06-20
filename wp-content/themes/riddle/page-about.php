@@ -39,7 +39,7 @@ get_header(); ?>
 			<ul>
 				<li> With over 160 years of combined legal experience, our outstanding attorneys work to get you justice. Your injuries should not keep you from enjoying the highest quality of life possible in your situation.</li>
 				<li>Our attorneys and staff are dedicated to reaching a beneficial solution for you and your loved ones. As a result of this dedication and attentive nature with which we serve our clients’ legal needs, we are proud to establish long-standing relationships with our clients.</li>
-				<li>Tam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</li>
+				
 			</ul>
 
 			
@@ -121,7 +121,7 @@ get_header(); ?>
 					<span class="side_content">Learn more about our proud animal ambassador and the humane society we support.</span><!-- side_content -->
 					
 					
-					<a class="view_story" href="">View Full Story</a>
+					<a class="view_story" href="<?php bloginfo();?>/who-we-are/coconut-riddle/">View Full Story</a>
 					
 				</div><!-- about_imge_three_side_content -->
 				

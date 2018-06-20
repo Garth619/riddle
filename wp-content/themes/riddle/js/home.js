@@ -49,7 +49,7 @@ jQuery(document).ready(function($){
             createWaypoint("section_three", "#section_three", "visible", 100, null, false);
             
             
-            createWaypoint("bottom_content_trigger", "#bottom_content_trigger", "visible", 300, null, false);
+            createWaypoint("bottom_content_trigger", "#bottom_content_trigger", "visible", 350, null, false);
             
             createWaypoint("sec_five_inner_trigger", "#sec_five_inner_trigger", "visible", 300, null, false);
 
