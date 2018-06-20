@@ -15,7 +15,9 @@
 			
 			<?php
 				
-				if ($post->post_parent == '135') { // if current page is child of page with page ID 100 ?>
+				$videoparent = $post->post_parent == '135';
+				
+				if ($videoparent) { // if current page is child of page with page ID 100 ?>
 					
 					
 					<div class="my_breadcrumb">
@@ -78,13 +80,13 @@
 					
 					if ( is_page() && $post->post_parent > 0 ) { 
 						
-						$mychild = 'true';
+						$mychild = 'childtrue';
 					
 					}
 					
 					else {
 						
-						$mychild = 'false';
+						$mychild = 'childfalse';
 						
 					}
 					
@@ -103,7 +105,7 @@
 				<div class="single_video_post">
 					
 					
-					<a href="<?php the_permalink();?>?videolibrary=<?php echo $mypost_slug;?>&videopage=<?php echo $paged;?>&child=<?php echo $mychild;?>">
+					<a href="<?php the_permalink();?>?videolibrary=<?php echo $mypost_slug;?>&videopage=<?php echo $paged;?>&childpage=<?php echo $mychild;?>">
 					
 					<div class="video_image">
 						

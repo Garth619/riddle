@@ -7,8 +7,9 @@
 		
 		<div class="inner_container content">
 			
+			<div class="back_wrapper">
 			
-			<?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+				<?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 
 					if (strpos($url,'videolibrary') !== false) {
@@ -17,22 +18,32 @@
 						
 						$backpage = $_GET['videopage'];
 						
-			?>
-			
-					<div class="back_wrapper">
+						$childpage = $_GET['childpage'];
 						
-						<a href="<?php bloginfo('url');?>/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">
-							
-							<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
-							
-							Back to Video Library
+					}
+				
+				
+					if(strpos($url,'childtrue') !== false) { 
 						
-						</a>
+				?> 
+						
 					
-					</div><!-- back_wrapper -->
+						<a href="<?php bloginfo('url');?>/video-library/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">
 						
+					<?php } else { ?>
+					
+					<a href="<?php bloginfo('url');?>/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">
+					
+					<?php } ?>
+					
+						<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+							
+						Back to Video Library
 						
-				<?php	} ?>
+					</a>
+
+				
+			</div><!-- back_wrapper -->
 			
 			<h1 class="pa_title"><?php the_title();?></h1>
 			
