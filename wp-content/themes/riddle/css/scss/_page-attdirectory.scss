@@ -276,6 +276,7 @@
 	
 	
 	
+/*
 	
 			
 .attorney_directory {
@@ -353,6 +354,7 @@
 		
 	}
 }
+*/
 	
 	
 	
@@ -384,14 +386,18 @@
 
 .single_att {
 	margin-bottom: 30px;
+	width:100%;
+	max-width:500px;
+	margin-left:auto;
+	margin-right:auto;
 	&:nth-of-type(4n + 4) {
-		
+		margin-right:auto;
 	}
 	&:nth-of-type(3n + 3) {
-		
+		margin-right:auto;
 	}
 	&:nth-of-type(2n + 2) {
-		
+		margin-right:auto;
 	}
 	&:nth-last-of-type(-n + 4) {
 		margin-bottom: 30px;
