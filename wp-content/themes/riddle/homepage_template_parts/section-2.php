@@ -59,8 +59,6 @@
 					</div><!-- sec_two_single_slide -->
 
 			 
-					
-			    
 				<?php endwhile; ?>
 			 
 			<?php endif; ?>
@@ -76,4 +74,14 @@
 	</div><!-- inner_sec_two -->
 	
 	
+	
+	
 </section><!-- section_two -->
+
+
+
+<div class="tool_tip_mobile">
+		
+		<span><?php the_field( 'section_two_mobile_description' ); ?></span>
+		
+	</div><!-- tool_tip_mobile -->
