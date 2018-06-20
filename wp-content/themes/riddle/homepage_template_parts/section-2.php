@@ -33,11 +33,13 @@
 				
 							<a class="view_button" href="<?php the_sub_field( 'slider_page_links' ); ?>"><?php the_sub_field( 'button_verbiage' ); ?></a><!-- view_button -->
 							
-							<div class="tool_tip">
+							<?php if(get_sub_field('slide_description')) { ?>
+							
+							<div class="tool_tip desktop">
 								
 								<div class="tool_tip_inner">
 								
-									<span>Prior results do not guarantee a similar outcome, and they should not be construed to constitute a promise or guarantee of a particular result in any particular case.</span>
+									<span><?php the_sub_field( 'slide_description' ); ?></span>
 									
 									<div class="tri">
 										
@@ -48,6 +50,8 @@
 								</div><!-- tool_tip_inner -->
 								
 							</div><!-- tool_tip -->
+							
+							<?php } ?>
 					
 						</div><!-- sp_wrapper -->
 				
