@@ -21,7 +21,7 @@
 
 	
 	
-				<?php if(get_field( 'myfeatured_image' )): ?>
+				<?php if(get_field( 'featured_image' )): ?>
 				
 					<div class="single_post has_image">
 					
@@ -37,7 +37,7 @@
 							
 							<div class="mobile_image">
 								
-								<?php $myfeatured_image = get_field( 'myfeatured_image' ); ?>
+								<?php $myfeatured_image = get_field( 'featured_image' ); ?>
 
 								<img src="<?php echo $myfeatured_image['url']; ?>" alt="<?php echo $myfeatured_image['alt']; ?>" />
 
@@ -59,7 +59,7 @@
 					
 						<div class="myfeatured_image">
 						
-							<?php $myfeatured_image = get_field( 'myfeatured_image' ); ?>
+							<?php $myfeatured_image = get_field( 'featured_image' ); ?>
 
 							<img src="<?php echo $myfeatured_image['url']; ?>" alt="<?php echo $myfeatured_image['alt']; ?>" />
 

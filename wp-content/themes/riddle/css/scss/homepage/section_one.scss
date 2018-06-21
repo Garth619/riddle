@@ -163,19 +163,23 @@ a.consult_button {
 	
 	#section_one {
 		background: url(#{$themePath}images/hero_img_tablet.jpg) top center no-repeat;
-		height:631px;
+		background-size:cover;
+		height: 580px;
 	}
 	
 	
 	.inner_sec_one {
+		padding: 249px 0 0 0;
 		span.sec_one_title {
-			max-width: 648px;
+			max-width: 705px;
+			font-size:73px;
+			line-height: 73px;
 		}
 	}
 	
 	
 	a.consult_button {
-    margin: 56px auto 0;
+    margin: 32px auto 0;
    }
    
    
@@ -193,16 +197,16 @@ a.consult_button {
 	
 	#section_one {
 		margin-top: 68px;
-		height: 448px;
-		background-size: 970px;
-		background-position-y:-35px;
+		height: 415px;
+		background-size: 870px;
+		background-position-y:-50px;
 		//background: url(#{$themePath}images/hero_img_mobile.jpg) top center;
 	}
 	
 	
 	
 	.inner_sec_one {
-		padding: 46px 0 0 0;
+	 	padding: 161px 0 0 0;
 		span.sec_one_title {
 			font-size:54px;
 			line-height: 51px;

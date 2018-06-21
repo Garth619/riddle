@@ -3,6 +3,16 @@
 <div id="main_trigger" class="main two_col">
 
 	<div class="container">
+		
+				
+			<?php if(get_field( 'banner_featured_image')) { ?>
+				
+				<div class="inner_banner" style="background: url(<?php the_field( 'banner_featured_image'); ?>) top center no-repeat no-repeat;
+				background-size:cover;">
+		
+				</div><!-- inner_banner -->
+			
+			<?php } ?>
 	
 		
 		<div class="inner_container content">
@@ -20,7 +30,7 @@
 						
 						$childpage = $_GET['childpage'];
 						
-					}
+					
 				
 				
 					if(strpos($url,'childtrue') !== false) { 
@@ -29,18 +39,26 @@
 						
 					
 						<a href="<?php bloginfo('url');?>/video-library/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">
+							
+							<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+							
+						Back to Video Library
+						
+					</a>
 						
 					<?php } else { ?>
 					
 					<a href="<?php bloginfo('url');?>/<?php echo $backtitle;?>/page/<?php echo $backpage;?>" class="go_back">
-					
-					<?php } ?>
-					
+						
 						<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
 							
 						Back to Video Library
 						
 					</a>
+					
+					<?php } } ?>
+					
+						
 
 				
 			</div><!-- back_wrapper -->
