@@ -1,13 +1,7 @@
 <section id="section_one">
 	
 	<div class="inner_sec_one">
-		
-		<div class="mobile_logo">
-			
-			<?php echo file_get_contents("wp-content/themes/riddle/images/new_logomobile.svg"); ?>
-			
-		</div><!-- mobile_logo -->
-		
+				
 		<span class="sec_one_title"><?php the_field( 'intro_header' ); ?></span><!-- sec_one_title -->
 		
 		<a class="consult_button" href="#consultation">

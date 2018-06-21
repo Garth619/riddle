@@ -331,6 +331,7 @@
 				&:hover {
 					> a {
 							background: #fff;
+							border-bottom:1px solid $bluelight;
 					}
 				}
 				> a {
@@ -454,6 +455,7 @@
 			}
 			&:hover {
 				background: #fff;
+				
 				&:before {
 					//background: $bluelight;
 				}

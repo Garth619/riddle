@@ -32,7 +32,6 @@
 		padding-right:30px;
 	}
 	span.amount, span.case_type {
-		transition: color 200ms ease-in-out, transform 1100ms cubic-bezier(.17,.66,.34,.98);
 		transform: translateY(0);
 	}
 	span.amount {
@@ -43,6 +42,7 @@
 		font-size:130px;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
+		transition: color 200ms ease-in-out, transform 1100ms cubic-bezier(.17,.66,.34,.98), font-size 700ms cubic-bezier(.17,.66,.34,.98);
 	}
 	span.case_type {
 		color:$bluelight;
@@ -52,6 +52,7 @@
 		display: block;
 		margin:16px 0 0;
 		line-height: 20px;
+		transition: color 200ms ease-in-out, transform 1100ms cubic-bezier(.17,.66,.34,.98);
 	}
 	span.case_results_read_more {
 		color:#fff;
@@ -62,7 +63,7 @@
 		border:1px solid #fff;
 		padding:24px 22px 19px;
 		letter-spacing: 0.16em;
-		transition: background 200ms ease-in-out, transform 1100ms cubic-bezier(.17,.66,.34,.98), opacity 200ms ease-in-out;
+		transition: background 200ms ease-in-out, transform 1100ms cubic-bezier(.17,.66,.34,.98), opacity 200ms ease-in-out, ;
 		opacity: 0;
 		margin-top:35px;
 		transform: translateY(0);
@@ -78,9 +79,16 @@
 	&:hover {
 		background: $bluelight;
 		transform: translateY(-35px);
+		span.amount {
+			font-size:111px;
+			transform: translateY(-50px);
+		}
+		span.case_type {
+			transform: translateY(-50px) scale(1.15);
+		}
 		span.amount, span.case_type {
 			color:#fff;
-			transform: translateY(-50px);
+			
 		}
 		span.case_results_read_more {
 			opacity: 1;
@@ -127,8 +135,12 @@
 .single_case_results {
 	&:hover {
 		transform: translateY(-20px);
-		span.amount, span.case_type {
+		span.amount {
 			transform: translateY(-50px);
+			font-size:103px;
+		}
+		span.case_type {
+			transform: translateY(-50px) scale(1.15);
 		}
 		span.case_results_read_more {
 			transform: translateY(-50px);
@@ -183,6 +195,9 @@
 		
 		span.amount, span.case_type {
 			transform: translateY(-40px);
+		}
+		span.case_type {
+			transform: translateY(-40px) scale(1.15);
 		}
 		span.case_results_read_more {
 			transform: translateY(-40px);
@@ -255,7 +270,7 @@
 	span.case_results_read_more {
 		opacity: 1;
 		color:#fff;
-		background: $blue;
+		background: $bluelight;
 		border:1px solid transparent;
 		transform: translateY(-35px);
 		&:hover {
@@ -370,7 +385,9 @@
 		
 	}
 	&:hover {
-		
+		span.amount {
+			font-size:78px;
+		}
 		span.amount, span.case_type {
 			
 		}

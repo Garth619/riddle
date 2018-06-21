@@ -43,6 +43,10 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
             
             
+            
+            createWaypoint("section_one", ".header_left", "visible", -60, null, true);
+            
+            
             createWaypoint("section_one", "#section_one", "visible", 0, null, false);
             
             

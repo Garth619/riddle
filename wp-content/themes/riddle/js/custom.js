@@ -58,6 +58,8 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
             
             
+            
+            
             createWaypoint("footer_locations_trigger", "#footer_locations_trigger", "visible", 0, null, false);
             
 

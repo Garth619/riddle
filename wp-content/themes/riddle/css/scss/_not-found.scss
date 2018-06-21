@@ -54,8 +54,8 @@ span.not_found_description {
 	
 	
 .not_found_wrapper {
-	padding:0 45px;
-	height: 480px;
+	padding:45px 25px;
+	height: auto;
 	background-position-y: bottom;
 	a, span.go_back {
 		
@@ -67,18 +67,20 @@ span.not_found_description {
 
 
 span.not_found_header {
-	font-size: 160px;
+	font-size:  140px
 }
 
 span.not_found_small_header {
-	font-size: 80px;
+	font-size: 50px;
 	margin-top: -30px;
 }
 
 
 span.not_found_description {
-	margin: 38px auto 0;
+	margin: 52px auto 0;
 	max-width: 485px;
+	font-size: 16px;
+	line-height: 30px;
 }
 	
 	
@@ -92,6 +94,7 @@ span.not_found_description {
 @media screen and (max-width: 530px) {
 	
 	
+/*
 	
 .not_found_wrapper {
 	height: 380px;
@@ -117,6 +120,7 @@ span.not_found_small_header {
 span.not_found_description {
 	margin: 18px auto 0;
 }
+*/
 	
 	
 	
@@ -130,6 +134,7 @@ span.not_found_description {
 	
 	
 	
+/*
 .not_found_wrapper {
 	height: 400px;
 	a, span.go_back {
@@ -156,6 +161,7 @@ span.not_found_description {
 	margin: 18px auto 0;
 	line-height: 30px;
 }
+*/
 	
 	
 	
