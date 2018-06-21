@@ -67,7 +67,7 @@
 			
 			<div class="meta">
 						
-				<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_category_list();?> </span><!-- date -->
+				<span class="date"><?php $author = get_the_author(); echo $author;?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php $pfx_date = get_the_date(); echo $pfx_date ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_category_list();?> </span><!-- date -->
 						
 			</div><!-- meta -->
 			
