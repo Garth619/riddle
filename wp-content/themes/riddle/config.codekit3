@@ -658,6 +658,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/content1_img_01_mobile.jpg": {
+		"ft": 16384,
+		"iS": 47463,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/content1_img_01_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/content1_img_01_tablet.jpg": {
+		"ft": 16384,
+		"iS": 61435,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/content1_img_01_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/content1_img_03_desktop.jpg": {
 		"ft": 16384,
 		"iS": 38233,
@@ -871,6 +893,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/hero_img_mobile.jpg": {
+		"ft": 16384,
+		"iS": 47802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/hero_img_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/hero_img_tablet.jpg": {
+		"ft": 16384,
+		"iS": 76153,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/hero_img_tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/hero_logo_01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -897,6 +941,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_404_hero_img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/intl_about_content_img_01_tablet.jpg": {
+		"ft": 16384,
+		"iS": 136586,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/intl_about_content_img_01_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1623,6 +1678,16 @@
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/js\/about-espanol-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/about-espanol-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/about-espanol.js": {
 		"ft": 64,

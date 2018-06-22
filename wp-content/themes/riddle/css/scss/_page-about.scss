@@ -56,6 +56,12 @@
 			height:auto;
 			display: block;
 		}
+		img.img_desktop {
+			display: block;
+		}
+		img.img_tablet {
+			display: none;
+		}
 	}
 	
 	.about_content_one {
@@ -111,6 +117,9 @@
 		max-width:100%;
 		height: auto;
 		display: block;
+	}
+	img.img_one.tablet {
+		display: none;
 	}
 	img.img_two {
 		margin-top:-134px;
@@ -305,10 +314,10 @@ a.view_story {
 	
 	#about_section {
 		.about_img {
-			width: 560px;
+			width: 510px;
 		}
 		.about_content_one {
-			width:calc(100% - 560px);
+			width:calc(100% - 510px);
 		}
 	}
 	
@@ -323,7 +332,7 @@ a.view_story {
 	
 	
 	.about_image_three {
-		width: 673px;
+		width: 573px;
 		max-height: 980px;
 		img {
 			max-width:100%;
@@ -332,7 +341,7 @@ a.view_story {
 	}
 	
 	.about_content_three {
-		width:calc(100% - 673px);
+		width:calc(100% - 573px);
 	}
 	
 	
@@ -363,6 +372,10 @@ a.view_story {
 		flex-direction: column;
 		.about_img {
 			width: 100%;
+			img {
+				margin-left:auto;
+				margin-right:auto;
+			}
 		}
 		.about_content_one {
 			width:100%;
@@ -378,6 +391,14 @@ a.view_story {
 	.about_img_two {
 		width: 100%;
 		margin: 55px 0 0 0;
+		img.img_one {
+			margin-left:auto;
+			margin-right:auto;
+		}
+		img.img_two {
+			margin-left:auto;
+			margin-right:auto;
+		}
 		.img_content {
 			padding-right:72px;
 			padding-left:72px;
@@ -421,17 +442,23 @@ a.view_story {
 	
 	#about_section_es {
 		flex-direction: column;
+		margin-top: 127px;
 	}
 	
 	.about_section_es_image {
 		width:100%;
-		order:2;
-		display: none;
+		order:1;
+		//display: none;
+		img {
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:-120px;
+		}
 	}
 	
 	.about_section_es_content {
 		width:100%;
-		order:1;
+		order:2;
 	}
 	
 	
@@ -443,6 +470,7 @@ a.view_story {
  @media screen and (max-width: 1297px) {
 	 
 	 
+/*
 	 
 	 #about_section {
 		 .about_img {
@@ -464,6 +492,7 @@ a.view_story {
 			 margin-left:auto;
 		 }
 	 }
+*/
 	 
 	 
 	 
@@ -504,6 +533,12 @@ a.view_story {
 		img {
 			margin-top: -84px;
 		}
+		img.img_desktop {
+			display: none;
+		}
+		img.img_tablet {
+			display: block;
+		}
 	}
 	.about_content_one {
 		padding: 51px 50px 0 50px;
@@ -523,14 +558,23 @@ a.view_story {
 .about_img_two {
 	
 	img {
-		float:right;
+		//float:right;
+	}
+	img.img_one.desktop {
+		display: none;
+	}
+	img.img_one.tablet {
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
 	}
 	img.img_two {
 		display: none;
 	}
 	.img_content {
 		clear:both;
-		padding-top:63px;
+		padding-top:30px;
 		padding-left:50px;
 		padding-right:50px;
 	}
@@ -543,20 +587,24 @@ a.view_story {
 }
 
 .about_image_three {
-	text-align: left;
+	img {
+		margin-left:auto;
+		margin-right:auto;
+	}
 }
 
 
 .about_imge_three_side_content {
 	span.side_title {
-		margin: 68px 0 0 10%;
+		margin: 68px 0 0 0%;
 	}
 	span.side_content {
-		margin-left:10%;
-		margin-right:0;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	a.view_story {
-		margin-left:10%;
+		margin-left:auto;
+		margin-right:auto;
 		margin-top: 51px;
 	}
 }
@@ -578,12 +626,12 @@ a.view_story {
 
 
 #about_section_es {
-	margin-top:60px;
+	//margin-top:60px;
 }
 
 .about_section_es_content {
 	margin-top: 47px;
-
+	margin-bottom: 41px;
 }
 
 
@@ -599,6 +647,8 @@ a.view_story {
 		 display: block;
 		 width:100%;
 		 max-width:600px;
+		 margin-left:auto;
+		 margin-right:auto;
 	 }
 
 
@@ -643,6 +693,7 @@ a.view_story {
 	padding-bottom: 55px;
 	.about_img {
 		padding-right:22px;
+		padding-left:22px;
 		img {
 			margin-top: -90px;
 		}
@@ -662,10 +713,12 @@ a.view_story {
 
 .about_img_two {
 	padding-left:22px;
+	padding-right:22px;
 	.img_content {
 		padding-left:0px;
 		padding-right:22px;
-		padding-top: 48px;
+		padding-top: 0px;
+		margin-top: 31px;
 	}
 }
 
@@ -684,9 +737,12 @@ a.view_story {
 		margin: 68px 0 0 22px;
 	}
 	span.side_content {
-		margin-left:22px;
+		margin-left:auto;
+		margin-right:auto;
 		font-size:25px;
-		line-height: 45px;
+		line-height: 38px;
+		max-width:300px;
+		
 	}
 	a.view_story {
 		margin-left:0;
@@ -736,11 +792,17 @@ a.view_story {
 		 column-count:1;
 	 }
 	 
+	 .four_columns {
+		 column-count:1;
+		 margin-top: 20px;
+	 }
+	 
 	 
 	 
 	 #about_section_es {
 		 padding-bottom:0px;
 		 max-width:100%;
+		 margin-top:100px;
 	 }
 	 
 	 

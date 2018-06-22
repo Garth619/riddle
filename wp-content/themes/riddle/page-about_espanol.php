@@ -26,7 +26,9 @@ get_header(); ?>
 		
 		<div class="about_img">
 		
-			<img src="<?php bloginfo('template_directory');?>/images/intl_about_img_01_desktop.jpg"/>
+			<img class="img_desktop" src="<?php bloginfo('template_directory');?>/images/intl_about_img_01_desktop.jpg"/>
+			
+			<img class="img_tablet" src="<?php bloginfo('template_directory');?>/images/intl_about_img_01_tablet.jpg"/>
 		
 		</div><!-- about_img -->
 		
@@ -121,7 +123,9 @@ Usted tiene derechos y opciones – ejércelos con uno de nuestros abogados de c
 			<div class="about_img_two">
 				
 				
-				<img class="img_one" src="<?php bloginfo('template_directory');?>/images/intl_about_img_02_desktop.jpg"/>
+				<img class="img_one desktop" src="<?php bloginfo('template_directory');?>/images/intl_about_img_02_desktop.jpg"/>
+				
+				<img class="img_one tablet" src="<?php bloginfo('template_directory');?>/images/intl_about_content_img_01_tablet.jpg"/>
 				
 				<img class="img_two" src="<?php bloginfo('template_directory');?>/images/intl_about_img_03_desktop.jpg"/>
 				
