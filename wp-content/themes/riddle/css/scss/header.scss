@@ -200,6 +200,18 @@ header {
 }
 
 
+// these are hardcoded current pages that need to be undone because they are lighting up when on the homepage
+
+
+.header_left nav ul.sub-menu>li#menu-item-1016995.current_page_item a,
+.header_left nav ul.sub-menu>li#menu-item-1016996.current_page_item a {
+	color:#fff;
+	&:hover {
+		color:$bluelight;
+	}
+}
+
+
 .header_right {
 	flex-basis:347px;
 	display: flex;
@@ -1373,8 +1385,23 @@ body:not(.page-template-page-home) {
 	
 	
 	
-	
-	
+	// these are hardcoded current pages that need to be undone because they are lighting up when on the homepage
+
+.header_left nav ul.menu>li#menu-item-1016989.menu-item-has-children a {
+	color:#fff;
+}
+
+.header_left nav ul.menu>li#menu-item-1016989.menu-item-has-children.open > a {
+	color:$bluelight;
+}
+
+.header_left nav ul.sub-menu>li#menu-item-1016995.current_page_item a,
+.header_left nav ul.sub-menu>li#menu-item-1016996.current_page_item a {
+	color:#fff;
+	&:hover {
+		color:$blue;
+	}
+}
 
 	
 } /* Media Query */
