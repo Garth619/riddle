@@ -1,6 +1,12 @@
 <section id="section_one">
 	
 	<div class="inner_sec_one">
+		
+		<div class="sec_one_play">
+			
+			
+			
+		</div><!-- sec_one_play -->
 				
 		<span class="sec_one_title"><?php the_field( 'intro_header' ); ?></span><!-- sec_one_title -->
 		
@@ -25,6 +31,36 @@
 			
 			
 		</div><!-- mouse_wrapper -->
+		
+		
+		<div class="sec_one_accolades_wrapper">
+			
+			
+			<div class="sec_one_slideshow">
+				
+				<div class="sec_one_single_slide one">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/hero_awards_01.png"/>
+					
+				</div><!-- sec_one_single_slide -->
+				
+				<div class="sec_one_single_slide two">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/hero_awards_02.png"/>
+					
+				</div><!-- sec_one_single_slide -->
+				
+				<div class="sec_one_single_slide three">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/hero_awards_03.png"/>
+					
+				</div><!-- sec_one_single_slide -->
+				
+			</div><!-- sec_one_slideshow -->
+			
+			
+		</div><!-- sec_one_accolades_wrapper -->
+		
 		
 	</div><!-- inner_sec_one -->
 	

@@ -107,6 +107,29 @@ jQuery(document).ready(function($){
 	});
 	
 	
+	// sec one slider
+	
+	
+	
+	
+	
+	$('.sec_one_slideshow').slick({
+  	infinite: true,
+		slidesToShow:3,
+		slidesToScroll: 3,
+		dots:false,
+		arrows:false,
+		responsive: [
+    {
+      breakpoint: 1230,
+      settings: "unslick"    }
+  ]
+  
+   });
+
+		
+
+	
 	
 	// sec two slider
 	

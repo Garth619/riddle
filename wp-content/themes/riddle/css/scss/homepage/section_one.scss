@@ -2,7 +2,7 @@
 	background: url(#{$themePath}images/hero_img_desktop.jpg) top center no-repeat;
 	background-size: cover;
 	width:100%;
-	height:840px;
+	height:960px;
 	
 	
 }
@@ -11,7 +11,7 @@
 
 .inner_sec_one {
 	text-align: center;
-	padding:330px 0 0 0;
+	padding:197px 0 0 0;
 	span.sec_one_title {
 		color:#fff;
 		font-family: $freightdisplay;
@@ -31,6 +31,52 @@
 			font-weight: 500;
 			font-style: italic;
 		}
+	}
+	a.consult_button {
+		margin: 32px auto 0;
+	}
+}
+
+
+.sec_one_play {
+	width:114px;
+	height:114px;
+	background: $bluelight;
+	border-radius: 50%;
+	position: relative;
+	display: block;
+	margin:0 auto 18px;
+	cursor: pointer;
+	transition: background 200ms ease-in-out;
+	&:hover {
+		background: $blue;
+		&:before {
+			border:1px solid $blue;
+		}
+	}
+	&:before {
+		content:"";
+		width:133px;
+		height:133px;
+		display: block;
+		border-radius: 50%;
+		border:1px solid $bluelight;
+		position: relative;
+		top:-9.5px;
+		left:-9.5px;
+		transition: border 200ms ease-in-out;
+	}
+	&:after {
+		content:"";
+		display: block;
+		width: 0; 
+		height: 0; 
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		border-left: 14px solid #fff;
+		position: absolute;
+		top:48px;
+		left:53px;
 	}
 }
 
@@ -79,6 +125,7 @@ a.consult_button {
 	border:2px solid #fff;
 	margin: 67px auto 0;
 	border-radius: 9px;
+	display: none;
 	&:before {
 		content:"";
 		width:2px;
@@ -100,6 +147,46 @@ a.free_bar {
 }
 
 
+.sec_one_accolades_wrapper {
+	width:100%;
+	max-width:1070px;
+
+	margin:96px auto 0;
+	height:75px;
+}
+
+
+.sec_one_slideshow {
+	width:100%;
+	.sec_one_single_slide {
+		text-align: center;
+		height:99px;
+		margin:0 0%;
+		img {
+			display: block;
+			margin:0 auto;
+			max-width:100%;
+			height:auto;
+		}
+	}
+	.one {
+		img {
+			width:194px;
+			margin-top:31px;
+		}
+	}
+	.two {
+		img {
+			width:240px;
+		}
+	}
+	.three {
+		img {
+			width:100px;
+		}
+	}
+}
+
 
 
 @media screen and (max-width: 1450px) {
@@ -107,16 +194,26 @@ a.free_bar {
 	
 	#section_one {
 		background: url(#{$themePath}/images/hero_img_laptop.jpg) top center no-repeat;
-		height: 599px;
+		height: 934px;
 	}
 	
 	.inner_sec_one {
-		padding:175px 0 0 0;
+		padding: 190px 0 0 0;
 		span.sec_one_title {
-			font-size: 90px;
-			line-height: 85px;
+			font-size: 110px;
+			line-height: 104px;
 			letter-spacing: 0;
-			max-width: 910px;
+			margin-top:20px;
+			//max-width: 910px;
+		}
+		a.consult_button {
+			width: 454px;
+			height: 80px;
+			margin-top:35px;
+			.consult_left {
+				font-size:20px;
+				letter-spacing: 0.2em;
+			}
 		}
 	}
 	

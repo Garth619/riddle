@@ -98,7 +98,7 @@
 	
 	.sec_three_play {
 		transform: translateY(35px);
-		transition: transform 1100ms cubic-bezier(.17,.66,.34,.98);
+		transition: transform 1100ms cubic-bezier(.17,.66,.34,.98), background 300ms ease-in-out;
 	}
 	
 	span.sec_three_test_quote:after {
