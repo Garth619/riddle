@@ -2723,6 +2723,13 @@
 		"oAP": "\/page.php",
 		"oF": 0
 		},
+	"\/page_nonchild.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page_nonchild.php",
+		"oF": 0
+		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 171434,
