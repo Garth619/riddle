@@ -731,7 +731,7 @@
 		"oAP": "\/images\/content2_img_01_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/content2_img_01_mobile.jpg": {
@@ -871,11 +871,33 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/hero_awards_01.png": {
+		"ft": 32768,
+		"iS": 4760,
+		"oA": 0,
+		"oAP": "\/images\/hero_awards_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/hero_awards_02.png": {
 		"ft": 32768,
 		"iS": 1641710,
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/hero_awards_03.png": {
+		"ft": 32768,
+		"iS": 10938,
+		"oA": 0,
+		"oAP": "\/images\/hero_awards_03.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -893,6 +915,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/hero_img_laptop.jpg": {
+		"ft": 16384,
+		"iS": 1903760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/hero_img_laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/hero_img_mobile.jpg": {
 		"ft": 16384,
 		"iS": 47802,
@@ -901,12 +934,12 @@
 		"oAP": "\/images\/hero_img_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero_img_tablet.jpg": {
 		"ft": 16384,
-		"iS": 76153,
+		"iS": 1689719,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_tablet.jpg",

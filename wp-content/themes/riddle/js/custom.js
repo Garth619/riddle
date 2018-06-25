@@ -119,12 +119,36 @@ jQuery(document).ready(function($){
 		slidesToScroll: 3,
 		dots:false,
 		arrows:false,
+		infinite: true,
+		slide:".sec_one_single_slide",
 		responsive: [
     {
-      breakpoint: 1230,
-      settings: "unslick"    }
+      breakpoint: 1066,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows:true,
+        prevArrow:".sec_one_back",
+        nextArrow:".sec_one_next",
+       }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade:true,
+        arrows:true,
+        prevArrow:".sec_one_back",
+        nextArrow:".sec_one_next"
+      }
+    }
+    
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
   ]
-  
+		
    });
 
 		
