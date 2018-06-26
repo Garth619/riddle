@@ -53,7 +53,63 @@
 			
 			<?php endif;?>
 			
-			
+			<div class="attorney_slider_wrapper">
+				
+				
+				<h3 class="att_bio_slider_header">Award-WINNING ATTORNEY</h3><!-- att_bio_slider_header -->
+				
+				<div class="attorney_bio_slider">
+					
+					<div class="att_bio_single_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_01.png"/>
+					
+					</div><!-- att_bio_single_slide -->
+					
+					<div class="att_bio_single_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_02.png"/>
+					
+					</div><!-- att_bio_single_slide -->
+					
+					<div class="att_bio_single_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_03.png"/>
+					
+					</div><!-- att_bio_single_slide -->
+					
+					<div class="att_bio_single_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_03.png"/>
+					
+					</div><!-- att_bio_single_slide -->
+					
+					<div class="att_bio_single_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_03.png"/>
+					
+					</div><!-- att_bio_single_slide -->
+					
+				</div><!-- attorney_slider -->
+				
+				<div class="bio_buttons">
+					
+					<div class="bio_back bio_button">
+						
+						<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+						
+					</div><!-- bio_back -->
+					
+					<div class="bio_next bio_button">
+						
+						<span><?php echo file_get_contents("wp-content/themes/riddle/images/new_arrow.svg"); ?></span>
+						
+					</div><!-- bio_next -->
+					
+				</div><!-- bio_buttons -->
+				
+				
+			</div><!-- attorney_bio_slider -->
 			
 			<div class="accolades_wrapper">
 				

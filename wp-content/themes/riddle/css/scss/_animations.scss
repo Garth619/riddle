@@ -3,11 +3,16 @@
 	
 	//section one
 	
+	.sec_one_play {
+		opacity: 0;
+		transform: translateY(-40px);
+		transition: opacity 500ms ease-in-out, transform 1400ms cubic-bezier(.17,.66,.34,.98), background 200ms ease-in-out;
+	}
 	
 	.inner_sec_one {
 		span.sec_one_title {
 			opacity: 0;
-			transform: translateY(-70px);
+			transform: translateY(-30px);
 			transition: opacity 500ms ease-in-out, transform 1400ms cubic-bezier(.17,.66,.34,.98);
 			strong {
 				color:#fff;
@@ -20,7 +25,7 @@
 	
 	#section_one {
 		a.consult_button {
-			transform: translateY(-50px);
+			transform: translateY(-40px);
 			opacity: 0;
 			transition: opacity 1200ms ease-in-out, transform 1800ms cubic-bezier(.17,.66,.34,.98);
 		}
@@ -28,10 +33,15 @@
 	
 	
 	#section_one.visible {
+		.sec_one_play {
+			opacity: 1;
+			transform: translate(0);
+		}
 		.inner_sec_one {
 			span.sec_one_title {
 				opacity: 1;
 				transform: translateY(0px);
+				transition-delay: 750ms;
 				strong {
 					color:$bluelight;
 					transition-delay: 400ms;
@@ -41,7 +51,24 @@
 		a.consult_button {
 			transform: translateY(0px);
 			opacity: 1;
-			transition-delay: 750ms,750ms;
+			transition-delay: 950ms,950ms;
+		}
+	}
+	
+	
+	.sec_one_accolades_wrapper {
+		opacity: 0;
+		transform: translateY(-30px);
+		transition: opacity 600ms ease-in-out, transform 1400ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	#section_one.visible {
+		.sec_one_accolades_wrapper {
+			opacity: 1;
+			transform: translateY(0px);
+			transition-delay: 1450ms;
+			
 		}
 	}
 	

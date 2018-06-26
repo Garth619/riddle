@@ -205,6 +205,46 @@ jQuery(document).ready(function($){
 	});
 	
 	
+	
+	// att bio
+	
+	
+	$('.attorney_bio_slider').slick({
+  	infinite: true,
+		slidesToShow:3,
+		slidesToScroll: 3,
+		dots:false,
+		arrows:true,
+		prevArrow:".bio_back",
+    nextArrow:".bio_next",
+		infinite: true,
+		slide:".att_bio_single_slide",
+		responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+       }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+    
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+		
+   });
+	
+	
+	
+	
 	// check width
 	
 		
