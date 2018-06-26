@@ -60,36 +60,24 @@
 				
 				<div class="attorney_bio_slider">
 					
-					<div class="att_bio_single_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_01.png"/>
+					<?php if(get_field('award_logos_bio_page')): ?>
+					 
+						<?php while(has_sub_field('award_logos_bio_page')): ?>
+					 
+							<div class="att_bio_single_slide">
 					
-					</div><!-- att_bio_single_slide -->
-					
-					<div class="att_bio_single_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_02.png"/>
-					
-					</div><!-- att_bio_single_slide -->
-					
-					<div class="att_bio_single_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_03.png"/>
-					
-					</div><!-- att_bio_single_slide -->
-					
-					<div class="att_bio_single_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_03.png"/>
-					
-					</div><!-- att_bio_single_slide -->
-					
-					<div class="att_bio_single_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/intl_att_award_03.png"/>
-					
-					</div><!-- att_bio_single_slide -->
-					
+								<?php $logo = get_sub_field( 'logo' ); ?>
+		
+								<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+		
+							</div><!-- att_bio_single_slide -->
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+				
+										
 				</div><!-- attorney_slider -->
 				
 				<div class="bio_buttons">

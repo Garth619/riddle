@@ -413,7 +413,7 @@ span.sec_three_disclaimer {
 .sec_three_inner {
 	position: relative;
 	h1 {
-		padding-top:415px;
+		padding-top: 30px;
 		span.top_line {
 			font-size:126px;
 			letter-spacing: 0.02em;
@@ -514,6 +514,13 @@ img.video_banner {
 		}
 	}
 }
+
+
+
+.top_content_right {
+	display: none;
+}
+
 	
 	
 	
@@ -523,7 +530,9 @@ img.video_banner {
 
 @media screen and (max-width: 767px) {
 	
-	
+	#section_three {
+		padding: 29px 0 0;
+	}
 	
 	.top_content_right {
 		padding-left:0;
@@ -543,7 +552,7 @@ img.video_banner {
 .sec_three_inner {
 	
 	h1 {
-		padding-top: 484px;
+		padding-top: 0px;
 		span.top_line {
 			font-size:91px;
 			line-height: 73px;

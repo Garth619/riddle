@@ -24,24 +24,24 @@ function my_jquery_enqueue() {
      wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 4, 'all' ); 
 
      // Load my javascripts
-     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), 2, true );
+     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), 3, true );
      
      if(is_front_page()) {
 	     
-	      wp_enqueue_script( 'jquery-home', get_template_directory_uri() . '/js/home-min.js', array('jquery'), 2, true );
+	      wp_enqueue_script( 'jquery-home', get_template_directory_uri() . '/js/home-min.js', array('jquery'), 3, true );
 	     
      }
      
      else {
 	     
-	     	wp_enqueue_script( 'jquery-internal', get_template_directory_uri() . '/js/internal-min.js', array('jquery'), 2, true );
+	     	wp_enqueue_script( 'jquery-internal', get_template_directory_uri() . '/js/internal-min.js', array('jquery'), 3, true );
 	     
      }
      
      if(is_page_template('page-about.php')) {
 	     
 	     
-	     wp_enqueue_script( 'jquery-about', get_template_directory_uri() . '/js/about-min.js', array('jquery'), 2, true );
+	     wp_enqueue_script( 'jquery-about', get_template_directory_uri() . '/js/about-min.js', array('jquery'), 3, true );
 	     
      }
      
