@@ -26,6 +26,8 @@
 			
 			<span class="small_header"><?php the_field( 'contact_small_title','option'); ?></span><!-- small_header -->
 			
+			<span class="firm_disclaimer">While our lawyers give every client the attention and dedication they deserve, outcomes in client’s cases are specific to his or her case. Each case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span><!-- firm_disclaimer -->
+			
 			
 		</div><!-- locations_left -->
 		

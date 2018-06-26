@@ -11,13 +11,14 @@
 	text-align: left;
 	color:#fff;
 	padding-left:5.5%;
-	text-transform: uppercase;
+	
 	span.large_header {
 		font-family: $tekoregular;
 		font-size:230px;
 		display: block;
 		margin:435px 0 0;
 		line-height: 1;
+		text-transform: uppercase;
 	}
 	span.small_header {
 		color:#fff;
@@ -33,6 +34,14 @@
 			font-weight: 500;
 			color:$bluelight;
 		}
+	}
+	span.firm_disclaimer {
+		font-family: $helveticabold;
+		font-size:17px;
+		line-height: 28px;
+		display: block;	
+		max-width:685px;
+		margin-top:30px;
 	}
 }
 
