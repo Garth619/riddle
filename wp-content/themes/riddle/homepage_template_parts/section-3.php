@@ -19,7 +19,7 @@
 			
 			<div class="top_content_right">
 				
-			<div class="first_image">
+			<div class="first_image lazy" data-src="<?php bloginfo('template_directory');?>/images/content1_img_01_desktop.jpg">
 				
 				<a class="consult_button" href="#consultation">
 			
@@ -54,7 +54,7 @@
 		
 				</a><!-- free_bar -->
 			
-			<img class="second_image" src="<?php bloginfo('template_directory');?>/images/second_image.jpg"/><!-- second_image -->
+			<img class="second_image lazy" data-src="<?php bloginfo('template_directory');?>/images/second_image.jpg"/><!-- second_image -->
 				
 			</div><!-- top_content_right -->
 			
@@ -69,7 +69,7 @@
 				
 				<div class="bottom_content_video">
 					
-					<img class="video_banner" src="<?php bloginfo('template_directory');?>/images/content1_img_03_desktop.jpg"/>
+					<img class="video_banner lazy" data-src="<?php bloginfo('template_directory');?>/images/content1_img_03_desktop.jpg"/>
 					
 					
 					

@@ -877,8 +877,8 @@
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -888,8 +888,8 @@
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -899,8 +899,8 @@
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_03.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -912,7 +912,7 @@
 		"oAP": "\/images\/hero_img_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero_img_laptop.jpg": {
@@ -923,7 +923,7 @@
 		"oAP": "\/images\/hero_img_laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero_img_mobile.jpg": {
@@ -945,7 +945,7 @@
 		"oAP": "\/images\/hero_img_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero_logo_01.svg": {
@@ -1865,6 +1865,616 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/js\/jquery-lazyload-any\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/jquery-lazyload-any\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/jquery-lazyload-any\/build\/jquery.lazyload-any.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/build\/jquery.lazyload-any.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery-lazyload-any\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/jquery-lazyload-any\/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/js\/jquery-lazyload-any\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/jquery-lazyload-any\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/jquery-lazyload-any\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/aquaman.jpg": {
+		"ft": 16384,
+		"iS": 35725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/aquaman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/batman.png": {
+		"ft": 32768,
+		"iS": 184403,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/batman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/flash.jpg": {
+		"ft": 16384,
+		"iS": 34276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/flash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/green-lantern.png": {
+		"ft": 32768,
+		"iS": 87740,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/green-lantern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/martian-manhunter.jpg": {
+		"ft": 16384,
+		"iS": 18974,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/martian-manhunter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/superman.jpg": {
+		"ft": 16384,
+		"iS": 30026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/superman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/images\/wonder-woman.jpg": {
+		"ft": 16384,
+		"iS": 37208,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/images\/wonder-woman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/index.html",
+		"oF": 0
+		},
+	"\/js\/jquery-lazyload-any\/samples\/images\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/images\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/aquaman.jpg": {
+		"ft": 16384,
+		"iS": 35725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/aquaman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/batman.png": {
+		"ft": 32768,
+		"iS": 184403,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/batman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/flash.jpg": {
+		"ft": 16384,
+		"iS": 34276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/flash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/green-lantern.png": {
+		"ft": 32768,
+		"iS": 87740,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/green-lantern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/martian-manhunter.jpg": {
+		"ft": 16384,
+		"iS": 18974,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/martian-manhunter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/superman.jpg": {
+		"ft": 16384,
+		"iS": 30026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/superman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/images\/wonder-woman.jpg": {
+		"ft": 16384,
+		"iS": 37208,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/images\/wonder-woman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/index.html",
+		"oF": 0
+		},
+	"\/js\/jquery-lazyload-any\/samples\/overflow\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/overflow\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/jquery-lazyload-any\/samples\/youtube\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/youtube\/index.html",
+		"oF": 0
+		},
+	"\/js\/jquery-lazyload-any\/samples\/youtube\/play-hover.png": {
+		"ft": 32768,
+		"iS": 1527,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/youtube\/play-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/youtube\/play.png": {
+		"ft": 32768,
+		"iS": 2295,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/youtube\/play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/jquery-lazyload-any\/samples\/youtube\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/samples\/youtube\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/jquery-lazyload-any\/src\/jquery.lazyload-any-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/src\/jquery.lazyload-any-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery-lazyload-any\/src\/jquery.lazyload-any.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/src\/jquery.lazyload-any-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/jquery-lazyload-any\/tests\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/tests\/index.html",
+		"oF": 0
+		},
+	"\/js\/jquery-lazyload-any\/tests\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/jquery-lazyload-any\/tests\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/jquery.lazy\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/jquery.lazy\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/jquery.lazy\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/jquery.lazy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/jquery.lazy-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/jquery.lazy.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/jquery.lazy.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/jquery.lazy.plugins.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/jquery.lazy.plugins-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/jquery.lazy.plugins.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/jquery.lazy.plugins.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/LICENSE",
+		"oF": 0
+		},
+	"\/js\/jquery.lazy\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/jquery.lazy\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/jquery.lazy\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/jquery.lazy\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.ajax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.ajax-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.ajax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.ajax.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.av.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.av-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.av.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.av.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.iframe.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.iframe-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.iframe.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.iframe.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.noop.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.noop-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.noop.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.noop.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.picture.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.picture-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.picture.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.picture.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.script-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.script.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.script.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.vimeo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.vimeo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.vimeo.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.vimeo.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.youtube.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.youtube-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/jquery.lazy.youtube.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/jquery.lazy.youtube.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.lazy\/plugins\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/plugins\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/jquery.lazy\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/jquery.lazy\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/js\/slick-master\/.gitignore": {
 		"cB": 0,

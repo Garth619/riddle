@@ -88,7 +88,8 @@
 		display: inline-block;
 		color:#fff;
 		text-transform: uppercase;
-		font-family: $tekomedium;
+		font-family: $teko;
+		font-weight: 500;
 		font-size:20px;
 		line-height: 1;
 		letter-spacing: 0.16em;
@@ -128,7 +129,8 @@
 
 span.org_title {
 	text-transform: uppercase;
-	font-family: $tekoregular;
+	font-family: $teko;
+	font-weight: 400;
 	font-size:22px;
 	letter-spacing: 0.16em;
 	display: inline-block;

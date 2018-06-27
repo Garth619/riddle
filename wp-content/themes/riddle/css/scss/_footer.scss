@@ -11,7 +11,8 @@ footer {
 	span.footer_title {
 		font-size:180px;
 		letter-spacing: 0.02em;
-		font-family: $tekoregular;
+		font-family: $teko;
+		font-weight: 400;
 		color:$blue;
 		text-transform: uppercase;
 		display: block;
@@ -117,7 +118,8 @@ footer {
 		margin-top:-10px;
 		color:#fff;
 		text-transform: uppercase;
-		font-family: $tekomedium;
+		font-family: $teko;
+		font-weight: 500;
 		font-size:20px;
 		padding:26px 0;
 		letter-spacing: 0.16em;

@@ -1,6 +1,6 @@
 #section_four {
 	width:100%;
-	background: url(#{$themePath}images/caseresults_img_desktop.jpg) top center;
+	background: top center;
 	background-size:cover;
 }
 
@@ -29,7 +29,8 @@
 		color:$bluelight;
 		text-transform: uppercase;
 		font-size:25px;
-		font-family: $tekoregular;
+		font-family: $teko;
+		font-weight: 400;
 		letter-spacing: 0.18em;
 		display: block;
 		margin-top:24px;
@@ -38,7 +39,8 @@
 	}
 	span.cr_amount {
 		font-size:116px;
-		font-family: $tekoregular;
+		font-family: $teko;
+		font-weight: 400;
 		color:#fff;
 		margin-top:15px;
 		display: block;

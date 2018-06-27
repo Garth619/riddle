@@ -25,7 +25,8 @@
 		font-size:26px;
 		letter-spacing: 0.16em;
 		text-transform: uppercase;
-		font-family: $tekoregular;
+		font-family: $teko;
+		font-weight: 400;
 		border-bottom:1px solid $bluelight;
 		padding-bottom:4px;
 	}
@@ -75,7 +76,8 @@
 		background: $bluelight;
 		color:#fff;
 		text-transform: uppercase;
-		font-family: $tekomedium;
+		font-family: $teko;
+		font-weight: 500;
 		font-size:20px;
 		letter-spacing: 0.16em;
 		text-decoration: none;

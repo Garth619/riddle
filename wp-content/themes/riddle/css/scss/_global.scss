@@ -37,9 +37,9 @@ img.aligncenter {
 		color:$blue;
 		text-transform: uppercase;
 		font-size:100px;
-		font-family: $tekoregular;
+		font-family: $teko;
 		line-height: 97px;
-		font-weight: 300;
+		font-weight: 400;
 		font-style: normal;
 		padding-bottom:5px;
 	}
@@ -65,13 +65,14 @@ img.aligncenter {
 		font-style: normal;
 	}
 	h3 {
-		font-family:$tekomedium;
+		font-family:$teko;
+		font-weight: 500;
 		font-size:24px;
 		line-height: 26px;
 		text-transform: uppercase;
 		letter-spacing: 0.02em;
 		color:$blue;
-		font-weight: 300;
+		
 		font-style: normal;
 		padding:12px 0 8px;
 	}

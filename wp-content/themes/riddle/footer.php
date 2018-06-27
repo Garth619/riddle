@@ -16,7 +16,7 @@
 		
 	</div><!-- inner_footer -->
 	
-	<div id="footer_locations_trigger" class="footer_locations">
+	<div id="footer_locations_trigger" class="footer_locations lazy" data-src="<?php bloginfo('template_directory');?>/images/footer_img_desktop.jpg">
 		
 		
 		<div class="locations_left">
@@ -28,10 +28,7 @@
 			
 			<span class="firm_disclaimer">
 			
-				<span>While our lawyers give every client the attention and dedication they deserve, outcomes in client’s cases are specific to his or her case.</span> 
-				
-				<span>Each case is different, and the outcome of any case depends upon a variety of factors unique to that case.</span>
-			
+				<?php the_field( 'contact_disclaimer','option'); ?>
 			
 			</span><!-- firm_disclaimer -->
 			
@@ -135,7 +132,9 @@
 			
 			<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/footer_icon_06.svg"/>
+<!-- 				<img src="<?php bloginfo('template_directory');?>/images/footer_icon_06.svg"/> -->
+
+						<?php echo file_get_contents("wp-content/themes/riddle/images/footer_icon_06.svg"); ?>
 				
 			</a><!-- ilawyer -->
 			
@@ -192,7 +191,19 @@
 
 <?php wp_footer();?>
 
-<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<!-- <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> -->
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any-min.js"></script>
+
+<script>
+	WebFont.load({
+	google: {
+		families: ['Teko:300,400,500']
+	}
+});
+</script>
 
 <?php the_field( 'tracking_codes_footer','option'); ?>
 

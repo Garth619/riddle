@@ -8,7 +8,7 @@
 			
 			<div class="coco_wrapper">
 				
-				<img class="coco desktop" src="<?php bloginfo('template_directory');?>/images/content2_img_01_desktop.jpg"/>
+				<img class="coco desktop lazy" data-src="<?php bloginfo('template_directory');?>/images/content2_img_01_desktop.jpg"/>
 				
 <!-- 				<img class="coco mobile" src="<?php bloginfo('template_directory');?>/images/content2_img_01_mobile.jpg"/> -->
 				
@@ -46,12 +46,13 @@
 							<?php while(has_sub_field('section_five_logos')): ?>
 						 
 								<div class="org_single_slide">
+									
 							
 									<?php $logo = get_sub_field( 'logo' ); ?>
 		
-									<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+									<img class="lazy" data-src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
 		
-								</div><!-- org_single_slide -->
+								</div>
 						    
 							<?php endwhile; ?>
 						 
@@ -59,7 +60,7 @@
 						
 
 						
-					</div><!-- org_slider -->
+					</div>
 					
 					<div class="org_buttons">
 						

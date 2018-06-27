@@ -28,7 +28,8 @@
 			font-weight: 300;
 			color:$bluelight;
 			font-family: $freightbigpro;
-			font-weight: 500;
+			font-weight: 400;
+// 			font-weight: 500;
 			font-style: italic;
 		}
 	}
@@ -98,7 +99,8 @@ a.consult_button {
 		align-items: center;
 		color:$blue;
 		text-transform: uppercase;
-		font-family: $tekomedium;
+		font-family: $teko;
+		font-weight: 500;
 		font-size:20px;
 		letter-spacing: 0.16em;
 		line-height: 1;
@@ -411,7 +413,8 @@ a.consult_button {
 		span.free_mobile_title {
 			color:#fff;
 			text-transform: uppercase;
-			font-family: $tekoregular;
+			font-family: $teko;
+			font-weight: 400;
 			font-size:18px;
 			letter-spacing: 0.14em;
 		}

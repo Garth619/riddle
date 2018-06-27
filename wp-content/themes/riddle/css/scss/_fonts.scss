@@ -1,3 +1,4 @@
+/*
 
 
 
@@ -18,6 +19,15 @@
 }
 
 @font-face {
+    font-family: 'Teko-Regular';
+    src: url('#{$themePath}fonts/teko-helvetica/Teko-Regular.woff2') format('woff2'),
+        url('#{$themePath}fonts/teko-helvetica/Teko-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
     font-family: 'HelveticaNeueLTW01-55Roman';
     src: url('#{$themePath}fonts/teko-helvetica/HelveticaNeueLTW01-55Roman.woff2') format('woff2'),
         url('#{$themePath}fonts/teko-helvetica/HelveticaNeueLTW01-55Roman.woff') format('woff');
@@ -25,13 +35,7 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Teko-Regular';
-    src: url('#{$themePath}fonts/teko-helvetica/Teko-Regular.woff2') format('woff2'),
-        url('#{$themePath}fonts/teko-helvetica/Teko-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 @font-face {
     font-family: 'HelveticaNeueLTW01-75Bold';

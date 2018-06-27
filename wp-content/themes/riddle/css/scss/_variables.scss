@@ -3,9 +3,20 @@ $themePath: '/wp-content/themes/riddle/';
 // fonts
 
 
+/*
 $tekolight: 'Teko-Light';
 $tekoregular:  'Teko-Regular';
 $tekomedium:  'Teko-Medium';
+*/
+
+
+/* $tekolight: 'Teko', sans-serif; */ // font-weight: 300;
+/* $tekoregular: 'Teko', sans-serif; */ // font-weight: 400;
+/* $tekomedium:  'Teko', sans-serif */; // font-weight: 500;
+
+
+$teko: 'Teko', sans-serif;
+
 
 $helveticalight: 'HelveticaNeueLTW01-45Light';
 $helveticaregular: 'HelveticaNeueLTW01-55Roman';
@@ -27,3 +38,5 @@ $blue:#14182e;
 $grey: #f1fafd;
 $greytwo: #f0f0f1;
 $greythree: #abacb2;
+
+

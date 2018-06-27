@@ -112,7 +112,8 @@ body.page-template-page-profile {
 		
 		span {
 			color:#fff;
-			font-family: $tekoregular;
+			font-family: $teko;
+			font-weight: 400;
 			font-size:52px;
 			text-transform: uppercase;
 			line-height: 50px;
@@ -141,7 +142,8 @@ body.page-template-page-profile {
 	h1.attorney_title {
 		color:$blue;
 		text-transform: uppercase;
-		font-family: $tekoregular;
+		font-family: $teko;
+		font-weight: 400;
 		font-size:115px;
 		font-weight: 400;
 		font-style: normal;
@@ -184,7 +186,8 @@ body.page-template-page-profile {
 span.accolades_title {
 	text-transform: uppercase;
 	color:$blue;
-	font-family: $tekomedium;
+	font-family: $teko;
+	font-weight: 500;
 	font-size: 24px;
 	letter-spacing: 0.02em;
 }

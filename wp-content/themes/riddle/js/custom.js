@@ -392,10 +392,41 @@ jQuery(document).ready(function($){
      }
    });
  });
+ 
+ 
+ // lazy
+ 
+ 
+ 
+ 	
+ 	var windowWidth = $(window).width();
+ 
+ 
+ 
+ 	function checkWidthlazy() {
+     
+     if (windowWidth > 1297) {
+         
+       
+     	$(function() {
+		 		$('.lazy').Lazy();
+		 	});
 
  
+     	   		
+     		
+     } 
+     
+   
+ };
+ 	
+ 
+ checkWidthlazy();
+
 	
-		
+ $('#lazy_slick').lazyload();
+ 
+ 
 	
   
 }); // document ready
