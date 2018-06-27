@@ -9,7 +9,7 @@
 
 	<div class="interior_banner no_banner">
 		
-		<h1 class="inetrior_banner_header">Attorney <span class="blue">Overview</span></h1><!-- inetrior_banner_header -->
+		<h1 class="inetrior_banner_header"><?php the_field( 'first_word' ); ?> <span class="blue"><?php the_field( 'second_word' ); ?></span></h1><!-- inetrior_banner_header -->
 		
 	</div><!-- interior_banner -->
 	
