@@ -74,7 +74,7 @@
 					
 					
 					
-					<div class="sec_three_play wistia_embed wistia_async_<?php the_field( 'wistia_video_id_section_three' ); ?> popover=true popoverContent=html"></div><!-- sec_three_play -->
+<!-- 					<div class="sec_three_play wistia_embed wistia_async_<?php the_field( 'wistia_video_id_section_three' ); ?> popover=true popoverContent=html"></div> --><!-- sec_three_play -->
 					
 					
 					

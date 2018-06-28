@@ -193,9 +193,10 @@
 
 <!-- <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> -->
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lazy/jquery.lazy.min.js"></script>
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any-min.js"></script>
+<!--
 
 <script>
 	WebFont.load({
@@ -204,6 +205,7 @@
 	}
 });
 </script>
+-->
 
 <?php the_field( 'tracking_codes_footer','option'); ?>
 
