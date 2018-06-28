@@ -27,7 +27,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500" rel="stylesheet">
 <script>
   (function(d) {
     var config = {
@@ -42,10 +42,7 @@
 
 <style type="text/css">
 	
-	
-	
-			
-		</style>
+</style>
 
 
 

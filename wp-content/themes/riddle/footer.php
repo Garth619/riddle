@@ -191,21 +191,10 @@
 
 <?php wp_footer();?>
 
-<!-- <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> -->
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lazy/jquery.lazy.min.js"></script>
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any-min.js"></script>
-<!--
-
-<script>
-	WebFont.load({
-	google: {
-		families: ['Teko:300,400,500']
-	}
-});
-</script>
--->
 
 <?php the_field( 'tracking_codes_footer','option'); ?>
 

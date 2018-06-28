@@ -397,8 +397,9 @@ jQuery(document).ready(function($){
  // lazy
  
  
-/*
+
  
+
  	
  	var windowWidth = $(window).width();
  
@@ -406,12 +407,10 @@ jQuery(document).ready(function($){
  
  	function checkWidthlazy() {
      
-     if (windowWidth > 1297) {
+     if (windowWidth < 1297) {
          
        
-     	$(function() {
-		 		$('.lazy').Lazy();
-		 	});
+     		// $('.first_image').hide();
 
  		}
  		
@@ -422,8 +421,9 @@ jQuery(document).ready(function($){
  	
  
  checkWidthlazy();
+
  
-*/
+
  
  $(function() {
 		 		$('.lazy').Lazy();

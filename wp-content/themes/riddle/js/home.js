@@ -58,6 +58,20 @@ jQuery(document).ready(function($){
             createWaypoint("sec_five_inner_trigger", "#sec_five_inner_trigger", "visible", 300, null, false);
 
 
+function wistiaLoad() {
+	jQuery.getScript( "https://fast.wistia.com/assets/external/E-v1.js", function( data, textStatus, jqxhr ) {
+		console.log( data ); // Data returned
+		console.log( textStatus ); // Success
+		console.log( jqxhr.status ); // 200
+		console.log( "Load was performed." );
+	});
+}
+
+jQuery(".sec_one_play").one("mouseenter", function(e){
+	wistiaLoad();
+});
+
+
 							
 
 }); // Document Ready

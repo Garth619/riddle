@@ -2,7 +2,7 @@
 	
 	<div class="inner_sec_one">
 		
-		<div class="sec_one_play">
+		<div class="sec_one_play wistia_embed wistia_async_<?php the_field( 'wistia_video_id_sec_one' ); ?> popover=true popoverContent=html">
 			
 			
 			
