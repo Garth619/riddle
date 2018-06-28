@@ -397,6 +397,7 @@ jQuery(document).ready(function($){
  // lazy
  
  
+/*
  
  	
  	var windowWidth = $(window).width();
@@ -412,16 +413,22 @@ jQuery(document).ready(function($){
 		 		$('.lazy').Lazy();
 		 	});
 
- 
-     	   		
-     		
-     } 
+ 		}
+ 		
+ 		
      
    
  };
  	
  
  checkWidthlazy();
+ 
+*/
+ 
+ $(function() {
+		 		$('.lazy').Lazy();
+		 	});
+
 
 	
  $('#lazy_slick').lazyload();
