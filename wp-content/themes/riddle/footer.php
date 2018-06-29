@@ -201,6 +201,13 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any-min.js"></script>
 
+<div id="nGageLH" style="visibility:hidden; display: block; padding: 0; position: fixed; right: 0px; bottom: 0px; z-index: 5000;"></div>
+
+
+<script type="text/javascript" src="//messenger.ngageics.com/ilnksrvr.aspx?websiteid=62-172-229-144-17-16-31-107" async="async"></script>
+
+
+
 <?php the_field( 'tracking_codes_footer','option'); ?>
 
 </body>

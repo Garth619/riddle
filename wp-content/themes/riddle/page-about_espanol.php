@@ -13,7 +13,7 @@ get_header(); ?>
 		
 		<h1>
 			
-			<span class="about_topline">Inicio</span><!-- about_topline -->
+			<span class="about_topline"><?php the_title(); ?></span><!-- about_topline -->
 			
 			<span class="about_bottomline"><?php the_field( 'page_subtitle_espanol' ); ?></span><!-- about_bottomline -->
 			
