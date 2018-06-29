@@ -22,7 +22,7 @@ function my_jquery_enqueue() {
  function load_my_styles_scripts() {
      // Load my stylesheet
     
-    //wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
+   // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), 5, true );
@@ -240,6 +240,7 @@ function is_tree($pid) {      // $pid = The ID of the page we're looking for pag
 
 
 
+
 add_action( 'wp_head', 'internal_css_print' );
 function internal_css_print() {
    echo '<style>';
@@ -248,6 +249,7 @@ function internal_css_print() {
   
    echo '</style>';
 }
+
 
 
 

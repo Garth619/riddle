@@ -157,7 +157,7 @@ body.page-template-page-contact {
 		padding: 185px 45px 182px;
 	}
 	.footer_locations {
-		display: none;
+		display: none !important; // overrides hacky lazy load
 	}
 }
 

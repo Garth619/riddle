@@ -53,17 +53,16 @@
 			
 			<?php endif;?>
 			
+			<?php if(get_field('award_logos_bio_page')): ?>
+			
 			<div class="attorney_slider_wrapper">
-				
 				
 				<h3 class="att_bio_slider_header">Award-WINNING ATTORNEY</h3><!-- att_bio_slider_header -->
 				
 				<div class="attorney_bio_slider">
 					
 					
-					<?php if(get_field('award_logos_bio_page')): ?>
-					 
-						<?php while(has_sub_field('award_logos_bio_page')): ?>
+					<?php while(has_sub_field('award_logos_bio_page')): ?>
 					 
 							<div class="att_bio_single_slide">
 					
@@ -75,10 +74,8 @@
 					    
 						<?php endwhile; ?>
 					 
-					<?php endif; ?>
-				
-										
-				</div><!-- attorney_slider -->
+					
+			</div><!-- attorney_slider -->
 				
 				<div class="bio_buttons">
 					
@@ -98,6 +95,8 @@
 				
 				
 			</div><!-- attorney_bio_slider -->
+			
+			<?php endif; ?>
 			
 			<div class="accolades_wrapper">
 				

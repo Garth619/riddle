@@ -106,9 +106,14 @@
 			<div class="copyright">
 				
 				<ul>
-					<li>&copy;2018 Riddle & Breantley, LLP<br/> All Rights Reserved.</li>
-					<li><a href="">Disclaimer</a></li>
+					<li><?php the_field( 'copyright_verbiage','option'); ?></li>
+					
+					<?php if(get_field('footer_disclaimer_link','option')):?>
+					
+					<li><a href="<?php the_field( 'footer_disclaimer_link','option'); ?>"><?php the_field( 'footer_disclaimer','option'); ?></a></li>
+					<?php endif;?>
 				</ul>
+
 				
 			</div><!-- copyright -->
 			

@@ -188,10 +188,21 @@ img.aligncenter {
 img.alignleft,
 img.alignright,
 img.aligncenter {
-	margin:4px auto 0px;
-	float:none;
+	margin:14px 0 10px;
+	float:left;
 	max-width:100%;
 	height:auto;
+	display: block;
+}
+
+
+.alignleft,img.alignleft {
+	margin-right:15px;
+}
+
+
+.alignright,img.alignright {
+	margin-left:15px;
 }
 	
 	
@@ -225,6 +236,30 @@ img.aligncenter {
 			margin-bottom: 34px;
 		}
 	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 400px) {
+	
+
+	
+
+.alignleft,
+.alignright,
+.aligncenter,
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin:14px 0 10px;
+	float:none;
+	max-width:100%;
+	height:auto;
+	display: block;
+}
 	
 	
 	

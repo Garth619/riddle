@@ -29,11 +29,11 @@
 			
 			<?php $contact_us_image = get_field( 'contact_us_image' ); ?>
 			
-			<?php if ( $contact_us_image ) { ?>
+		
 			
 				<img src="<?php echo $contact_us_image['url']; ?>" alt="<?php echo $contact_us_image['alt']; ?>" />
 
-			<?php } ?>
+			
 			
 		</div><!-- contact_right -->
 		
