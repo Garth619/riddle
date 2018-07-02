@@ -434,6 +434,11 @@ jQuery(document).ready(function($){
  $('#lazy_slick').lazyload();
  
  
+ 
+ 
+
+ 
+ 
 	
   
 }); // document ready

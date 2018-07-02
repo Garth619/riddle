@@ -43,7 +43,23 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
             
             
-            createWaypoint("main_trigger", ".header_left", "visible", -60, null, true);
+            createWaypoint("main_trigger", ".header_left", "visible", -60, livechatLoad, true);
+            
+            
+            
+ // lazy load live chat
+ 
+ 
+ function livechatLoad() {
+	jQuery.getScript( "//messenger.ngageics.com/ilnksrvr.aspx?websiteid=62-172-229-144-17-16-31-107", function( data, textStatus, jqxhr ) {
+		console.log( data ); // Data returned
+		console.log( textStatus ); // Success
+		console.log( jqxhr.status ); // 200
+		console.log( "Live Chat Load was performed." );
+	});
+}
+
+
 
 
 

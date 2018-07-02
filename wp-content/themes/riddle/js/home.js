@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
             
             
             
-            createWaypoint("section_one", ".header_left", "visible", -60, null, true);
+            createWaypoint("section_one", ".header_left", "visible", -60, livechatLoad, true);
             
             
             createWaypoint("section_one", "#section_one", "visible", 0, null, false);
@@ -56,6 +56,26 @@ jQuery(document).ready(function($){
             createWaypoint("bottom_content_trigger", "#bottom_content_trigger", "visible", 350, null, false);
             
             createWaypoint("sec_five_inner_trigger", "#sec_five_inner_trigger", "visible", 300, null, false);
+
+
+
+
+ // lazy load live chat
+ 
+ 
+ function livechatLoad() {
+	jQuery.getScript( "//messenger.ngageics.com/ilnksrvr.aspx?websiteid=62-172-229-144-17-16-31-107", function( data, textStatus, jqxhr ) {
+		console.log( data ); // Data returned
+		console.log( textStatus ); // Success
+		console.log( jqxhr.status ); // 200
+		console.log( "Live Chat Load was performed." );
+	});
+}
+
+
+
+
+
 
 
 function wistiaLoad() {
