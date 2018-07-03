@@ -64,25 +64,24 @@
 			
 			<div class="sec_one_slideshow">
 				
-				
-				
-				<div class="sec_one_single_slide one">
+				<?php if(get_field('section_one_awards')): ?>
+				 
+					<?php while(has_sub_field('section_one_awards')): ?>
 					
-					<img src="<?php bloginfo('template_directory');?>/images/hero_awards_01.png"/>
 					
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide two">
+						<div class="sec_one_single_slide <?php the_sub_field( 'section_one_slide_class' ); ?>">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/hero_awards_02.png"/>
-					
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide three">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/hero_awards_03.png"/>
-					
-				</div><!-- sec_one_single_slide -->
+							<?php $section_one_image = get_sub_field( 'section_one_image' ); ?>
+		
+							<img src="<?php echo $section_one_image['url']; ?>" alt="<?php echo $section_one_image['alt']; ?>" />
+		
+						</div><!-- sec_one_single_slide -->
+				 
+						
+				   <?php endwhile; ?>
+				 
+				<?php endif; ?>
+			
 				
 				
 				

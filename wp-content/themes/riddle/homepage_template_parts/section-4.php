@@ -1,4 +1,4 @@
-<section id="section_four" class="lazy" data-src="<?php bloginfo('template_directory');?>/images/caseresults_img_desktop.jpg">
+<section id="section_four" class="lazy" data-src="<?php the_field( 'section_four_background_image' ); ?>">
 	
 	<div class="sec_four_inner">
 		

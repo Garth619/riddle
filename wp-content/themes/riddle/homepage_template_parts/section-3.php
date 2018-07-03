@@ -19,7 +19,7 @@
 			
 			<div class="top_content_right">
 				
-			<div class="first_image lazy" data-src="<?php bloginfo('template_directory');?>/images/content1_img_01_desktop.jpg">
+			<div class="first_image lazy" data-src="<?php the_field( 'section_three_first_image' ); ?>">
 				
 				<a class="consult_button" href="#consultation">
 			
@@ -53,8 +53,16 @@
 					</span><!-- arrow -->
 		
 				</a><!-- free_bar -->
+				
+			<?php $section_three_second_image = get_field( 'section_three_second_image' ); ?>
+
+			<?php if ( $section_three_second_image ) { ?>
+	
+				<img class="second_image lazy" data-src="<?php echo $section_three_second_image['url']; ?>" alt="<?php echo $section_three_second_image['alt']; ?>" />
+
+			<?php } ?>	
+				
 			
-			<img class="second_image lazy" data-src="<?php bloginfo('template_directory');?>/images/second_image.jpg"/><!-- second_image -->
 				
 			</div><!-- top_content_right -->
 			
@@ -69,7 +77,11 @@
 				
 				<div class="bottom_content_video">
 					
-					<img class="video_banner lazy" data-src="<?php bloginfo('template_directory');?>/images/content1_img_03_desktop.jpg"/>
+					
+					
+					<?php $section_three_video_banner = get_field( 'section_three_video_banner' ); ?>
+
+					<img class="video_banner lazy" data-src="<?php echo $section_three_video_banner['url']; ?>" alt="<?php echo $section_three_video_banner['alt']; ?>" />
 					
 					
 					

@@ -16,7 +16,7 @@
 		
 	</div><!-- inner_footer -->
 	
-	<div id="footer_locations_trigger" class="footer_locations lazy" data-src="<?php bloginfo('template_directory');?>/images/footer_img_desktop.jpg">
+	<div id="footer_locations_trigger" class="footer_locations lazy" data-src="<?php the_field( 'footer_bg','option'); ?>">
 		
 		
 		<div class="locations_left">
@@ -205,9 +205,9 @@
 
 
 
-
-
 <?php the_field( 'tracking_codes_footer','option'); ?>
 
 </body>
 </html>
+
+

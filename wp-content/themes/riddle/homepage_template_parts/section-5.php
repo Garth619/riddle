@@ -8,9 +8,10 @@
 			
 			<div class="coco_wrapper">
 				
-				<img class="coco desktop lazy" data-src="<?php bloginfo('template_directory');?>/images/content2_img_01_desktop.jpg"/>
 				
-<!-- 				<img class="coco mobile" src="<?php bloginfo('template_directory');?>/images/content2_img_01_mobile.jpg"/> -->
+				<?php $coconut_picture = get_field( 'coconut_picture' ); ?>
+
+				<img class="coco desktop lazy" data-src="<?php echo $coconut_picture['url']; ?>" alt="<?php echo $coconut_picture['alt']; ?>"/>
 				
 				<div class="coco_content_wrapper">
 				

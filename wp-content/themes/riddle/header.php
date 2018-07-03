@@ -42,6 +42,29 @@
 
 <style type="text/css">
 	
+	#section_one {
+		background: url(<?php the_field( 'section_one_desktop_banner' ); ?>) top center no-repeat;
+		background-size: cover;
+	}
+	
+	
+	@media screen and (max-width: 767px) {
+		
+		
+		
+	#section_one {
+		background: url(<?php the_field( 'section_one_mobile_banner_new' ); ?>) top center;
+		background-size:cover;
+	}
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
+	<?php the_field( 'review_css','options'); ?>
+	
 </style>
 
 
