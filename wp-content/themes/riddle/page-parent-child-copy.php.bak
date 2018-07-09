@@ -7,20 +7,29 @@
 		
 		
 		
-		<?php if(get_field('pa_banner_image')) { ?>
+		<?php global $post;
+			
+			
+			$myparentid = $post->post_parent;
+			
+			
+		?>
+		
+		
+		<?php if(get_field('pa_banner_image',$myparentid)) { ?>
 
 		
-	
+		<?php if ( is_tree($myparentid)) { ?>
   
 		
-		<div class="inner_banner" style="background: url(<?php the_field( 'pa_banner_image' ); ?>) top center no-repeat no-repeat;
+		<div class="inner_banner" style="background: url(<?php the_field( 'pa_banner_image', $myparentid ); ?>) top center no-repeat no-repeat;
 				background-size:cover;">
 		
 		
 		
 		</div><!-- inner_banner -->
 		
-	
+		<?php } ?>
 		
 		<?php } ?>
 			

@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "B9DE5A46-FFA5-46C0-8548-666048195784"
+		"uuidString": "37F0EA78-138F-4893-8EC7-542C4FEE0941"
 		}
 	],
 "creatorBuild": "26680",
@@ -732,13 +732,13 @@
 		},
 	"\/images\/content2_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 86926,
+		"iS": 85087,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content2_img_01_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/content2_img_01_mobile.jpg": {
@@ -880,68 +880,68 @@
 		},
 	"\/images\/hero_awards_01.png": {
 		"ft": 32768,
-		"iS": 4760,
+		"iS": 2705,
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_01.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/hero_awards_02.png": {
 		"ft": 32768,
-		"iS": 1641710,
+		"iS": 6543,
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/hero_awards_03.png": {
 		"ft": 32768,
-		"iS": 10938,
+		"iS": 6110,
 		"oA": 0,
 		"oAP": "\/images\/hero_awards_03.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/hero_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 1964133,
+		"iS": 124282,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 1903760,
+		"iS": 113486,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero_img_mobile.jpg": {
 		"ft": 16384,
-		"iS": 47802,
+		"iS": 40837,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero_img_mobile.webp": {
@@ -953,13 +953,13 @@
 		},
 	"\/images\/hero_img_tablet.jpg": {
 		"ft": 16384,
-		"iS": 1689719,
+		"iS": 74151,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero_logo_01.svg": {
@@ -1006,7 +1006,7 @@
 		},
 	"\/images\/intl_about_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 126909,
+		"iS": 122792,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img_01_desktop.jpg",
@@ -1237,34 +1237,34 @@
 		},
 	"\/images\/intl_att_award_01.png": {
 		"ft": 32768,
-		"iS": 1639304,
+		"iS": 1520,
 		"oA": 0,
 		"oAP": "\/images\/intl_att_award_01.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/intl_att_award_02.png": {
 		"ft": 32768,
-		"iS": 1658946,
+		"iS": 7906,
 		"oA": 0,
 		"oAP": "\/images\/intl_att_award_02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/intl_att_award_03.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 5996,
 		"oA": 0,
 		"oAP": "\/images\/intl_att_award_03.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1302,7 +1302,7 @@
 		},
 	"\/images\/intl_contact_img.jpg": {
 		"ft": 16384,
-		"iS": 131473,
+		"iS": 135653,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_contact_img.jpg",
@@ -1797,7 +1797,7 @@
 		"oA": 0,
 		"oAP": "\/js\/about-espanol-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/about-min.js": {
@@ -1817,7 +1817,7 @@
 		"oA": 0,
 		"oAP": "\/js\/about-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/custom-min.js": {
@@ -1837,7 +1837,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/home-min.js": {
@@ -1857,7 +1857,7 @@
 		"oA": 0,
 		"oAP": "\/js\/home-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/internal-min.js": {
@@ -1877,7 +1877,7 @@
 		"oA": 0,
 		"oAP": "\/js\/internal-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/jquery-lazyload-any\/bower.json": {
@@ -2193,7 +2193,7 @@
 		"oA": 0,
 		"oAP": "\/js\/jquery-lazyload-any\/src\/jquery.lazyload-any-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/jquery-lazyload-any\/tests\/index.html": {
@@ -3356,6 +3356,13 @@
 		"oAP": "\/page-padirectory.php",
 		"oF": 0
 		},
+	"\/page-parent-child-copy.php.bak": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-parent-child-copy.php.bak",
+		"oF": 0
+		},
 	"\/page-profile.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3398,11 +3405,11 @@
 		"oAP": "\/page.php",
 		"oF": 0
 		},
-	"\/page_nonchild.php": {
+	"\/page_nonchild.php.bak": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page_nonchild.php",
+		"oAP": "\/page_nonchild.php.bak",
 		"oF": 0
 		},
 	"\/screenshot.png": {
@@ -3495,15 +3502,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 550975930,
+	"creationDate": 552851140,
 	"displayValue": "riddle",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-cocaine",
+	"iconImageName": "meme-obama",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -4894,7 +4901,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/riddle-demo.com",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
