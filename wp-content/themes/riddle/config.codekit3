@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "37F0EA78-138F-4893-8EC7-542C4FEE0941"
+		"uuidString": "F7BE8991-5DB6-41F5-9067-E86724223AB3"
 		}
 	],
 "creatorBuild": "26680",
@@ -642,6 +642,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/content-2-burst-01-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/content-2-burst-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/content1_img_01_desktop.jpg": {
 		"ft": 16384,
@@ -3502,15 +3512,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 552851140,
+	"creationDate": 553551006,
 	"displayValue": "riddle",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama",
+	"iconImageName": "meme-wonka",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -4901,7 +4911,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/riddle-demo.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

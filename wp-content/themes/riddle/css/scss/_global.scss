@@ -33,6 +33,10 @@ img.aligncenter {
 	font-size:18px;
 	color:$blue;
 	line-height: 35px;
+	strong {
+		font-weight: 300;
+		font-family: $helveticabold;
+	}
 	h1.pa_title {
 		color:$blue;
 		text-transform: uppercase;
